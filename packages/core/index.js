@@ -21,6 +21,7 @@ module.exports = {
   root: true,
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/interface-name-prefix': 'off',
     'import/order': [
       'error',
