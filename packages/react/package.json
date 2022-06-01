@@ -1,9 +1,9 @@
 {
   "name": "@moser-inc/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "dependencies": {
-    "@moser-inc/eslint-config": "*",
+    "@moser-inc/eslint-config": "1.1.0",
     "eslint-plugin-react": "^7.30.0"
   },
   "scripts": {

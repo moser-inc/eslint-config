@@ -1,3 +1,18 @@
+# @moser-inc/eslint-config-react [1.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.0.0...@moser-inc/eslint-config-react@1.1.0) (2022-06-01)
+
+
+### Features
+
+* add eqeqeq rule to core config ([b1767c6](https://github.com/moser-inc/eslint-config/commit/b1767c682b4f4a762f17a8c06717766f28baca0a))
+
+
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.1.0
+
 # @moser-inc/eslint-config-react 1.0.0 (2022-06-01)
 
 
