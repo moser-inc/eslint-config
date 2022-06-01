@@ -24,7 +24,7 @@ module.exports = {
     'vue/no-v-text': 'warn',
     'vue/require-name-property': 'warn',
     'vue/v-on-function-call': 'warn',
-    'vue/valid-v-slot': ['warn', { allowModifiers: true }],
+    'vue/valid-v-slot': 'warn',
 
     // Deprecations
     'vue/no-deprecated-data-object-declaration': 'error',
