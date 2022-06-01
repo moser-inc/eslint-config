@@ -1,3 +1,3 @@
-const config = require('@moser-inc/eslint-config');
+const config = require('./packages/core');
 
 module.exports = config;
