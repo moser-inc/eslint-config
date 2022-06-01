@@ -1,13 +1,14 @@
 {
   "name": "eslint-config",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Collection of ESLint configs for use in Moser projects",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "multi-semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moser-inc/eslint-config.git"
+    "url": "https://github.com/moser-inc/eslint-config.git"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +18,25 @@
   "homepage": "https://github.com/moser-inc/eslint-config#readme",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "@qiwi/multi-semantic-release": "^6.4.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "semantic-release": "^19.0.2"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
+  }
 }
