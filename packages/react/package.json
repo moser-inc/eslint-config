@@ -1,0 +1,21 @@
+{
+  "name": "@moser-inc/eslint-config-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@moser-inc/eslint-config": "*",
+    "eslint-plugin-react": "^7.30.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moser-inc/eslint-config.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moser-inc/eslint-config/issues"
+  },
+  "homepage": "https://github.com/moser-inc/eslint-config#readme"
+}

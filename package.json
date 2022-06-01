@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "Collection of ESLint configs for use in Moser projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moser-inc/eslint-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moser-inc/eslint-config/issues"
+  },
+  "homepage": "https://github.com/moser-inc/eslint-config#readme",
+  "workspaces": [
+    "packages/*"
+  ]
+}
