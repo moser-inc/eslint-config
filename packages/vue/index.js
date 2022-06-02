@@ -8,7 +8,7 @@ module.exports = {
     '@vue/eslint-config-prettier',
   ],
   rules: {
-    // Uncategorized
+    // Vue Uncategorized
     'vue/block-tag-newline': 'warn',
     'vue/component-name-in-template-casing': 'warn',
     'vue/component-options-name-casing': 'warn',
@@ -26,7 +26,7 @@ module.exports = {
     'vue/v-on-function-call': 'warn',
     'vue/valid-v-slot': 'warn',
 
-    // Deprecations
+    // Vue Deprecations
     'vue/no-deprecated-data-object-declaration': 'error',
     'vue/no-deprecated-destroyed-lifecycle': 'error',
     'vue/no-deprecated-dollar-listeners-api': 'error',
@@ -46,5 +46,23 @@ module.exports = {
     'vue/no-deprecated-v-on-native-modifier': 'error',
     'vue/no-deprecated-v-on-number-modifiers': 'error',
     'vue/no-deprecated-vue-config-keycodes': 'error',
+  },
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [['@', './src']],
+        extensions: [
+          '.vue',
+          '.js',
+          '.jsx',
+          '.cjs',
+          '.mjs',
+          '.ts',
+          '.tsx',
+          '.cts',
+          '.mts',
+        ],
+      },
+    },
   },
 };
