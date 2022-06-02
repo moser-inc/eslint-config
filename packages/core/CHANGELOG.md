@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.3.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.3.0...@moser-inc/eslint-config@1.3.1) (2022-06-02)
+
+
+### Reverts
+
+* "feat: Add airbnb and airbnb-base" ([c9c4102](https://github.com/moser-inc/eslint-config/commit/c9c4102654e52285f7565ffe1ccea26546614aa2))
+
 # @moser-inc/eslint-config [1.3.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.2.0...@moser-inc/eslint-config@1.3.0) (2022-06-02)
 
 
