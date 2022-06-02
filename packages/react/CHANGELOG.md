@@ -1,3 +1,19 @@
+# @moser-inc/eslint-config-react [1.2.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.1.1...@moser-inc/eslint-config-react@1.2.0) (2022-06-02)
+
+
+### Features
+
+* Add airbnb and airbnb-base ([993b41e](https://github.com/moser-inc/eslint-config/commit/993b41eddbe64ff6f1486b35d9fb27b95ad0eaf0))
+* Correct core dep version ([e93905b](https://github.com/moser-inc/eslint-config/commit/e93905ba52856879f853ebe551d50348fc845700))
+
+
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.3.0
+
 ## @moser-inc/eslint-config-react [1.1.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.1.0...@moser-inc/eslint-config-react@1.1.1) (2022-06-02)
 
 
