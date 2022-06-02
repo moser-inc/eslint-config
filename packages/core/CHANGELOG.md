@@ -1,3 +1,10 @@
+# @moser-inc/eslint-config [1.3.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.2.0...@moser-inc/eslint-config@1.3.0) (2022-06-02)
+
+
+### Features
+
+* Add airbnb and airbnb-base ([993b41e](https://github.com/moser-inc/eslint-config/commit/993b41eddbe64ff6f1486b35d9fb27b95ad0eaf0))
+
 # @moser-inc/eslint-config [1.2.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.1.0...@moser-inc/eslint-config@1.2.0) (2022-06-02)
 
 
