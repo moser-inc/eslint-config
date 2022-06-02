@@ -1,3 +1,13 @@
+## @moser-inc/eslint-config-vue [1.1.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.1.1...@moser-inc/eslint-config-vue@1.1.2) (2022-06-02)
+
+
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.3.0
+
 ## @moser-inc/eslint-config-vue [1.1.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.1.0...@moser-inc/eslint-config-vue@1.1.1) (2022-06-02)
 
 
