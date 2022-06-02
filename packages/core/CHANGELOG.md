@@ -1,3 +1,10 @@
+# @moser-inc/eslint-config [1.2.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.1.0...@moser-inc/eslint-config@1.2.0) (2022-06-02)
+
+
+### Features
+
+* Remove whitespace between import groups ([5ba0137](https://github.com/moser-inc/eslint-config/commit/5ba0137deea1ef13c405f3a7d2e539e2cf80f140))
+
 # @moser-inc/eslint-config [1.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.0.0...@moser-inc/eslint-config@1.1.0) (2022-06-01)
 
 
