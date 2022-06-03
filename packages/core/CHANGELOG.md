@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.3.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.3.1...@moser-inc/eslint-config@1.3.2) (2022-06-03)
+
+
+### Bug Fixes
+
+* add eslint and prettier as peer dependencies ([5953d07](https://github.com/moser-inc/eslint-config/commit/5953d07394f455f4e129580d7885b91bdfed3996))
+
 ## @moser-inc/eslint-config [1.3.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.3.0...@moser-inc/eslint-config@1.3.1) (2022-06-02)
 
 
