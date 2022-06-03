@@ -9,6 +9,10 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0"
   },
+  "peerDependencies": {
+    "eslint": ">= 6",
+    "prettier": ">= 1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
