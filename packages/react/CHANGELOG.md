@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config-react [1.2.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.2.2...@moser-inc/eslint-config-react@1.2.3) (2022-09-14)
+
+
+### Bug Fixes
+
+* Added eslint-plugin-react-hooks to react package ([87a1f53](https://github.com/moser-inc/eslint-config/commit/87a1f53f3b6f3a5c493eff6b8e3691b808bff511))
+
 ## @moser-inc/eslint-config-react [1.2.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.2.1...@moser-inc/eslint-config-react@1.2.2) (2022-06-03)
 
 
