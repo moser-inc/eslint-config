@@ -43,4 +43,22 @@ module.exports = {
     'object-shorthand': ['error', 'always'],
     'prettier/prettier': ['warn', { singleQuote: true, trailingComma: 'all' }],
   },
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [['@', './src']],
+        extensions: [
+          '.vue',
+          '.js',
+          '.jsx',
+          '.cjs',
+          '.mjs',
+          '.ts',
+          '.tsx',
+          '.cts',
+          '.mts',
+        ],
+      },
+    },
+  },
 };
