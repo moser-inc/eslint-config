@@ -1,3 +1,10 @@
+# @moser-inc/eslint-config [1.4.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.3.2...@moser-inc/eslint-config@1.4.0) (2022-10-07)
+
+
+### Features
+
+* Move alias settings into base config (from vue) ([e2a3be8](https://github.com/moser-inc/eslint-config/commit/e2a3be8646d0422c5139ee692dcb57a7595f1e31))
+
 ## @moser-inc/eslint-config [1.3.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.3.1...@moser-inc/eslint-config@1.3.2) (2022-06-03)
 
 
