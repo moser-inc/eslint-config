@@ -47,22 +47,4 @@ module.exports = {
     'vue/no-deprecated-v-on-number-modifiers': 'error',
     'vue/no-deprecated-vue-config-keycodes': 'error',
   },
-  settings: {
-    'import/resolver': {
-      alias: {
-        map: [['@', './src']],
-        extensions: [
-          '.vue',
-          '.js',
-          '.jsx',
-          '.cjs',
-          '.mjs',
-          '.ts',
-          '.tsx',
-          '.cts',
-          '.mts',
-        ],
-      },
-    },
-  },
 };
