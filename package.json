@@ -20,11 +20,11 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@qiwi/multi-semantic-release": "^6.4.0",
+    "@qiwi/multi-semantic-release": "^6.5.1",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^8.0.4",
-    "semantic-release": "^19.0.2"
+    "@semantic-release/github": "^8.0.6",
+    "semantic-release": "^19.0.5"
   },
   "release": {
     "branches": [
