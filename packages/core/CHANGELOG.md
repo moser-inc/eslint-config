@@ -1,3 +1,10 @@
+# @moser-inc/eslint-config [1.5.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.4.0...@moser-inc/eslint-config@1.5.0) (2022-10-07)
+
+
+### Features
+
+* Update dependency versions ([c059e5e](https://github.com/moser-inc/eslint-config/commit/c059e5ef479213a881ad92211f7da753b139dd5c))
+
 # @moser-inc/eslint-config [1.4.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.3.2...@moser-inc/eslint-config@1.4.0) (2022-10-07)
 
 
