@@ -46,7 +46,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       alias: {
-        map: [['@', './src']],
+        map: [['@', `${__dirname}/src`]],
         extensions: [
           '.vue',
           '.js',
