@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.5.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.5.0...@moser-inc/eslint-config@1.5.1) (2022-10-17)
+
+
+### Bug Fixes
+
+* Use __dirname in alias config in eslintrc ([547b2cb](https://github.com/moser-inc/eslint-config/commit/547b2cb03b968c8e9295373c99affb9706817e7c))
+
 # @moser-inc/eslint-config [1.5.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.4.0...@moser-inc/eslint-config@1.5.0) (2022-10-07)
 
 
