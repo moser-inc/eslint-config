@@ -1,2 +1,3 @@
 .dsstore
 node_modules
+.npmrc
