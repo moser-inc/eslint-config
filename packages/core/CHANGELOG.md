@@ -1,3 +1,10 @@
+# @moser-inc/eslint-config [1.6.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.5.1...@moser-inc/eslint-config@1.6.0) (2022-10-25)
+
+
+### Features
+
+* support import url suffixes ([fdb8c62](https://github.com/moser-inc/eslint-config/commit/fdb8c62b6d2ee58970ca046f1804aa82c70bd244))
+
 ## @moser-inc/eslint-config [1.5.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.5.0...@moser-inc/eslint-config@1.5.1) (2022-10-17)
 
 
