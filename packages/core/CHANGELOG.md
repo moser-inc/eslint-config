@@ -1,3 +1,10 @@
+# @moser-inc/eslint-config [1.7.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.6.0...@moser-inc/eslint-config@1.7.0) (2023-01-23)
+
+
+### Features
+
+* require braces for multi line statements ([0a4f9e9](https://github.com/moser-inc/eslint-config/commit/0a4f9e9855dbfc3569aecb2761fb70e4c920ac55))
+
 # @moser-inc/eslint-config [1.6.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.5.1...@moser-inc/eslint-config@1.6.0) (2022-10-25)
 
 
