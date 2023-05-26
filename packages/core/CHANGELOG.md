@@ -1,3 +1,5 @@
+## @moser-inc/eslint-config [1.7.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.7.0...@moser-inc/eslint-config@1.7.1) (2023-05-26)
+
 # @moser-inc/eslint-config [1.7.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.6.0...@moser-inc/eslint-config@1.7.0) (2023-01-23)
 
 
