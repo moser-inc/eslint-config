@@ -4,10 +4,10 @@
   "main": "index.js",
   "dependencies": {
     "@moser-inc/eslint-config": "1.7.0",
-    "@vue/eslint-config-prettier": "^7.0.0",
-    "@vue/eslint-config-typescript": "^11.0.2",
-    "eslint-plugin-vue": "^9.9.0",
-    "vue-demi": "^0.13.11"
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "eslint-plugin-vue": "^9.14.1",
+    "vue-demi": "^0.14.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
