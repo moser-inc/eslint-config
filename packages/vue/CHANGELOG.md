@@ -1,3 +1,18 @@
+# @moser-inc/eslint-config-vue [1.4.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.3.3...@moser-inc/eslint-config-vue@1.4.0) (2023-05-26)
+
+
+### Features
+
+* add new uncategorized rules to vue eslint config ([c1f2a08](https://github.com/moser-inc/eslint-config/commit/c1f2a084d600ca9716eb165bd39b84144b689ff2))
+
+
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.7.1
+
 ## @moser-inc/eslint-config-vue [1.3.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.3.2...@moser-inc/eslint-config-vue@1.3.3) (2023-01-23)
 
 
