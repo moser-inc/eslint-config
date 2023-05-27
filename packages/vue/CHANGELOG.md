@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config-vue [1.4.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.4.0...@moser-inc/eslint-config-vue@1.4.1) (2023-05-27)
+
+
+### Bug Fixes
+
+* remove overly aggressive vue rules and add import type rule ([e922997](https://github.com/moser-inc/eslint-config/commit/e92299780ff9e057803b964fcaba6c50acb16332))
+
 # @moser-inc/eslint-config-vue [1.4.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.3.3...@moser-inc/eslint-config-vue@1.4.0) (2023-05-26)
 
 
