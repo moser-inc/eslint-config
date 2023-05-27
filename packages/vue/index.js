@@ -8,7 +8,11 @@ module.exports = {
     '@vue/eslint-config-prettier',
   ],
   rules: {
+    // TypeScript
+    '@typescript-eslint/consistent-type-imports': 'warn',
+
     // Vue Uncategorized
+    'vue/block-lang': ['warn', { script: { lang: 'ts' } }],
     'vue/block-tag-newline': 'warn',
     'vue/component-api-style': ['warn', ['script-setup']],
     'vue/component-name-in-template-casing': 'warn',
@@ -35,11 +39,10 @@ module.exports = {
     'vue/no-v-text': 'warn',
     'vue/padding-line-between-blocks': 'warn',
     'vue/prefer-define-options': 'warn',
-    'vue/prefer-true-attribute-shorthand': 'warn',
+    'vue/require-direct-export': 'warn',
     'vue/require-name-property': 'warn',
     'vue/v-for-delimiter-style': 'warn',
     'vue/v-on-function-call': 'warn',
-    'vue/v-on-handler-style': 'warn',
     'vue/valid-define-options': 'warn',
 
     // Vue Deprecations
