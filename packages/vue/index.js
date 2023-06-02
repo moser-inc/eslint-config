@@ -11,7 +11,14 @@ module.exports = {
     // TypeScript
     '@typescript-eslint/consistent-type-imports': 'warn',
 
-    // Vue Uncategorized
+    // Customized
+    'vue/component-tags-order': [
+      'error',
+      { order: ['script', 'template', 'style'] },
+    ],
+    'vue/valid-v-slot': ['warn', { allowModifiers: true }],
+
+    // Uncategorized
     'vue/block-lang': ['warn', { script: { lang: 'ts' } }],
     'vue/block-tag-newline': 'warn',
     'vue/component-api-style': ['warn', ['script-setup']],
@@ -19,7 +26,10 @@ module.exports = {
     'vue/component-options-name-casing': 'warn',
     'vue/custom-event-name-casing': 'warn',
     'vue/define-emits-declaration': ['warn', 'type-based'],
-    'vue/define-macros-order': 'warn',
+    'vue/define-macros-order': [
+      'warn',
+      { order: ['defineOptions', 'defineProps', 'defineEmits', 'defineSlots'] },
+    ],
     'vue/define-props-declaration': ['warn', 'type-based'],
     'vue/match-component-file-name': ['warn', { extensions: ['vue'] }],
     'vue/match-component-import-name': 'warn',
@@ -32,6 +42,10 @@ module.exports = {
     'vue/no-restricted-call-after-await': 'warn',
     'vue/no-root-v-if': 'warn',
     'vue/no-template-target-blank': 'warn',
+    'vue/no-unsupported-features': [
+      'warn',
+      { version: isVue2 ? '^2.7.0' : '^3.3.0' },
+    ],
     'vue/no-unused-properties': 'warn',
     'vue/no-unused-refs': 'warn',
     'vue/no-useless-mustaches': 'warn',
