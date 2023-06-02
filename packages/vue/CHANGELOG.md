@@ -1,3 +1,15 @@
+# @moser-inc/eslint-config-vue [1.5.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.4.1...@moser-inc/eslint-config-vue@1.5.0) (2023-06-02)
+
+
+### Bug Fixes
+
+* make vue deprecation rules dynamic based on version ([7c91be7](https://github.com/moser-inc/eslint-config/commit/7c91be75fc94c43ef7d1152576215dbd488cc2fd))
+
+
+### Features
+
+* add new and customize existing vue eslint rules ([09e580c](https://github.com/moser-inc/eslint-config/commit/09e580c31384522d06c6d0afb7ffbe3745c90e38))
+
 ## @moser-inc/eslint-config-vue [1.4.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.4.0...@moser-inc/eslint-config-vue@1.4.1) (2023-05-27)
 
 
