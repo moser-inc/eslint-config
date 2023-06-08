@@ -1,4 +1,4 @@
-const { isVue2 } = require('vue-demi');
+const { version, isVue2 } = require('vue-demi');
 
 module.exports = {
   extends: [
@@ -42,10 +42,7 @@ module.exports = {
     'vue/no-restricted-call-after-await': 'warn',
     'vue/no-root-v-if': 'warn',
     'vue/no-template-target-blank': 'warn',
-    'vue/no-unsupported-features': [
-      'warn',
-      { version: isVue2 ? '^2.7.0' : '^3.3.0' },
-    ],
+    'vue/no-unsupported-features': ['warn', { version }],
     'vue/no-unused-properties': 'warn',
     'vue/no-unused-refs': 'warn',
     'vue/no-useless-mustaches': 'warn',
