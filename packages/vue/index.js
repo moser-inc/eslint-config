@@ -19,7 +19,7 @@ module.exports = {
     'vue/valid-v-slot': ['warn', { allowModifiers: true }],
 
     // Uncategorized
-    'vue/block-lang': ['warn', { script: { lang: 'ts' } }],
+    'vue/block-lang': ['warn', { script: { lang: ['ts', 'tsx'] } }],
     'vue/block-tag-newline': 'warn',
     'vue/component-api-style': ['warn', ['script-setup']],
     'vue/component-name-in-template-casing': 'warn',
@@ -31,7 +31,7 @@ module.exports = {
       { order: ['defineOptions', 'defineProps', 'defineEmits', 'defineSlots'] },
     ],
     'vue/define-props-declaration': ['warn', 'type-based'],
-    'vue/match-component-file-name': ['warn', { extensions: ['vue'] }],
+    'vue/match-component-file-name': ['warn', { extensions: ['vue', 'tsx'] }],
     'vue/match-component-import-name': 'warn',
     'vue/no-duplicate-attr-inheritance': 'warn',
     'vue/no-empty-component-block': 'warn',
