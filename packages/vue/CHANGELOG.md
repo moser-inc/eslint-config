@@ -1,3 +1,11 @@
+# @moser-inc/eslint-config-vue [1.6.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.5.0...@moser-inc/eslint-config-vue@1.6.0) (2023-06-09)
+
+
+### Features
+
+* support tsx in vue eslint config ([6c11e63](https://github.com/moser-inc/eslint-config/commit/6c11e638e04254544658503b3a6e8308737340c7))
+* use version from vue-demi for unsupported features rule ([45661b8](https://github.com/moser-inc/eslint-config/commit/45661b8feca31b24cba1ec3c5b17df967bcb5308))
+
 # @moser-inc/eslint-config-vue [1.5.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.4.1...@moser-inc/eslint-config-vue@1.5.0) (2023-06-02)
 
 
