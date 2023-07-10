@@ -1,9 +1,9 @@
 {
   "name": "@moser-inc/eslint-config-vue",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "main": "index.js",
   "dependencies": {
-    "@moser-inc/eslint-config": "1.7.1",
+    "@moser-inc/eslint-config": "1.8.0",
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vue/eslint-config-typescript": "^11.0.3",
     "eslint-plugin-vue": "^9.15.1",
