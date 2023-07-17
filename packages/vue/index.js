@@ -2,7 +2,7 @@ const { version, isVue2 } = require('vue-demi');
 
 module.exports = {
   extends: [
-    '@moser-inc/eslint-config',
+    '@moser-inc',
     '@vue/eslint-config-typescript/recommended',
     isVue2 ? 'plugin:vue/recommended' : 'plugin:vue/vue3-recommended',
     '@vue/eslint-config-prettier',

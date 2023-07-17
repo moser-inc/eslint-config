@@ -14,6 +14,6 @@ Add the config to the `extends` option in your ESLint config.
 
 ```
 module.exports = {
-  extends: ['@moser-inc/eslint-config']
+  extends: ['@moser-inc']
 }
 ```

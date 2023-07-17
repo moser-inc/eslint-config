@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@moser-inc/eslint-config',
+    '@moser-inc',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
