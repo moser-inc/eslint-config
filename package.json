@@ -4,6 +4,7 @@
   "description": "Collection of ESLint configs for use in Moser projects",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js",
     "semantic-release": "multi-semantic-release"
   },
   "repository": {
@@ -23,8 +24,10 @@
     "@qiwi/multi-semantic-release": "^7.0.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.0.3",
+    "@semantic-release/github": "^9.0.4",
     "conventional-changelog-conventionalcommits": "^6.1.0",
+    "eslint": "^8.45.0",
+    "prettier": "^2.8.8",
     "semantic-release": "^21.0.7"
   },
   "release": {
