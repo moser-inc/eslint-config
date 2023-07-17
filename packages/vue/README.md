@@ -5,7 +5,7 @@ This is the set of rules to for usage in Vue based projects.
 ## Installation
 
 ```
-npm i -D @moser-inc/eslint-config-vue
+npm i -D eslint prettier @moser-inc/eslint-config-vue
 ```
 
 ## Usage

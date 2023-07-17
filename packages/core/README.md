@@ -5,7 +5,7 @@ This is the core set of rules to for use in each variation and in isolation when
 ## Installation
 
 ```
-npm i -D @moser-inc/eslint-config
+npm i -D eslint prettier @moser-inc/eslint-config
 ```
 
 ## Usage

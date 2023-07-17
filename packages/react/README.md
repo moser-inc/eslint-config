@@ -5,7 +5,7 @@ This is the set of rules to for usage in React based projects.
 ## Installation
 
 ```
-npm i -D @moser-inc/eslint-config-react
+npm i -D eslint prettier @moser-inc/eslint-config-react
 ```
 
 ## Usage

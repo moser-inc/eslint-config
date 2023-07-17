@@ -2,6 +2,10 @@
   "name": "@moser-inc/eslint-config",
   "version": "1.8.0",
   "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">= 6",
+    "prettier": ">= 1"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
@@ -9,10 +13,6 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1"
-  },
-  "peerDependencies": {
-    "eslint": ">= 6",
-    "prettier": ">= 1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
