@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-vue [1.7.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.7.0...@moser-inc/eslint-config-vue@1.7.1) (2023-07-17)
+
+
+### Bug Fixes
+
+* add eslint and prettier as peer deps for react and vue configs ([e3a874c](https://github.com/moser-inc/eslint-config/commit/e3a874cac3ff9297c1a18e8392cd3a97edba35f2))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.8.1
+
 # @moser-inc/eslint-config-vue [1.7.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.6.0...@moser-inc/eslint-config-vue@1.7.0) (2023-07-10)
 
 
