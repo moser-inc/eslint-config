@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-react [1.4.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.3.6...@moser-inc/eslint-config-react@1.4.0) (2023-07-25)
+
+
+### Features
+
+* support prettier v3.0.0 ([2d16488](https://github.com/moser-inc/eslint-config/commit/2d16488e0aca44c2518f73a3b29e6443dc19c00b))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.9.0
+
 ## @moser-inc/eslint-config-react [1.3.6](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.3.5...@moser-inc/eslint-config-react@1.3.6) (2023-07-17)
 
 
