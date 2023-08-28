@@ -21,7 +21,6 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@moser-inc/eslint-config": "1.9.0",
     "@qiwi/multi-semantic-release": "^7.0.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
