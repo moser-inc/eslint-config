@@ -21,14 +21,15 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@moser-inc/eslint-config": "1.9.0",
     "@qiwi/multi-semantic-release": "^7.0.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^9.0.4",
-    "conventional-changelog-conventionalcommits": "^6.1.0",
-    "eslint": "^8.45.0",
-    "prettier": "^3.0.0",
-    "semantic-release": "^21.0.7"
+    "conventional-changelog-conventionalcommits": "^7.0.1",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.2",
+    "semantic-release": "^21.1.1"
   },
   "release": {
     "branches": [
