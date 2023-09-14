@@ -16,6 +16,8 @@
   },
   "typescript.preferences.importModuleSpecifier": "relative",
   "conventionalCommits.scopes": [
+    "react",
+    "vue",
     "deps"
   ]
 }
