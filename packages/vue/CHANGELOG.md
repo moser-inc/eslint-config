@@ -1,3 +1,17 @@
+## @moser-inc/eslint-config-vue [1.9.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.8.0...@moser-inc/eslint-config-vue@1.9.0) (2023-09-14)
+
+
+### Features
+
+* support typescript 5.2 and update deps ([2f9b9d2](https://github.com/moser-inc/eslint-config/commit/2f9b9d204d04f20dc07d9085f7e453d49c2cfcd7))
+* **vue:** support typescript 5.2 ([89852d9](https://github.com/moser-inc/eslint-config/commit/89852d9c1661b7b3f43dc942d56fe5f212bb1f7d))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.10.0
+
 ## @moser-inc/eslint-config-vue [1.8.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.7.1...@moser-inc/eslint-config-vue@1.8.0) (2023-07-25)
 
 
