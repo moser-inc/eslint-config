@@ -43,6 +43,7 @@ module.exports = {
     'vue/no-root-v-if': 'warn',
     'vue/no-template-target-blank': 'warn',
     'vue/no-unsupported-features': ['warn', { version }],
+    'vue/no-unused-emit-declarations': 'warn',
     'vue/no-unused-properties': 'warn',
     'vue/no-unused-refs': 'warn',
     'vue/no-useless-mustaches': 'warn',
