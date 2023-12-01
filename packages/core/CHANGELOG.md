@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.10.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.10.0...@moser-inc/eslint-config@1.10.1) (2023-12-01)
+
+
+### Miscellaneous Chores
+
+* **deps:** update deps ([87a6fa5](https://github.com/moser-inc/eslint-config/commit/87a6fa5a8a79e43f11138878e05a3bb931cfb124))
+
 ## @moser-inc/eslint-config [1.10.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.9.0...@moser-inc/eslint-config@1.10.0) (2023-09-14)
 
 
