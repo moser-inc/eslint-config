@@ -23,13 +23,16 @@
   "devDependencies": {
     "@qiwi/multi-semantic-release": "^7.1.1",
     "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^9.2.4",
-    "@types/node": "~18.17.19",
+    "@semantic-release/npm": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "@types/node": "~20.10.2",
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "eslint": "^8.55.0",
     "prettier": "^3.1.0",
-    "semantic-release": "^21.1.2"
+    "semantic-release": "^22.0.8"
   },
   "release": {
     "branches": [
@@ -52,7 +55,62 @@
       [
         "@semantic-release/release-notes-generator",
         {
-          "preset": "conventionalcommits"
+          "preset": "conventionalcommits",
+          "presetConfig": {
+            "types": [
+              {
+                "type": "feat",
+                "section": "Features"
+              },
+              {
+                "type": "fix",
+                "section": "Bug Fixes"
+              },
+              {
+                "type": "perf",
+                "section": "Performance Improvements"
+              },
+              {
+                "type": "revert",
+                "section": "Reverts"
+              },
+              {
+                "type": "docs",
+                "section": "Documentation",
+                "hidden": false
+              },
+              {
+                "type": "style",
+                "section": "Styles",
+                "hidden": false
+              },
+              {
+                "type": "chore",
+                "section": "Miscellaneous Chores",
+                "hidden": false
+              },
+              {
+                "type": "refactor",
+                "section": "Code Refactoring",
+                "hidden": false
+              },
+              {
+                "type": "test",
+                "section": "Tests",
+                "hidden": false
+              },
+              {
+                "type": "build",
+                "section": "Build System",
+                "hidden": false
+              },
+              {
+                "type": "ci",
+                "section": "Continuous Integration",
+                "hidden": false
+              }
+            ]
+          }
         }
       ],
       "@semantic-release/changelog",
