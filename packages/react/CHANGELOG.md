@@ -1,3 +1,11 @@
+## @moser-inc/eslint-config-react [1.5.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.5.0...@moser-inc/eslint-config-react@1.5.1) (2023-12-01)
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.10.1
+
 ## @moser-inc/eslint-config-react [1.5.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.4.0...@moser-inc/eslint-config-react@1.5.0) (2023-09-14)
 
 
