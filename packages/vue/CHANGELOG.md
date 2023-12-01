@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config-vue [1.10.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.9.0...@moser-inc/eslint-config-vue@1.10.0) (2023-12-01)
+
+
+### Features
+
+* **vue:** enable `vue/no-unused-emit-declarations` rule ([f88a600](https://github.com/moser-inc/eslint-config/commit/f88a600863cfafd9299080ea9c4aa6a720b6c78f))
+
+
+### Miscellaneous Chores
+
+* **deps:** update deps ([87a6fa5](https://github.com/moser-inc/eslint-config/commit/87a6fa5a8a79e43f11138878e05a3bb931cfb124))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.10.1
+
 ## @moser-inc/eslint-config-vue [1.9.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.8.0...@moser-inc/eslint-config-vue@1.9.0) (2023-09-14)
 
 
