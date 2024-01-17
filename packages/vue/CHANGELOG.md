@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config-vue [1.11.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.10.0...@moser-inc/eslint-config-vue@1.11.0) (2024-01-17)
+
+
+### Features
+
+* **vue:** update vue and prettier plugins ([4971376](https://github.com/moser-inc/eslint-config/commit/49713762d1a6bad24bb0a6ca1b6845e8a86be98e))
+
+
+### Miscellaneous Chores
+
+* **vue:** add vue composition api package as dev dep ([9597dce](https://github.com/moser-inc/eslint-config/commit/9597dce084b99495dee927f12e6e4930dcc44563))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.11.0
+
 ## @moser-inc/eslint-config-vue [1.10.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.9.0...@moser-inc/eslint-config-vue@1.10.0) (2023-12-01)
 
 
