@@ -17,6 +17,9 @@
     "eslint-plugin-vue": "^9.20.1",
     "vue-demi": "^0.14.6"
   },
+  "devDependencies": {
+    "@vue/composition-api": "^1.7.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moser-inc/eslint-config.git"
