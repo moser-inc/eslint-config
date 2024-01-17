@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.11.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.10.1...@moser-inc/eslint-config@1.11.0) (2024-01-17)
+
+
+### Features
+
+* **core:** support latest versions of typescript and prettier ([7090014](https://github.com/moser-inc/eslint-config/commit/709001472539a38af8669104392f44c5e493a88c))
+
 ## @moser-inc/eslint-config [1.10.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.10.0...@moser-inc/eslint-config@1.10.1) (2023-12-01)
 
 
