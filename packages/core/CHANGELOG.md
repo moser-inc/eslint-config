@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.12.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.11.0...@moser-inc/eslint-config@1.12.0) (2024-03-11)
+
+
+### Features
+
+* **core:** support typescript 5.4 ([8a33230](https://github.com/moser-inc/eslint-config/commit/8a33230e9bd3baf5deca6a06a877ffd519d4992d))
+
 ## @moser-inc/eslint-config [1.11.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.10.1...@moser-inc/eslint-config@1.11.0) (2024-01-17)
 
 
