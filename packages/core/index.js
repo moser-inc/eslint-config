@@ -1,6 +1,10 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  env: { node: true },
+  root: true,
+  env: {
+    node: true,
+  },
+  parser: '@typescript-eslint/parser',
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -8,24 +12,14 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:prettier/recommended',
   ],
-  ignorePatterns: ['node_modules', 'dist'],
-  overrides: [
-    {
-      files: ['**/*.js'],
-      rules: {
-        '@typescript-eslint/no-var-requires': 'off',
-      },
-    },
-  ],
-  parser: '@typescript-eslint/parser',
-  plugins: ['prettier'],
-  root: true,
   rules: {
-    '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/interface-name-prefix': 'off',
+    // Base
     curly: ['error', 'multi-line', 'consistent'],
     eqeqeq: 'warn',
+    'linebreak-style': ['error', 'unix'],
+    'object-shorthand': ['error', 'always'],
+
+    // Import
     'import/no-unresolved': ['error', { ignore: ['\\?*$'] }],
     'import/order': [
       'error',
@@ -41,10 +35,23 @@ module.exports = {
         alphabetize: { order: 'asc', caseInsensitive: false },
       },
     ],
-    'linebreak-style': ['error', 'unix'],
-    'object-shorthand': ['error', 'always'],
+
+    // Prettier
     'prettier/prettier': ['warn', { singleQuote: true, trailingComma: 'all' }],
+
+    // TypeScript
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/interface-name-prefix': 'off',
   },
+  overrides: [
+    {
+      files: ['**/*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+  ],
   settings: {
     'import/resolver': {
       alias: {
