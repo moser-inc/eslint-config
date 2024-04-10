@@ -3,7 +3,11 @@
   "description": "Collection of ESLint configs for use in Moser projects",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --ext .js",
+    "lint": "run-p lint:*",
+    "lint:root": "eslint .",
+    "lint:core": "cd packages/core && eslint . --config index.js",
+    "lint:react": "cd packages/react && eslint . --config index.js",
+    "lint:vue": "cd packages/vue && eslint . --config index.js",
     "semantic-release": "multi-semantic-release"
   },
   "repository": {
@@ -31,6 +35,7 @@
     "@types/node": "~20.12.4",
     "conventional-changelog-conventionalcommits": "^6.1.0",
     "eslint": "^8.57.0",
+    "npm-run-all2": "^6.1.2",
     "prettier": "^3.2.5",
     "semantic-release": "^22.0.12",
     "standard-version": "^9.5.0"
