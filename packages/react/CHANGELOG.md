@@ -1,3 +1,22 @@
+## @moser-inc/eslint-config-react [1.5.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.5.3...@moser-inc/eslint-config-react@1.5.4) (2024-04-10)
+
+
+### Bug Fixes
+
+* **react:** update react eslint config to latest version ([f068b1f](https://github.com/moser-inc/eslint-config/commit/f068b1f8d3346d4220d8a8346622a4cd4d169527))
+
+
+### Miscellaneous Chores
+
+* add eslint config types via jsdoc comment ([5d75695](https://github.com/moser-inc/eslint-config/commit/5d75695b901c9cff0d4bb5b2025a6f5a0ebdd8a2))
+* fix readme lint issues ([7430c20](https://github.com/moser-inc/eslint-config/commit/7430c20b5253b4a8d5bb15c50d534743d0caae1e))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.13.0
+
 ## @moser-inc/eslint-config-react [1.5.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.5.2...@moser-inc/eslint-config-react@1.5.3) (2024-03-11)
 
 
