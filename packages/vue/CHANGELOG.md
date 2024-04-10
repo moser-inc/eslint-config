@@ -1,3 +1,23 @@
+## @moser-inc/eslint-config-vue [1.11.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.11.1...@moser-inc/eslint-config-vue@1.11.2) (2024-04-10)
+
+
+### Bug Fixes
+
+* **vue:** remove consistent type import rule ([e05046f](https://github.com/moser-inc/eslint-config/commit/e05046f871af3dae69e836842caf1f0cf865930e))
+* **vue:** update vue eslint plugin to latest version ([1cbb8f5](https://github.com/moser-inc/eslint-config/commit/1cbb8f5f1c674ff8e6651c4e65eee6228d03f06e))
+
+
+### Miscellaneous Chores
+
+* add eslint config types via jsdoc comment ([5d75695](https://github.com/moser-inc/eslint-config/commit/5d75695b901c9cff0d4bb5b2025a6f5a0ebdd8a2))
+* fix readme lint issues ([7430c20](https://github.com/moser-inc/eslint-config/commit/7430c20b5253b4a8d5bb15c50d534743d0caae1e))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.13.0
+
 ## @moser-inc/eslint-config-vue [1.11.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.11.0...@moser-inc/eslint-config-vue@1.11.1) (2024-03-11)
 
 
