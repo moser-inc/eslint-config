@@ -4,7 +4,7 @@ This is the core set of rules to for use in each variation and in isolation when
 
 ## Installation
 
-```
+```shell
 npm i -D eslint prettier @moser-inc/eslint-config
 ```
 
@@ -12,7 +12,7 @@ npm i -D eslint prettier @moser-inc/eslint-config
 
 Add the config to the `extends` option in your ESLint config.
 
-```
+```js
 module.exports = {
   extends: ['@moser-inc']
 }

@@ -4,7 +4,7 @@ This is the set of rules to for usage in Vue based projects.
 
 ## Installation
 
-```
+```shell
 npm i -D eslint prettier @moser-inc/eslint-config-vue
 ```
 
@@ -12,9 +12,8 @@ npm i -D eslint prettier @moser-inc/eslint-config-vue
 
 Add the config to the `extends` option in your ESLint config.
 
-```
+```js
 module.exports = {
   extends: ['@moser-inc/eslint-config-vue']
 }
 ```
-
