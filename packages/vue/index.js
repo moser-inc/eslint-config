@@ -9,9 +9,6 @@ module.exports = {
     '@vue/eslint-config-prettier',
   ],
   rules: {
-    // TypeScript
-    '@typescript-eslint/consistent-type-imports': 'warn',
-
     // Customized
     'vue/component-tags-order': [
       'error',
