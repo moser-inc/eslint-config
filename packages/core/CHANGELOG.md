@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config [1.13.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.12.0...@moser-inc/eslint-config@1.13.0) (2024-04-10)
+
+
+### Features
+
+* **core:** use latest version of typescript eslint plugin and parser ([4e0307a](https://github.com/moser-inc/eslint-config/commit/4e0307a139b0bfe905a335b0efce89f4a2255e37))
+
+
+### Styles
+
+* **core:** update base config format ([a25c8c8](https://github.com/moser-inc/eslint-config/commit/a25c8c841cf7a1dc22c8829d516190ec71c25f34))
+
+
+### Miscellaneous Chores
+
+* add eslint config types via jsdoc comment ([5d75695](https://github.com/moser-inc/eslint-config/commit/5d75695b901c9cff0d4bb5b2025a6f5a0ebdd8a2))
+* fix readme lint issues ([7430c20](https://github.com/moser-inc/eslint-config/commit/7430c20b5253b4a8d5bb15c50d534743d0caae1e))
+
 ## @moser-inc/eslint-config [1.12.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.11.0...@moser-inc/eslint-config@1.12.0) (2024-03-11)
 
 
