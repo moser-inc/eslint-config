@@ -1,5 +1,6 @@
 const { version, isVue2 } = require('vue-demi');
 
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: [
     '@moser-inc',
