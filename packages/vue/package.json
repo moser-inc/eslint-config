@@ -14,8 +14,8 @@
     "@moser-inc/eslint-config": "1.13.0",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^13.0.0",
-    "eslint-plugin-vue": "^9.24.1",
-    "vue-demi": "^0.14.7"
+    "eslint-plugin-vue": "^9.26.0",
+    "vue-demi": "^0.14.8"
   },
   "devDependencies": {
     "@vue/composition-api": "^1.7.2"
