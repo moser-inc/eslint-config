@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.13.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.13.0...@moser-inc/eslint-config@1.13.1) (2024-06-05)
+
+
+### Bug Fixes
+
+* **core:** update typescript eslint plugin ([26136ea](https://github.com/moser-inc/eslint-config/commit/26136ea41aacf6c4e8ad9cf0987b3a4db0a6f005))
+
 ## @moser-inc/eslint-config [1.13.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.12.0...@moser-inc/eslint-config@1.13.0) (2024-04-10)
 
 
