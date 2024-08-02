@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config [1.14.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.13.1...@moser-inc/eslint-config@1.14.0) (2024-08-02)
+
+
+### Features
+
+* **core:** change import rules severity to warn ([fbcb222](https://github.com/moser-inc/eslint-config/commit/fbcb222243a41ea5b66e0a748525e319664dd8e9))
+* **core:** enable sorting for named imports ([d792953](https://github.com/moser-inc/eslint-config/commit/d7929539fe8e995e2a6783ead1172f289367ed71))
+
+
+### Bug Fixes
+
+* **core:** update typescript and prettier plugins ([926ce91](https://github.com/moser-inc/eslint-config/commit/926ce91c56f5af8e7eb0153957f1c3fb79f0ff3d))
+
 ## @moser-inc/eslint-config [1.13.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.13.0...@moser-inc/eslint-config@1.13.1) (2024-06-05)
 
 

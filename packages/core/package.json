@@ -1,6 +1,6 @@
 {
   "name": "@moser-inc/eslint-config",
-  "version": "1.13.1",
+  "version": "1.14.0",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --config index.js",
