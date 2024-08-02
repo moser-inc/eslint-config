@@ -18,6 +18,7 @@ module.exports = {
     eqeqeq: 'warn',
     'linebreak-style': ['error', 'unix'],
     'object-shorthand': ['error', 'always'],
+    'sort-imports': ['error', { ignoreDeclarationSort: true }],
 
     // Import
     'import/no-unresolved': ['error', { ignore: ['\\?*$'] }],
