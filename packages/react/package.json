@@ -1,6 +1,6 @@
 {
   "name": "@moser-inc/eslint-config-react",
-  "version": "1.6.2",
+  "version": "2.0.0",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --config index.js",

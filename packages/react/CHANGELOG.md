@@ -1,3 +1,14 @@
+## @moser-inc/eslint-config-react [2.0.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.6.2...@moser-inc/eslint-config-react@2.0.0) (2024-10-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* **react:** add react compiler eslint plugin using warn level
+
+### Features
+
+* **react:** add react compiler eslint plugin using warn level ([342074d](https://github.com/moser-inc/eslint-config/commit/342074d663801004a04ecd7832d251b81914e7ea))
+
 ## @moser-inc/eslint-config-react [1.6.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.6.1...@moser-inc/eslint-config-react@1.6.2) (2024-10-22)
 
 
