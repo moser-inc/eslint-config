@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-react [1.6.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.6.1...@moser-inc/eslint-config-react@1.6.2) (2024-10-22)
+
+
+### Bug Fixes
+
+* **react:** update react eslint plugin ([6ce5427](https://github.com/moser-inc/eslint-config/commit/6ce542745abbec9f6668867d2651e443c60a4cb2))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.14.1
+
 ## @moser-inc/eslint-config-react [1.6.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@1.6.0...@moser-inc/eslint-config-react@1.6.1) (2024-08-02)
 
 
