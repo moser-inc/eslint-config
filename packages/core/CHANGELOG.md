@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.14.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.14.0...@moser-inc/eslint-config@1.14.1) (2024-10-22)
+
+
+### Bug Fixes
+
+* **core:** update deps to support latest typescript version ([b373143](https://github.com/moser-inc/eslint-config/commit/b37314346c30c8e2c4c7c5ad06453eb22ffda7dc))
+
 ## @moser-inc/eslint-config [1.14.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.13.1...@moser-inc/eslint-config@1.14.0) (2024-08-02)
 
 
