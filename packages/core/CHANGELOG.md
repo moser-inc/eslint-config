@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.15.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.14.1...@moser-inc/eslint-config@1.15.0) (2024-10-23)
+
+
+### Features
+
+* **core:** enable no import type side effects rule ([9bfab2b](https://github.com/moser-inc/eslint-config/commit/9bfab2b4350079e14458745802c515878eb85e3c))
+
 ## @moser-inc/eslint-config [1.14.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.14.0...@moser-inc/eslint-config@1.14.1) (2024-10-22)
 
 
