@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config-vue [1.12.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.11.6...@moser-inc/eslint-config-vue@1.12.0) (2024-11-18)
+
+
+### Features
+
+* **vue:** update plugins ([ea86ce5](https://github.com/moser-inc/eslint-config/commit/ea86ce57ea04eaed60b6629cb699dc65b5788262))
+
+
+### Miscellaneous Chores
+
+* update type used for legacy eslint configs ([7d3768d](https://github.com/moser-inc/eslint-config/commit/7d3768db3be0639581f407413b5dbb633d089f01))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.16.0
+
 ## @moser-inc/eslint-config-vue [1.11.6](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.11.5...@moser-inc/eslint-config-vue@1.11.6) (2024-10-23)
 
 
