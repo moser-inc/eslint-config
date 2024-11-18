@@ -12,13 +12,8 @@
   },
   "dependencies": {
     "@moser-inc/eslint-config": "1.16.0",
-    "@vue/eslint-config-prettier": "^9.0.0",
-    "@vue/eslint-config-typescript": "^13.0.0",
     "eslint-plugin-vue": "^9.31.0",
     "vue-demi": "^0.14.10"
-  },
-  "devDependencies": {
-    "@vue/composition-api": "^1.7.2"
   },
   "repository": {
     "type": "git",
