@@ -1,3 +1,15 @@
+## @moser-inc/eslint-config [1.16.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.15.0...@moser-inc/eslint-config@1.16.0) (2024-11-18)
+
+
+### Features
+
+* **core:** update typescript eslint version ([d9938e7](https://github.com/moser-inc/eslint-config/commit/d9938e75226b04c3b5221cc0571f75e5adf2658b))
+
+
+### Miscellaneous Chores
+
+* update type used for legacy eslint configs ([7d3768d](https://github.com/moser-inc/eslint-config/commit/7d3768db3be0639581f407413b5dbb633d089f01))
+
 ## @moser-inc/eslint-config [1.15.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.14.1...@moser-inc/eslint-config@1.15.0) (2024-10-23)
 
 
