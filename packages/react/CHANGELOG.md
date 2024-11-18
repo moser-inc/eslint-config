@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config-react [2.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.0.1...@moser-inc/eslint-config-react@2.1.0) (2024-11-18)
+
+
+### Features
+
+* **react:** update plugins ([09eab88](https://github.com/moser-inc/eslint-config/commit/09eab886a0c744824d88f1adaae94b38c39dfe4d))
+
+
+### Miscellaneous Chores
+
+* update type used for legacy eslint configs ([7d3768d](https://github.com/moser-inc/eslint-config/commit/7d3768db3be0639581f407413b5dbb633d089f01))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.16.0
+
 ## @moser-inc/eslint-config-react [2.0.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.0.0...@moser-inc/eslint-config-react@2.0.1) (2024-10-23)
 
 
