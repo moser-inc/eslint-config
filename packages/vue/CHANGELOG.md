@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config-vue [1.13.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.12.0...@moser-inc/eslint-config-vue@1.13.0) (2024-11-18)
+
+
+### Features
+
+* **vue:** greatly simplify vue eslint config ([2f165ac](https://github.com/moser-inc/eslint-config/commit/2f165ac48c80ccf51aab608e997f20cfcb899b4b))
+
 ## @moser-inc/eslint-config-vue [1.12.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.11.6...@moser-inc/eslint-config-vue@1.12.0) (2024-11-18)
 
 
