@@ -3,10 +3,36 @@ const { version, isVue2 } = require('vue-demi');
 
 /** @type {import('eslint').Linter.LegacyConfig} */
 module.exports = {
+  parserOptions: {
+    parser: {
+      js: 'espree',
+      jsx: 'espree',
+      cjs: 'espree',
+      mjs: 'espree',
+      ts: '@typescript-eslint/parser',
+      tsx: '@typescript-eslint/parser',
+      cts: '@typescript-eslint/parser',
+      mts: '@typescript-eslint/parser',
+    },
+    extraFileExtensions: ['.vue'],
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   extends: [
     '@moser-inc',
     isVue2 ? 'plugin:vue/recommended' : 'plugin:vue/vue3-recommended',
     'plugin:prettier/recommended',
+  ],
+  overrides: [
+    {
+      files: ['*.ts', '*.cts', '*.mts', '*.tsx', '*.vue'],
+      rules: {
+        'no-unused-vars': 'off',
+        'no-undef': 'off',
+        '@typescript-eslint/no-unused-vars': 'warn',
+      },
+    },
   ],
   rules: {
     // Prettier
