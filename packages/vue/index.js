@@ -6,8 +6,12 @@ module.exports = {
   extends: [
     '@moser-inc',
     isVue2 ? 'plugin:vue/recommended' : 'plugin:vue/vue3-recommended',
+    'plugin:prettier/recommended',
   ],
   rules: {
+    // Prettier
+    'prettier/prettier': 'warn',
+
     // Customized
     'vue/valid-v-slot': ['warn', { allowModifiers: true }],
 
