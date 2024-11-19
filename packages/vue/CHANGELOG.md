@@ -1,3 +1,15 @@
+## @moser-inc/eslint-config-vue [1.14.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.13.0...@moser-inc/eslint-config-vue@1.14.0) (2024-11-19)
+
+
+### Features
+
+* **vue:** update rules ([1582ba6](https://github.com/moser-inc/eslint-config/commit/1582ba636ba31a8b3af84548b3d32a2a786e38e4))
+
+
+### Bug Fixes
+
+* **vue:** reenable prettier after vue rules ([7552d52](https://github.com/moser-inc/eslint-config/commit/7552d52653cc8e308d2fa5d05979948ede2562c5))
+
 ## @moser-inc/eslint-config-vue [1.13.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.12.0...@moser-inc/eslint-config-vue@1.13.0) (2024-11-18)
 
 
