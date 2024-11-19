@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config-vue [1.14.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.14.0...@moser-inc/eslint-config-vue@1.14.1) (2024-11-19)
+
+
+### Bug Fixes
+
+* **vue:** add parser options for typescript support ([e44aac3](https://github.com/moser-inc/eslint-config/commit/e44aac3c9f314140a80b68382735c11a471a323c))
+
 ## @moser-inc/eslint-config-vue [1.14.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.13.0...@moser-inc/eslint-config-vue@1.14.0) (2024-11-19)
 
 
