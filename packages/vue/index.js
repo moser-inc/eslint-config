@@ -9,14 +9,11 @@ module.exports = {
   ],
   rules: {
     // Customized
-    'vue/component-tags-order': [
-      'error',
-      { order: ['script', 'template', 'style'] },
-    ],
     'vue/valid-v-slot': ['warn', { allowModifiers: true }],
 
     // Uncategorized
     'vue/block-lang': ['warn', { script: { lang: ['ts', 'tsx'] } }],
+    'vue/block-order': ['error', { order: ['script', 'template', 'style'] }],
     'vue/block-tag-newline': 'warn',
     'vue/component-api-style': ['warn', ['script-setup']],
     'vue/component-name-in-template-casing': 'warn',
@@ -25,7 +22,16 @@ module.exports = {
     'vue/define-emits-declaration': ['warn', 'type-based'],
     'vue/define-macros-order': [
       'warn',
-      { order: ['defineOptions', 'defineProps', 'defineEmits', 'defineSlots'] },
+      {
+        order: [
+          'defineOptions',
+          'defineModal',
+          'defineProps',
+          'defineEmits',
+          'defineSlots',
+        ],
+        defineExposeLast: true,
+      },
     ],
     'vue/define-props-declaration': ['warn', 'type-based'],
     'vue/match-component-file-name': ['warn', { extensions: ['vue', 'tsx'] }],
@@ -59,6 +65,7 @@ module.exports = {
     'vue/no-deprecated-destroyed-lifecycle': 'error',
     'vue/no-deprecated-dollar-listeners-api': isVue2 ? 'off' : 'error',
     'vue/no-deprecated-dollar-scopedslots-api': isVue2 ? 'off' : 'error',
+    'vue/no-deprecated-delete-set': isVue2 ? 'off' : 'error',
     'vue/no-deprecated-events-api': 'error',
     'vue/no-deprecated-filter': 'error',
     'vue/no-deprecated-functional-template': 'error',
