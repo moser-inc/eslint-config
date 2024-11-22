@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config-vue [1.15.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.14.1...@moser-inc/eslint-config-vue@1.15.0) (2024-11-22)
+
+
+### Features
+
+* **vue:** add additional uncategorized vue rules ([d2dcb80](https://github.com/moser-inc/eslint-config/commit/d2dcb806c2fcb39472be79c3552b2fd39e341b68))
+
 ## @moser-inc/eslint-config-vue [1.14.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.14.0...@moser-inc/eslint-config-vue@1.14.1) (2024-11-19)
 
 
