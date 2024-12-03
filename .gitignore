@@ -1,3 +1,4 @@
 .dsstore
 node_modules
 .npmrc
+dist

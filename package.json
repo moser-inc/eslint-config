@@ -2,12 +2,10 @@
   "name": "eslint-config",
   "description": "Collection of ESLint configs for use in Moser projects",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "run-p lint:*",
+    "build": "npm run build --workspaces",
+    "stub": "npm run stub --workspaces",
+    "lint": "npm run lint --workspaces",
     "lint:root": "eslint .",
-    "lint:core": "cd packages/core && eslint . --config index.js",
-    "lint:react": "cd packages/react && eslint . --config index.js",
-    "lint:vue": "cd packages/vue && eslint . --config index.js",
     "semantic-release": "multi-semantic-release"
   },
   "repository": {
@@ -31,13 +29,14 @@
     "@semantic-release/github": "^9.2.6",
     "@semantic-release/npm": "^11.0.3",
     "@semantic-release/release-notes-generator": "^12.1.0",
-    "@types/eslint": "^8.56.12",
-    "@types/node": "~22.9.0",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "~22.10.1",
     "conventional-changelog-conventionalcommits": "^6.1.0",
-    "eslint": "^8.57.1",
+    "eslint": "^9.16.0",
     "npm-run-all2": "^7.0.1",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.1",
     "semantic-release": "^22.0.12",
-    "standard-version": "^9.5.0"
+    "standard-version": "^9.5.0",
+    "typescript": "^5.7.2"
   }
 }
