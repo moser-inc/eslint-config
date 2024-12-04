@@ -15,7 +15,7 @@ Export the config from your `eslint.config.mjs` file. The config exports a `comp
 ```ts
 import moserConfig from '@moser-inc/eslint-config/flat';
 
-export default moserConfig;
+export default moserConfig();
 ```
 
 ## Usage (Legacy)

@@ -4,7 +4,7 @@ import type { Linter } from 'eslint';
 import vuePlugin from 'eslint-plugin-vue';
 import { isVue2, version } from 'vue-demi';
 
-const customVueConfig = [
+const customizedVueConfig = [
   ...(vuePlugin.configs['flat/recommended'] as Linter.Config[]),
   {
     files: ['**/*.vue'],
@@ -107,11 +107,13 @@ const customVueConfig = [
   },
 ] as const satisfies Linter.Config[];
 
-export const vueConfig = coreConfig.append([
-  ...customVueConfig,
-  ...(vueTsEslintPlugin() as Linter.Config[]),
-  ...formattingPlugins,
-] as const satisfies Linter.Config[]);
+export function vueConfig() {
+  return coreConfig().append([
+    ...customizedVueConfig,
+    ...(vueTsEslintPlugin() as Linter.Config[]),
+    ...formattingPlugins,
+  ] as const satisfies Linter.Config[]);
+}
 
 export * from '@moser-inc/eslint-config/flat';
 

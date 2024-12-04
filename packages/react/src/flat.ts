@@ -13,18 +13,20 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-export const reactConfig = coreConfig.append([
-  reactPlugin.configs.flat!.recommended as Linter.Config,
-  reactPlugin.configs.flat!['jsx-runtime'] as Linter.Config,
-  ...compat.config({
-    extends: ['plugin:react-hooks/recommended'],
-    plugins: ['react-compiler'],
-    rules: {
-      'react-compiler/react-compiler': 'warn',
-    },
-  }),
-  ...formattingPlugins,
-] as const satisfies Linter.Config[]);
+export function reactConfig() {
+  return coreConfig().append([
+    reactPlugin.configs.flat!.recommended as Linter.Config,
+    reactPlugin.configs.flat!['jsx-runtime'] as Linter.Config,
+    ...compat.config({
+      extends: ['plugin:react-hooks/recommended'],
+      plugins: ['react-compiler'],
+      rules: {
+        'react-compiler/react-compiler': 'warn',
+      },
+    }),
+    ...formattingPlugins,
+  ] as const satisfies Linter.Config[]);
+}
 
 export * from '@moser-inc/eslint-config/flat';
 

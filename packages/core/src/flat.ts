@@ -72,11 +72,13 @@ export const formattingPlugins = [
   },
 ] as const satisfies Linter.Config[];
 
-export const coreConfig = composer([
-  ...globalPlugins,
-  ...jsTsPlugins,
-  ...importPlugins,
-  ...formattingPlugins,
-] as const satisfies Linter.Config[]);
+export function coreConfig() {
+  return composer([
+    ...globalPlugins,
+    ...jsTsPlugins,
+    ...importPlugins,
+    ...formattingPlugins,
+  ] as const satisfies Linter.Config[]);
+}
 
 export default coreConfig;
