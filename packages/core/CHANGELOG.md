@@ -1,3 +1,11 @@
+## @moser-inc/eslint-config [1.17.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.17.0...@moser-inc/eslint-config@1.17.1) (2024-12-04)
+
+
+### Bug Fixes
+
+* **core:** enable consistent type imports rule with inline fix style ([0bce04f](https://github.com/moser-inc/eslint-config/commit/0bce04fcef921c2cbd05e31caad775af25b5953a))
+* **core:** enable resolving vue files ([72b4e0a](https://github.com/moser-inc/eslint-config/commit/72b4e0a510ace2bf341ab51eb2f33ea602cf3d06))
+
 ## @moser-inc/eslint-config [1.17.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.16.0...@moser-inc/eslint-config@1.17.0) (2024-12-04)
 
 
