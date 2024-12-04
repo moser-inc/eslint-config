@@ -39,7 +39,9 @@
     "build": "unbuild",
     "stub": "unbuild --stub",
     "prepack": "npm run build",
-    "lint": "eslint . --config ./eslint.config.mjs",
+    "lint": "npm run lint:flat && npm run lint:legacy",
+    "lint:flat": "eslint . --config ./eslint.config.mjs",
+    "lint:legacy": "ESLINT_USE_FLAT_CONFIG=false eslint . --config ./.eslintrc.cjs",
     "publint": "npx -y publint@latest && npx -y @arethetypeswrong/cli@latest --pack"
   },
   "peerDependencies": {
