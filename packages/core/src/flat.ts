@@ -72,6 +72,17 @@ export const formattingPlugins = [
   },
 ] as const satisfies Linter.Config[];
 
+/**
+ * Exports a function that returns a
+ * [composer instance](https://github.com/antfu/eslint-flat-config-utils)
+ * for easily prepending, appending, and overriding configuration.
+ *
+ * @example
+ * ```ts
+ * import moserConfig from '@moser-inc/eslint-config/flat';
+ *
+ * export default moserConfig().append(...);
+ */
 export function coreConfig() {
   return composer([
     ...globalPlugins,

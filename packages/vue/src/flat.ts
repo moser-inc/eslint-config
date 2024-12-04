@@ -107,6 +107,17 @@ const customizedVueConfig = [
   },
 ] as const satisfies Linter.Config[];
 
+/**
+ * Exports a function that returns a
+ * [composer instance](https://github.com/antfu/eslint-flat-config-utils)
+ * for easily prepending, appending, and overriding configuration.
+ *
+ * @example
+ * ```ts
+ * import moserConfig from '@moser-inc/eslint-config-vue/flat';
+ *
+ * export default moserConfig().append(...);
+ */
 export function vueConfig() {
   return coreConfig().append([
     ...customizedVueConfig,

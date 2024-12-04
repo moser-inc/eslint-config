@@ -13,6 +13,17 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
+/**
+ * Exports a function that returns a
+ * [composer instance](https://github.com/antfu/eslint-flat-config-utils)
+ * for easily prepending, appending, and overriding configuration.
+ *
+ * @example
+ * ```ts
+ * import moserConfig from '@moser-inc/eslint-config-react/flat';
+ *
+ * export default moserConfig().append(...);
+ */
 export function reactConfig() {
   return coreConfig().append([
     reactPlugin.configs.flat!.recommended as Linter.Config,
