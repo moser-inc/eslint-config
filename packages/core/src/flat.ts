@@ -1,7 +1,6 @@
 import jsEslintPlugin from '@eslint/js';
 import type { Linter } from 'eslint';
 import { composer } from 'eslint-flat-config-utils';
-import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import importPlugin from 'eslint-plugin-import-x';
 import prettierPlugin from 'eslint-plugin-prettier/recommended';
 import tsEslintPlugin from 'typescript-eslint';
@@ -42,9 +41,8 @@ export const importPlugins = [
   importPlugin.flatConfigs.recommended as Linter.Config,
   importPlugin.flatConfigs.typescript,
   {
-    files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
+    files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx,vue}'],
     rules: {
-      'no-unused-vars': 'off',
       'import-x/no-unresolved': ['error', { ignore: ['\\?*$'] }],
       'import-x/order': [
         'warn',
@@ -59,11 +57,6 @@ export const importPlugins = [
           ],
           alphabetize: { order: 'asc', caseInsensitive: false },
         },
-      ],
-    },
-    settings: {
-      'import/resolver': [
-        createTypeScriptImportResolver({ alwaysTryTypes: true }),
       ],
     },
   },
