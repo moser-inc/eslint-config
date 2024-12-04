@@ -1,4 +1,4 @@
 .dsstore
 node_modules
-.npmrc
 dist
+*.tsbuildinfo
