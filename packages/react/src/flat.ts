@@ -26,8 +26,8 @@ const compat = new FlatCompat({
  */
 export function reactConfig() {
   return coreConfig().append([
-    reactPlugin.configs.flat!.recommended as Linter.Config,
-    reactPlugin.configs.flat!['jsx-runtime'] as Linter.Config,
+    reactPlugin.configs.flat!.recommended,
+    reactPlugin.configs.flat!['jsx-runtime'],
     ...compat.config({
       extends: ['plugin:react-hooks/recommended'],
       plugins: ['react-compiler'],

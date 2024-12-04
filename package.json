@@ -24,19 +24,20 @@
   "devDependencies": {
     "@qiwi/multi-semantic-release": "^7.1.2",
     "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.2.6",
-    "@semantic-release/npm": "^11.0.3",
-    "@semantic-release/release-notes-generator": "^12.1.0",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.1",
     "@types/eslint": "^9.6.1",
     "@types/node": "~22.10.1",
-    "conventional-changelog-conventionalcommits": "^6.1.0",
     "eslint": "^9.16.0",
-    "npm-run-all2": "^7.0.1",
-    "prettier": "^3.4.1",
-    "semantic-release": "^22.0.12",
+    "prettier": "^3.4.2",
+    "semantic-release": "^24.2.0",
     "standard-version": "^9.5.0",
     "typescript": "^5.7.2"
+  },
+  "overrides": {
+    "conventional-changelog-conventionalcommits": ">= 8.0.0"
   }
 }

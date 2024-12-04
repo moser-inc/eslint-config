@@ -5,7 +5,7 @@ import vuePlugin from 'eslint-plugin-vue';
 import { isVue2, version } from 'vue-demi';
 
 const customizedVueConfig = [
-  ...(vuePlugin.configs['flat/recommended'] as Linter.Config[]),
+  ...vuePlugin.configs['flat/recommended'],
   {
     files: ['**/*.vue'],
     rules: {
