@@ -1,20 +1,20 @@
-import jsEslint from '@eslint/js';
+import jsEslintPlugin from '@eslint/js';
 import type { Linter } from 'eslint';
 import { composer } from 'eslint-flat-config-utils';
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
-import eslintPluginImportX from 'eslint-plugin-import-x';
+import importPlugin from 'eslint-plugin-import-x';
 import prettierPlugin from 'eslint-plugin-prettier/recommended';
-import tsEslint from 'typescript-eslint';
+import tsEslintPlugin from 'typescript-eslint';
 
-const globalPlugins = [
+export const globalPlugins = [
   { ignores: ['**/node_modules/', '**/config/', '**/dist/', '**/.output/'] },
-] as Linter.Config[];
+] as const satisfies Linter.Config[];
 
-const jsTsPlugins = [
-  ...tsEslint.config(
-    jsEslint.configs.recommended,
+export const jsTsPlugins = [
+  ...tsEslintPlugin.config(
+    jsEslintPlugin.configs.recommended,
     // eslint-disable-next-line import-x/no-named-as-default-member
-    ...tsEslint.configs.recommended,
+    ...tsEslintPlugin.configs.recommended,
     {
       rules: {
         curly: ['error', 'multi-line', 'consistent'],
@@ -31,9 +31,9 @@ const jsTsPlugins = [
   ),
 ] as Linter.Config[];
 
-const importPlugins = [
-  eslintPluginImportX.flatConfigs.recommended as Linter.Config,
-  eslintPluginImportX.flatConfigs.typescript,
+export const importPlugins = [
+  importPlugin.flatConfigs.recommended as Linter.Config,
+  importPlugin.flatConfigs.typescript,
   {
     files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
     rules: {
@@ -62,18 +62,23 @@ const importPlugins = [
       ],
     },
   },
-] satisfies Linter.Config[];
+] as const satisfies Linter.Config[];
 
-const formattingPlugins = [
-  prettierPlugin,
-  { rules: { 'prettier/prettier': 'warn' } },
-] satisfies Linter.Config[];
+export const formattingPlugins = [
+  {
+    ...prettierPlugin,
+    rules: {
+      ...prettierPlugin.rules,
+      'prettier/prettier': 'warn',
+    },
+  },
+] as const satisfies Linter.Config[];
 
 export const coreConfig = composer([
   ...globalPlugins,
   ...jsTsPlugins,
   ...importPlugins,
   ...formattingPlugins,
-] as Linter.Config[]);
+] as const satisfies Linter.Config[]);
 
 export default coreConfig;

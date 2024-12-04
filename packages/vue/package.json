@@ -48,6 +48,8 @@
   },
   "dependencies": {
     "@moser-inc/eslint-config": "1.16.0",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "@vue/eslint-config-typescript": "^14.1.4",
     "eslint-plugin-vue": "^9.32.0",
     "vue-demi": "^0.14.10"
   },
