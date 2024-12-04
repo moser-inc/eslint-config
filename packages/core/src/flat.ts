@@ -20,7 +20,6 @@ export const jsTsPlugins = [
     // eslint-disable-next-line import-x/no-named-as-default-member
     ...tsEslintPlugin.configs.recommended,
     {
-      ignores: ['eslint.config.{js,cjs,mjs}', '.eslintrc.{js,cjs,mjs}'],
       languageOptions: {
         parserOptions: {
           projectService: true,
@@ -44,6 +43,20 @@ export const jsTsPlugins = [
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/interface-name-prefix': 'off',
         '@typescript-eslint/no-import-type-side-effects': 'error',
+      },
+    },
+    {
+      files: ['**/*.{js,mjs,cjs,jsx}'],
+      // eslint-disable-next-line import-x/no-named-as-default-member
+      extends: [tsEslintPlugin.configs.disableTypeChecked],
+    },
+    {
+      files: ['**/*.{js,cjs,cts}'],
+      // eslint-disable-next-line import-x/no-named-as-default-member
+      extends: [tsEslintPlugin.configs.disableTypeChecked],
+      rules: {
+        'no-undef': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
       },
     },
   ),
