@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-vue [1.16.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.15.0...@moser-inc/eslint-config-vue@1.16.0) (2024-12-04)
+
+
+### Features
+
+* support for flat config ([#15](https://github.com/moser-inc/eslint-config/issues/15)) ([1f98605](https://github.com/moser-inc/eslint-config/commit/1f986053f007f1582b09e386d5ba2774e914b620))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.17.0
+
 ## @moser-inc/eslint-config-vue [1.15.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.14.1...@moser-inc/eslint-config-vue@1.15.0) (2024-11-22)
 
 
