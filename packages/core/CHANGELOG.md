@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.17.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.17.2...@moser-inc/eslint-config@1.17.3) (2024-12-04)
+
+
+### Bug Fixes
+
+* **core:** disable typed rules in js and fix commonjs issues ([85d6553](https://github.com/moser-inc/eslint-config/commit/85d65531c8b9772b6dc1aaf2f7f7acb295208bd6))
+
 ## @moser-inc/eslint-config [1.17.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.17.1...@moser-inc/eslint-config@1.17.2) (2024-12-04)
 
 
