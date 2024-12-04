@@ -1,6 +1,5 @@
-import type { ESLint } from 'eslint';
-
-const config: ESLint.ConfigData = {
+/** @type {import('eslint').Linter.LegacyConfig} */
+module.exports = {
   root: true,
   env: {
     node: true,
@@ -74,5 +73,3 @@ const config: ESLint.ConfigData = {
     },
   },
 };
-
-export default config;

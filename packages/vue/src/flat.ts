@@ -1,4 +1,6 @@
-import { moserConfig } from '@moser-inc/eslint-config/flat';
+import { coreConfig } from '@moser-inc/eslint-config/flat';
 
 // TODO: Create vue config
-export default moserConfig;
+export const vueConfig = coreConfig;
+
+export default vueConfig;

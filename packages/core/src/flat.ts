@@ -69,11 +69,11 @@ const formattingPlugins = [
   { rules: { 'prettier/prettier': 'warn' } },
 ] satisfies Linter.Config[];
 
-export const moserConfig = composer([
+export const coreConfig = composer([
   ...globalPlugins,
   ...jsTsPlugins,
   ...importPlugins,
   ...formattingPlugins,
 ] as Linter.Config[]);
 
-export default moserConfig;
+export default coreConfig;
