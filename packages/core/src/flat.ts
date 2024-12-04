@@ -1,9 +1,14 @@
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import jsEslintPlugin from '@eslint/js';
 import type { Linter } from 'eslint';
 import { composer } from 'eslint-flat-config-utils';
 import importPlugin from 'eslint-plugin-import-x';
 import prettierPlugin from 'eslint-plugin-prettier/recommended';
 import tsEslintPlugin from 'typescript-eslint';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export const globalPlugins = [
   { ignores: ['**/node_modules/', '**/config/', '**/dist/', '**/.output/'] },
@@ -15,6 +20,13 @@ export const jsTsPlugins = [
     // eslint-disable-next-line import-x/no-named-as-default-member
     ...tsEslintPlugin.configs.recommended,
     {
+      ignores: ['eslint.config.{js,cjs,mjs}', '.eslintrc.{js,cjs,mjs}'],
+      languageOptions: {
+        parserOptions: {
+          projectService: true,
+          tsconfigRootDir: __dirname,
+        },
+      },
       rules: {
         // JavaScript
         curly: ['error', 'multi-line', 'consistent'],
