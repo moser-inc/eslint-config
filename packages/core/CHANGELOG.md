@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.17.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.17.1...@moser-inc/eslint-config@1.17.2) (2024-12-04)
+
+
+### Bug Fixes
+
+* **core:** enable parseroptions project ([99017a3](https://github.com/moser-inc/eslint-config/commit/99017a397b06dfb13fcf59bb0a0c66ac3636a19c))
+
 ## @moser-inc/eslint-config [1.17.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.17.0...@moser-inc/eslint-config@1.17.1) (2024-12-04)
 
 
