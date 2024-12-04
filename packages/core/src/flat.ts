@@ -38,8 +38,6 @@ export const importPlugins = [
     files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
     rules: {
       'no-unused-vars': 'off',
-      'import-x/no-dynamic-require': 'warn',
-      'import-x/no-nodejs-modules': 'warn',
       'import-x/no-unresolved': ['error', { ignore: ['\\?*$'] }],
       'import-x/order': [
         'warn',
