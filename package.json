@@ -2,12 +2,10 @@
   "name": "eslint-config",
   "description": "Collection of ESLint configs for use in Moser projects",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "run-p lint:*",
-    "lint:root": "eslint .",
-    "lint:core": "cd packages/core && eslint . --config index.js",
-    "lint:react": "cd packages/react && eslint . --config index.js",
-    "lint:vue": "cd packages/vue && eslint . --config index.js",
+    "build": "npm run build --workspaces",
+    "stub": "npm run stub --workspaces",
+    "lint": "npm run lint --workspaces",
+    "publint": "npm run publint --workspaces",
     "semantic-release": "multi-semantic-release"
   },
   "repository": {
@@ -26,18 +24,20 @@
   "devDependencies": {
     "@qiwi/multi-semantic-release": "^7.1.2",
     "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.2.6",
-    "@semantic-release/npm": "^11.0.3",
-    "@semantic-release/release-notes-generator": "^12.1.0",
-    "@types/eslint": "^8.56.12",
-    "@types/node": "~22.9.0",
-    "conventional-changelog-conventionalcommits": "^6.1.0",
-    "eslint": "^8.57.1",
-    "npm-run-all2": "^7.0.1",
-    "prettier": "^3.3.3",
-    "semantic-release": "^22.0.12",
-    "standard-version": "^9.5.0"
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.1",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "~22.10.1",
+    "eslint": "^9.16.0",
+    "prettier": "^3.4.2",
+    "semantic-release": "^24.2.0",
+    "standard-version": "^9.5.0",
+    "typescript": "^5.7.2"
+  },
+  "overrides": {
+    "conventional-changelog-conventionalcommits": ">= 8.0.0"
   }
 }

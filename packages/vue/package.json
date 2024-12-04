@@ -1,19 +1,63 @@
 {
   "name": "@moser-inc/eslint-config-vue",
   "version": "1.15.0",
-  "main": "index.js",
+  "main": "./dist/legacy.cjs",
+  "module": "./dist/legacy.mjs",
+  "types": "./dist/legacy.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/legacy.mjs",
+      "require": "./dist/legacy.cjs"
+    },
+    "./flat": {
+      "import": "./dist/flat.mjs",
+      "require": "./dist/flat.cjs"
+    },
+    "./legacy": {
+      "import": "./dist/legacy.mjs",
+      "require": "./dist/legacy.cjs"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "flat": [
+        "./dist/flat.d.ts"
+      ],
+      "legacy": [
+        "./dist/legacy.d.ts"
+      ],
+      "*": [
+        "./dist/*",
+        "./*"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "lint": "eslint . --config index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "unbuild",
+    "stub": "unbuild --stub",
+    "prepack": "npm run build",
+    "lint": "npm run lint:flat && npm run lint:legacy",
+    "lint:flat": "eslint . --config ./eslint.config.mjs",
+    "lint:legacy": "ESLINT_USE_FLAT_CONFIG=false eslint . --config ./.eslintrc.cjs",
+    "publint": "npx -y publint@latest && npx -y @arethetypeswrong/cli@latest --pack"
   },
   "peerDependencies": {
     "eslint": ">= 6",
-    "prettier": ">= 1"
+    "prettier": ">= 1",
+    "vue": ">= 2.7"
   },
   "dependencies": {
     "@moser-inc/eslint-config": "1.16.0",
-    "eslint-plugin-vue": "^9.31.0",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "@vue/eslint-config-typescript": "^14.1.4",
+    "eslint-plugin-vue": "^9.32.0",
     "vue-demi": "^0.14.10"
+  },
+  "devDependencies": {
+    "unbuild": "^2.0.0"
   },
   "repository": {
     "type": "git",
