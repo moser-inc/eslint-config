@@ -17,11 +17,18 @@ export const jsTsPlugins = [
     ...tsEslintPlugin.configs.recommended,
     {
       rules: {
+        // JavaScript
         curly: ['error', 'multi-line', 'consistent'],
         eqeqeq: 'warn',
         'linebreak-style': ['error', 'unix'],
         'object-shorthand': ['error', 'always'],
         'sort-imports': ['warn', { ignoreDeclarationSort: true }],
+
+        // TypeScript
+        '@typescript-eslint/consistent-type-imports': [
+          'warn',
+          { fixStyle: 'inline-type-imports' },
+        ],
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/interface-name-prefix': 'off',
