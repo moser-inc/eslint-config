@@ -1,3 +1,15 @@
+## @moser-inc/eslint-config-vue [1.17.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.16.3...@moser-inc/eslint-config-vue@1.17.0) (2024-12-05)
+
+
+### Features
+
+* **core:** support opting in to type aware rules via options ([9be0235](https://github.com/moser-inc/eslint-config/commit/9be0235ead4643752bde4332677cf959d03ffc79))
+
+
+### Bug Fixes
+
+* **vue:** bump core config version ([8d5f7ed](https://github.com/moser-inc/eslint-config/commit/8d5f7ed0345ddd1ed4bacfa1fc492c8dde47aacd))
+
 ## @moser-inc/eslint-config-vue [1.16.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.16.2...@moser-inc/eslint-config-vue@1.16.3) (2024-12-04)
 
 

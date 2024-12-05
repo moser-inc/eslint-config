@@ -1,6 +1,6 @@
 {
   "name": "@moser-inc/eslint-config-vue",
-  "version": "1.16.3",
+  "version": "1.17.0",
   "main": "./dist/legacy.cjs",
   "module": "./dist/legacy.mjs",
   "types": "./dist/legacy.d.ts",
