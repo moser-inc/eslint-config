@@ -2,7 +2,11 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 // @ts-expect-error untyped module
 import { FlatCompat } from '@eslint/eslintrc';
-import { coreConfig, formattingPlugins } from '@moser-inc/eslint-config/flat';
+import {
+  type MoserConfigOptions,
+  coreConfig,
+  formattingPlugins,
+} from '@moser-inc/eslint-config/flat';
 import type { Linter } from 'eslint';
 import reactPlugin from 'eslint-plugin-react';
 
@@ -24,8 +28,8 @@ const compat = new FlatCompat({
  *
  * export default moserConfig().append(...);
  */
-export function reactConfig() {
-  return coreConfig().append([
+export function reactConfig(options?: MoserConfigOptions) {
+  return coreConfig(options).append([
     reactPlugin.configs.flat!.recommended,
     reactPlugin.configs.flat!['jsx-runtime'],
     ...compat.config({

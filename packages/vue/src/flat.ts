@@ -1,4 +1,8 @@
-import { coreConfig, formattingPlugins } from '@moser-inc/eslint-config/flat';
+import {
+  type MoserConfigOptions,
+  coreConfig,
+  formattingPlugins,
+} from '@moser-inc/eslint-config/flat';
 import vueTsEslintPlugin from '@vue/eslint-config-typescript';
 import type { Linter } from 'eslint';
 import vuePlugin from 'eslint-plugin-vue';
@@ -118,8 +122,8 @@ const customizedVueConfig = [
  *
  * export default moserConfig().append(...);
  */
-export function vueConfig() {
-  return coreConfig().append([
+export function vueConfig(options?: MoserConfigOptions) {
+  return coreConfig(options).append([
     ...customizedVueConfig,
     ...(vueTsEslintPlugin() as Linter.Config[]),
     ...formattingPlugins,
