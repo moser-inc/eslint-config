@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.18.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.0...@moser-inc/eslint-config@1.18.1) (2024-12-05)
+
+
+### Bug Fixes
+
+* **core:** make all type aware config conditional ([b0f83d5](https://github.com/moser-inc/eslint-config/commit/b0f83d593c95caca092b5f3126daa12f3e31818f))
+
 ## @moser-inc/eslint-config [1.18.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.17.3...@moser-inc/eslint-config@1.18.0) (2024-12-05)
 
 
