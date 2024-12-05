@@ -8,6 +8,11 @@ import prettierPlugin from 'eslint-plugin-prettier/recommended';
 import tsEslintPlugin from 'typescript-eslint';
 
 export interface MoserConfigOptions {
+  /**
+   * Path to the TypeScript configuration file. Enables type-aware linting when
+   * defined. Most often will be set to `tsconfig.json` to use the base project
+   * configuration.
+   */
   tsconfigPath?: string;
 }
 
