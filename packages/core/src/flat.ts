@@ -31,7 +31,7 @@ export const jsTsPlugins = (options?: MoserConfigOptions) => {
   return tsEslintPlugin.config(
     jsEslintPlugin.configs.recommended,
     tsEslintPlugin.configs.eslintRecommended,
-    ...tsEslintPlugin.configs.recommended,
+    tsEslintPlugin.configs.recommended,
     {
       rules: {
         // JavaScript
@@ -48,8 +48,8 @@ export const jsTsPlugins = (options?: MoserConfigOptions) => {
         '@typescript-eslint/no-import-type-side-effects': 'error',
       },
     },
-    isTypeAware
-      ? [
+    ...(isTypeAware
+      ? ([
           {
             languageOptions: {
               parserOptions: {
@@ -71,8 +71,8 @@ export const jsTsPlugins = (options?: MoserConfigOptions) => {
               ],
             },
           },
-        ]
-      : [],
+        ] satisfies Parameters<typeof tsEslintPlugin.config>)
+      : []),
     {
       files: ['**/*.{js,mjs,cjs,jsx}'],
       extends: [tsEslintPlugin.configs.disableTypeChecked],
