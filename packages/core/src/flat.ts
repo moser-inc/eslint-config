@@ -66,7 +66,6 @@ export const jsTsPlugins = (options?: MoserConfigOptions) => {
               },
             },
           },
-          tsEslintPlugin.configs.recommendedTypeCheckedOnly,
           {
             files: ['**/*.{ts,tsx,mts,cts}'],
             rules: {
