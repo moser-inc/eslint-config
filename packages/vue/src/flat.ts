@@ -1,8 +1,5 @@
-import {
-  type MoserConfigOptions,
-  coreConfig,
-  formattingPlugins,
-} from '@moser-inc/eslint-config/flat';
+import { coreConfig, formattingPlugins } from '@moser-inc/eslint-config/flat';
+import type { MoserConfigOptions } from '@moser-inc/eslint-config/flat';
 import vueTsEslintPlugin from '@vue/eslint-config-typescript';
 import type { Linter } from 'eslint';
 import vuePlugin from 'eslint-plugin-vue';

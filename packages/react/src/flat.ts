@@ -2,11 +2,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 // @ts-expect-error untyped module
 import { FlatCompat } from '@eslint/eslintrc';
-import {
-  type MoserConfigOptions,
-  coreConfig,
-  formattingPlugins,
-} from '@moser-inc/eslint-config/flat';
+import { coreConfig, formattingPlugins } from '@moser-inc/eslint-config/flat';
+import type { MoserConfigOptions } from '@moser-inc/eslint-config/flat';
 import type { Linter } from 'eslint';
 import reactPlugin from 'eslint-plugin-react';
 
