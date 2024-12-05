@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config [1.18.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.1...@moser-inc/eslint-config@1.18.2) (2024-12-05)
+
+
+### Bug Fixes
+
+* **core:** remove recommended type checked rules ([a3b0c4b](https://github.com/moser-inc/eslint-config/commit/a3b0c4b00648238abae0bfc8a766f5da16f79031))
+
+
+### Miscellaneous Chores
+
+* add smoke test for type aware configs ([9e8637e](https://github.com/moser-inc/eslint-config/commit/9e8637e7c6f5ceaa1c79b6c488452207b975f917))
+* **core:** add jsdoc to tsconfig path option ([21c8c1c](https://github.com/moser-inc/eslint-config/commit/21c8c1c2e52d139102593fc56607db9204d3d1ba))
+
 ## @moser-inc/eslint-config [1.18.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.0...@moser-inc/eslint-config@1.18.1) (2024-12-05)
 
 
