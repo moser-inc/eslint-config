@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-react [2.3.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.3.0...@moser-inc/eslint-config-react@2.3.1) (2024-12-05)
+
+
+### Bug Fixes
+
+* use separate type import for options ([239d23a](https://github.com/moser-inc/eslint-config/commit/239d23ad61a91e8331da7aa929938cec9e4d7d39))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.18.1
+
 ## @moser-inc/eslint-config-react [2.3.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.2.3...@moser-inc/eslint-config-react@2.3.0) (2024-12-05)
 
 
