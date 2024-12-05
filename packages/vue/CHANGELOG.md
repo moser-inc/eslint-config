@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-vue [1.17.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.17.1...@moser-inc/eslint-config-vue@1.17.2) (2024-12-05)
+
+
+### Miscellaneous Chores
+
+* add smoke test for type aware configs ([9e8637e](https://github.com/moser-inc/eslint-config/commit/9e8637e7c6f5ceaa1c79b6c488452207b975f917))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.18.2
+
 ## @moser-inc/eslint-config-vue [1.17.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.17.0...@moser-inc/eslint-config-vue@1.17.1) (2024-12-05)
 
 
