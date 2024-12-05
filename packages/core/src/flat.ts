@@ -33,17 +33,6 @@ export const jsTsPlugins = (options?: MoserConfigOptions) => {
     tsEslintPlugin.configs.eslintRecommended,
     ...tsEslintPlugin.configs.recommended,
     {
-      languageOptions: {
-        parserOptions: isTypeAware
-          ? {
-              projectService: {
-                allowDefaultProject: ['./*.js'],
-                defaultProject: tsconfigPath,
-              },
-              tsconfigRootDir: process.cwd(),
-            }
-          : undefined,
-      },
       rules: {
         // JavaScript
         curly: ['error', 'multi-line', 'consistent'],
@@ -61,6 +50,17 @@ export const jsTsPlugins = (options?: MoserConfigOptions) => {
     },
     isTypeAware
       ? [
+          {
+            languageOptions: {
+              parserOptions: {
+                projectService: {
+                  allowDefaultProject: ['./*.js'],
+                  defaultProject: tsconfigPath,
+                },
+                tsconfigRootDir: process.cwd(),
+              },
+            },
+          },
           tsEslintPlugin.configs.recommendedTypeCheckedOnly,
           {
             files: ['**/*.{ts,tsx,mts,cts}'],
