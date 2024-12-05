@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.18.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.17.3...@moser-inc/eslint-config@1.18.0) (2024-12-05)
+
+
+### Features
+
+* **core:** support opting in to type aware rules via options ([9be0235](https://github.com/moser-inc/eslint-config/commit/9be0235ead4643752bde4332677cf959d03ffc79))
+
 ## @moser-inc/eslint-config [1.17.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.17.2...@moser-inc/eslint-config@1.17.3) (2024-12-04)
 
 
