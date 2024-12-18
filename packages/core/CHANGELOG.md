@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config [1.18.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.2...@moser-inc/eslint-config@1.18.3) (2024-12-18)
+
+
+### Bug Fixes
+
+* **core:** update core deps ([ae29e92](https://github.com/moser-inc/eslint-config/commit/ae29e923d642ff519e7da09ce77deacb4f4eb797))
+
+
+### Miscellaneous Chores
+
+* downgrade unbuild ([d26d9c3](https://github.com/moser-inc/eslint-config/commit/d26d9c3eb2ddc5bb2447c48a8571cac0a978a187))
+* update dev deps ([fde3e68](https://github.com/moser-inc/eslint-config/commit/fde3e68dfe96f065cca33575c9d408ac0efb1fb7))
+
 ## @moser-inc/eslint-config [1.18.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.1...@moser-inc/eslint-config@1.18.2) (2024-12-05)
 
 
