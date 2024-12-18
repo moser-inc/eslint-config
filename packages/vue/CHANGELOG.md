@@ -1,3 +1,17 @@
+## @moser-inc/eslint-config-vue [1.17.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.17.2...@moser-inc/eslint-config-vue@1.17.3) (2024-12-18)
+
+
+### Miscellaneous Chores
+
+* downgrade unbuild ([d26d9c3](https://github.com/moser-inc/eslint-config/commit/d26d9c3eb2ddc5bb2447c48a8571cac0a978a187))
+* update dev deps ([fde3e68](https://github.com/moser-inc/eslint-config/commit/fde3e68dfe96f065cca33575c9d408ac0efb1fb7))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.18.3
+
 ## @moser-inc/eslint-config-vue [1.17.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.17.1...@moser-inc/eslint-config-vue@1.17.2) (2024-12-05)
 
 
