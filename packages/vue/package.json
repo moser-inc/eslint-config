@@ -58,7 +58,7 @@
     "vue-demi": "^0.14.10"
   },
   "devDependencies": {
-    "unbuild": "^3.0.1"
+    "unbuild": "^2.0.0"
   },
   "repository": {
     "type": "git",
