@@ -1,6 +1,6 @@
 {
   "name": "@moser-inc/eslint-config-react",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "main": "./dist/legacy.cjs",
   "module": "./dist/legacy.mjs",
   "types": "./dist/legacy.d.ts",

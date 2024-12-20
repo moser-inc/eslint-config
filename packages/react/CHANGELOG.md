@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config-react [2.3.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.3.3...@moser-inc/eslint-config-react@2.3.4) (2024-12-20)
+
+
+### Bug Fixes
+
+* **react:** set react version setting to detect ([fddf847](https://github.com/moser-inc/eslint-config/commit/fddf847a89b8cc90f2dd28ab78c63c286b08ed55))
+
 ## @moser-inc/eslint-config-react [2.3.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.3.2...@moser-inc/eslint-config-react@2.3.3) (2024-12-18)
 
 
