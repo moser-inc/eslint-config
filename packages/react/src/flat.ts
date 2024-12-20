@@ -36,6 +36,13 @@ export function reactConfig(options?: MoserConfigOptions) {
         'react-compiler/react-compiler': 'warn',
       },
     }),
+    {
+      settings: {
+        react: {
+          version: 'detect',
+        },
+      },
+    },
     ...formattingPlugins,
   ] as const satisfies Linter.Config[]);
 }
