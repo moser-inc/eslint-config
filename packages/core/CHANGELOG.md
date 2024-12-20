@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.18.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.3...@moser-inc/eslint-config@1.18.4) (2024-12-20)
+
+
+### Bug Fixes
+
+* **core:** update import-x plugin ([a876b66](https://github.com/moser-inc/eslint-config/commit/a876b66787ecf21fa9ab3c43ddfa6827e65a1fa1))
+
 ## @moser-inc/eslint-config [1.18.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.2...@moser-inc/eslint-config@1.18.3) (2024-12-18)
 
 
