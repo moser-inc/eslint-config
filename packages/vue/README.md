@@ -18,6 +18,14 @@ import moser from '@moser-inc/eslint-config-vue/flat';
 export default moser().append(...);
 ```
 
+For support for type checked rules, include the `tsconfigPath` option.
+
+```ts
+import moser from '@moser-inc/eslint-config/flat';
+
+export default moser({ tsconfigPath: './tsconfig.json' }).append(...);
+```
+
 ## Usage (Legacy)
 
 Add the config to the `extends` option in your `.eslintrc.cjs` file.
