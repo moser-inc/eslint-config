@@ -40,8 +40,8 @@
     "stub": "unbuild --stub",
     "prepack": "npm run build",
     "lint": "npm run lint:flat && npm run lint:flat:typeaware && npm run lint:legacy",
-    "lint:flat": "eslint . --config ./eslint.config.mjs",
-    "lint:flat:typeaware": "eslint . --config ./eslint.config.typeaware.mjs",
+    "lint:flat": "eslint . --config ./eslint.config.ts",
+    "lint:flat:typeaware": "eslint . --config ./eslint.config.typeaware.ts",
     "lint:legacy": "ESLINT_USE_FLAT_CONFIG=false eslint . --config ./.eslintrc.cjs",
     "publint": "npx -y publint@latest && npx -y @arethetypeswrong/cli@latest --pack"
   },
