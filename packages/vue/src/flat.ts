@@ -115,9 +115,9 @@ const customizedVueConfig = [
  *
  * @example
  * ```ts
- * import moserConfig from '@moser-inc/eslint-config-vue/flat';
+ * import moser from '@moser-inc/eslint-config-vue/flat';
  *
- * export default moserConfig().append(...);
+ * export default moser().append(...);
  */
 export function vueConfig(options?: MoserConfigOptions) {
   return coreConfig(options).append([

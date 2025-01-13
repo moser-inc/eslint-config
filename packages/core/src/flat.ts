@@ -133,9 +133,9 @@ export const formattingPlugins = [
  *
  * @example
  * ```ts
- * import moserConfig from '@moser-inc/eslint-config/flat';
+ * import moser from '@moser-inc/eslint-config/flat';
  *
- * export default moserConfig().append(...);
+ * export default moser().append(...);
  */
 export function coreConfig(options?: MoserConfigOptions) {
   return composer([

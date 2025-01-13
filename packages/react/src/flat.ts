@@ -21,9 +21,9 @@ const compat = new FlatCompat({
  *
  * @example
  * ```ts
- * import moserConfig from '@moser-inc/eslint-config-react/flat';
+ * import moser from '@moser-inc/eslint-config-react/flat';
  *
- * export default moserConfig().append(...);
+ * export default moser().append(...);
  */
 export function reactConfig(options?: MoserConfigOptions) {
   return coreConfig(options).append([
