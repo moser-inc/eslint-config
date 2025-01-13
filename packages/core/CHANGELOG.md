@@ -1,3 +1,23 @@
+## @moser-inc/eslint-config [1.18.5](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.4...@moser-inc/eslint-config@1.18.5) (2025-01-13)
+
+
+### Bug Fixes
+
+* **core:** update core plugins ([21641e9](https://github.com/moser-inc/eslint-config/commit/21641e9a5779f8af4bc7ec8a0040d55d51858f3b))
+
+
+### Documentation
+
+* add instructions for type checked rules ([a5d2db3](https://github.com/moser-inc/eslint-config/commit/a5d2db3d0db6e9c298e900eaf5004811cdc11a9c))
+
+
+### Miscellaneous Chores
+
+* change suggested import name from `moserConfig` to just `moser` ([46cdae6](https://github.com/moser-inc/eslint-config/commit/46cdae68798bb561c1f46f36bcea789784bd1ebd))
+* update build and fix legacy config format ([b2c5e27](https://github.com/moser-inc/eslint-config/commit/b2c5e271a0272a966b736d072bb911ca736e840a))
+* update jsdoc example ([d67793f](https://github.com/moser-inc/eslint-config/commit/d67793f2cd7806e936a7c179ed405ff9a59653d7))
+* use typescript for eslint config files ([1581d7f](https://github.com/moser-inc/eslint-config/commit/1581d7f97c7134e202ff95f7200640d39fa8a321))
+
 ## @moser-inc/eslint-config [1.18.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.3...@moser-inc/eslint-config@1.18.4) (2024-12-20)
 
 
