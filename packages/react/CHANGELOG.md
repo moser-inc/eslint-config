@@ -1,3 +1,30 @@
+## @moser-inc/eslint-config-react [2.3.6](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.3.5...@moser-inc/eslint-config-react@2.3.6) (2025-01-13)
+
+
+### Bug Fixes
+
+* export moser config options in vue and react packages ([5c2f806](https://github.com/moser-inc/eslint-config/commit/5c2f8068717afaacce4d295468e377151e4a1228))
+* **react:** update eslint plugins ([d47be5b](https://github.com/moser-inc/eslint-config/commit/d47be5b33ac64d1434d3e535bf413886881a4985))
+
+
+### Documentation
+
+* add instructions for type checked rules ([a5d2db3](https://github.com/moser-inc/eslint-config/commit/a5d2db3d0db6e9c298e900eaf5004811cdc11a9c))
+
+
+### Miscellaneous Chores
+
+* change suggested import name from `moserConfig` to just `moser` ([46cdae6](https://github.com/moser-inc/eslint-config/commit/46cdae68798bb561c1f46f36bcea789784bd1ebd))
+* update build and fix legacy config format ([b2c5e27](https://github.com/moser-inc/eslint-config/commit/b2c5e271a0272a966b736d072bb911ca736e840a))
+* update jsdoc example ([d67793f](https://github.com/moser-inc/eslint-config/commit/d67793f2cd7806e936a7c179ed405ff9a59653d7))
+* use typescript for eslint config files ([1581d7f](https://github.com/moser-inc/eslint-config/commit/1581d7f97c7134e202ff95f7200640d39fa8a321))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.18.5
+
 ## @moser-inc/eslint-config-react [2.3.5](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.3.4...@moser-inc/eslint-config-react@2.3.5) (2024-12-20)
 
 

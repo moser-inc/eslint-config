@@ -1,6 +1,6 @@
 {
   "name": "@moser-inc/eslint-config-react",
-  "version": "2.3.5",
+  "version": "2.3.6",
   "main": "./dist/legacy.cjs",
   "module": "./dist/legacy.mjs",
   "types": "./dist/legacy.d.cts",
@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@eslint/eslintrc": "^3.2.0",
-    "@moser-inc/eslint-config": "1.18.4",
+    "@moser-inc/eslint-config": "1.18.5",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-compiler": "^19.0.0-beta-e552027-20250112",
     "eslint-plugin-react-hooks": "^5.1.0"
