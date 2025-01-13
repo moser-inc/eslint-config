@@ -1,3 +1,3 @@
-import moserConfig from './dist/flat.mjs';
+import moser from './dist/flat.mjs';
 
-export default moserConfig();
+export default moser();

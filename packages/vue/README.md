@@ -13,9 +13,9 @@ npm i -D eslint prettier @moser-inc/eslint-config-vue
 Export the config from your `eslint.config.mjs` file. The config exports a function that returns a `composer` instance ([see here](https://github.com/antfu/eslint-flat-config-utils)) that can prepend/append/override rules and configuration.
 
 ```ts
-import moserConfig from '@moser-inc/eslint-config-vue/flat';
+import moser from '@moser-inc/eslint-config-vue/flat';
 
-export default moserConfig().append(...);
+export default moser().append(...);
 ```
 
 ## Usage (Legacy)
