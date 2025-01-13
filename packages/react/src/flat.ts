@@ -49,4 +49,6 @@ export function reactConfig(options?: MoserConfigOptions) {
 
 export * from '@moser-inc/eslint-config/flat';
 
+export type { MoserConfigOptions };
+
 export default reactConfig;
