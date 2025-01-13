@@ -1,3 +1,3 @@
-import moser from './packages/core/dist/flat.mjs';
+import moser from '@moser-inc/eslint-config/flat';
 
 export default moser({ tsconfigPath: 'tsconfig.json' });

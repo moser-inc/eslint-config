@@ -1,5 +1,6 @@
 {
   "files": [],
+  "include": ["*.config.*"],
   "references": [
     { "path": "./packages/core" },
     { "path": "./packages/react" },

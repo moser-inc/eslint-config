@@ -23,6 +23,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@moser-inc/eslint-config": "^1.18.5",
     "@qiwi/multi-semantic-release": "^7.1.2",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.1",
