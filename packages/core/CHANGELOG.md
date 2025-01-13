@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.18.6](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.5...@moser-inc/eslint-config@1.18.6) (2025-01-13)
+
+
+### Bug Fixes
+
+* **core:** update prettier eslint config ([d87e433](https://github.com/moser-inc/eslint-config/commit/d87e4334b3388407d13b2ef62626312656ecfcc2))
+
 ## @moser-inc/eslint-config [1.18.5](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.4...@moser-inc/eslint-config@1.18.5) (2025-01-13)
 
 
