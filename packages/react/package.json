@@ -3,7 +3,7 @@
   "version": "2.3.5",
   "main": "./dist/legacy.cjs",
   "module": "./dist/legacy.mjs",
-  "types": "./dist/legacy.d.ts",
+  "types": "./dist/legacy.d.cts",
   "exports": {
     ".": {
       "import": "./dist/legacy.mjs",
@@ -57,7 +57,7 @@
     "eslint-plugin-react-hooks": "^5.1.0"
   },
   "devDependencies": {
-    "unbuild": "^2.0.0"
+    "unbuild": "^3.3.1"
   },
   "repository": {
     "type": "git",

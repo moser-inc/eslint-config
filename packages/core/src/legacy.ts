@@ -1,5 +1,6 @@
-/** @type {import('eslint').Linter.LegacyConfig} */
-module.exports = {
+import type { Linter } from 'eslint';
+
+const legacyCoreConfig = {
   root: true,
   env: {
     node: true,
@@ -72,4 +73,6 @@ module.exports = {
       },
     },
   },
-};
+} satisfies Linter.LegacyConfig;
+
+export default legacyCoreConfig;

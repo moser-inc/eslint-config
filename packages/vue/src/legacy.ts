@@ -1,8 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const { version, isVue2 } = require('vue-demi');
+import type { Linter } from 'eslint';
+import { isVue2, version } from 'vue-demi';
 
-/** @type {import('eslint').Linter.LegacyConfig} */
-module.exports = {
+const legacyVueConfig = {
   parserOptions: {
     parser: {
       js: 'espree',
@@ -118,4 +117,6 @@ module.exports = {
     'vue/no-deprecated-v-on-number-modifiers': 'error',
     'vue/no-deprecated-vue-config-keycodes': 'error',
   },
-};
+} satisfies Linter.LegacyConfig;
+
+export default legacyVueConfig;

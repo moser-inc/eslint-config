@@ -1,5 +1,6 @@
-/** @type {import('eslint').Linter.LegacyConfig} */
-module.exports = {
+import type { Linter } from 'eslint';
+
+const legacyReactConfig = {
   extends: [
     '@moser-inc',
     'plugin:react/recommended',
@@ -15,4 +16,6 @@ module.exports = {
       version: 'detect',
     },
   },
-};
+} satisfies Linter.LegacyConfig;
+
+export default legacyReactConfig;
