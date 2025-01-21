@@ -1,6 +1,9 @@
 import { coreConfig, formattingPlugins } from '@moser-inc/eslint-config/flat';
 import type { MoserConfigOptions } from '@moser-inc/eslint-config/flat';
-import vueTsEslintPlugin from '@vue/eslint-config-typescript';
+import {
+  defineConfigWithVueTs,
+  vueTsConfigs,
+} from '@vue/eslint-config-typescript';
 import type { Linter } from 'eslint';
 import vuePlugin from 'eslint-plugin-vue';
 import { isVue2, version } from 'vue-demi';
@@ -120,9 +123,18 @@ const customizedVueConfig = [
  * export default moser().append(...);
  */
 export function vueConfig(options?: MoserConfigOptions) {
+  const tsconfigPath = options?.tsconfigPath;
+  const isTypeAware = !!tsconfigPath;
+
+  const vueConfigs = defineConfigWithVueTs(
+    customizedVueConfig,
+    isTypeAware
+      ? vueTsConfigs.recommendedTypeChecked
+      : vueTsConfigs.recommended,
+  ) as Linter.Config[];
+
   return coreConfig(options).append([
-    ...customizedVueConfig,
-    ...(vueTsEslintPlugin() as Linter.Config[]),
+    ...vueConfigs,
     ...formattingPlugins,
   ] as const satisfies Linter.Config[]);
 }
