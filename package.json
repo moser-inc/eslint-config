@@ -23,7 +23,6 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@moser-inc/eslint-config": "^1.18.6",
     "@qiwi/multi-semantic-release": "^7.1.2",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.1",
@@ -31,8 +30,8 @@
     "@semantic-release/github": "^11.0.1",
     "@semantic-release/npm": "^12.0.1",
     "@semantic-release/release-notes-generator": "^14.0.3",
-    "@types/eslint": "^9.6.1",
     "@types/node": "~22.10.7",
+    "@typescript-eslint/parser": "^8.21.0",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "eslint": "^9.18.0",
     "npm-run-all2": "^7.0.2",
