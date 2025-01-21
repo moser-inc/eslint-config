@@ -26,7 +26,7 @@ const compat = new FlatCompat({
  * export default moser().append(...);
  */
 export function reactConfig(options?: MoserConfigOptions) {
-  return coreConfig(options).append([
+  const reactConfigs = [
     reactPlugin.configs.flat!.recommended,
     reactPlugin.configs.flat!['jsx-runtime'],
     ...compat.config({
@@ -43,6 +43,10 @@ export function reactConfig(options?: MoserConfigOptions) {
         },
       },
     },
+  ] as const satisfies Linter.Config[];
+
+  return coreConfig(options).append([
+    ...reactConfigs,
     ...formattingPlugins,
   ] as const satisfies Linter.Config[]);
 }
