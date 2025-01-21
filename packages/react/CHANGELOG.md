@@ -1,3 +1,17 @@
+## @moser-inc/eslint-config-react [2.3.8](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.3.7...@moser-inc/eslint-config-react@2.3.8) (2025-01-21)
+
+
+### Miscellaneous Chores
+
+* **react:** extract react configs for readability ([b81b0fc](https://github.com/moser-inc/eslint-config/commit/b81b0fcf8eeeb3a2b0ac1889ac2299dda6e5ff7a))
+* simplify project lint commands ([a410d01](https://github.com/moser-inc/eslint-config/commit/a410d01f026ccac73195fda9ca01377b16b1e73a))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.18.7
+
 ## @moser-inc/eslint-config-react [2.3.7](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.3.6...@moser-inc/eslint-config-react@2.3.7) (2025-01-13)
 
 
