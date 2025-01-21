@@ -1,3 +1,15 @@
+## @moser-inc/eslint-config [1.18.7](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.6...@moser-inc/eslint-config@1.18.7) (2025-01-21)
+
+
+### Bug Fixes
+
+* **core:** update core plugins ([ee68327](https://github.com/moser-inc/eslint-config/commit/ee6832783fc3ed4d6b5547821b93ba2063f23e23))
+
+
+### Miscellaneous Chores
+
+* simplify project lint commands ([a410d01](https://github.com/moser-inc/eslint-config/commit/a410d01f026ccac73195fda9ca01377b16b1e73a))
+
 ## @moser-inc/eslint-config [1.18.6](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.5...@moser-inc/eslint-config@1.18.6) (2025-01-13)
 
 
