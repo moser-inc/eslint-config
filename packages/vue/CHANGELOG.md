@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config-vue [1.17.7](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.17.6...@moser-inc/eslint-config-vue@1.17.7) (2025-01-21)
+
+
+### Bug Fixes
+
+* **vue:** update vue plugins and migrate typescript plugin ([c1390c9](https://github.com/moser-inc/eslint-config/commit/c1390c9d01f6a64980f886ec7adbb4dcffdea3f5))
+
+
+### Miscellaneous Chores
+
+* simplify project lint commands ([a410d01](https://github.com/moser-inc/eslint-config/commit/a410d01f026ccac73195fda9ca01377b16b1e73a))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.18.7
+
 ## @moser-inc/eslint-config-vue [1.17.6](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@1.17.5...@moser-inc/eslint-config-vue@1.17.6) (2025-01-13)
 
 
