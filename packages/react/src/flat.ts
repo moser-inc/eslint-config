@@ -1,18 +1,11 @@
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-// @ts-expect-error untyped module
-import { FlatCompat } from '@eslint/eslintrc';
 import { coreConfig, formattingPlugins } from '@moser-inc/eslint-config/flat';
 import type { MoserConfigOptions } from '@moser-inc/eslint-config/flat';
 import type { Linter } from 'eslint';
 import reactPlugin from 'eslint-plugin-react';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
+// @ts-expect-error untyped module
+import reactCompilerPlugin from 'eslint-plugin-react-compiler';
+// @ts-expect-error untyped module
+import reactHooksPlugin from 'eslint-plugin-react-hooks';
 
 /**
  * Exports a function that returns a
@@ -29,13 +22,15 @@ export function reactConfig(options?: MoserConfigOptions) {
   const reactConfigs = [
     reactPlugin.configs.flat!.recommended,
     reactPlugin.configs.flat!['jsx-runtime'],
-    ...compat.config({
-      extends: ['plugin:react-hooks/recommended'],
-      plugins: ['react-compiler'],
+    reactHooksPlugin.configs['recommended-latest'],
+    {
+      plugins: {
+        'react-compiler': reactCompilerPlugin,
+      },
       rules: {
         'react-compiler/react-compiler': 'warn',
       },
-    }),
+    },
     {
       settings: {
         react: {
