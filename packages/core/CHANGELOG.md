@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [1.18.8](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.7...@moser-inc/eslint-config@1.18.8) (2025-01-22)
+
+
+### Bug Fixes
+
+* **core:** update flat config utils ([e984676](https://github.com/moser-inc/eslint-config/commit/e9846765541ecdb4a1c713132f7fd93cff0539ed))
+
 ## @moser-inc/eslint-config [1.18.7](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.6...@moser-inc/eslint-config@1.18.7) (2025-01-21)
 
 
