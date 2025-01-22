@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-react [2.4.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.3.8...@moser-inc/eslint-config-react@2.4.0) (2025-01-22)
+
+
+### Features
+
+* **react:** migrate to flat config format for react hooks and react compiler plugins ([f7e6b4d](https://github.com/moser-inc/eslint-config/commit/f7e6b4dc2c313534b38ba6abf5225055bd604726))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 1.18.8
+
 ## @moser-inc/eslint-config-react [2.3.8](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@2.3.7...@moser-inc/eslint-config-react@2.3.8) (2025-01-21)
 
 
