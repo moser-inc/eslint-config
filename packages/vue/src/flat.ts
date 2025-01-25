@@ -5,6 +5,7 @@ import {
   vueTsConfigs,
 } from '@vue/eslint-config-typescript';
 import type { Linter } from 'eslint';
+import type { DefaultConfigNamesMap } from 'eslint-flat-config-utils';
 import vuePlugin from 'eslint-plugin-vue';
 import { isVue2, version } from 'vue-demi';
 
@@ -122,7 +123,10 @@ const customizedVueConfig = [
  *
  * export default moser().append(...);
  */
-export function vueConfig(options?: MoserConfigOptions) {
+export function vueConfig<
+  const TConfig extends Linter.Config = Linter.Config,
+  const TConfigNames extends string = keyof DefaultConfigNamesMap,
+>(options?: MoserConfigOptions) {
   const tsconfigPath = options?.tsconfigPath;
   const isTypeAware = !!tsconfigPath;
 
@@ -133,7 +137,7 @@ export function vueConfig(options?: MoserConfigOptions) {
       : vueTsConfigs.recommended,
   ) as Linter.Config[];
 
-  return coreConfig(options).append([
+  return coreConfig<TConfig, TConfigNames>(options).append([
     ...vueConfigs,
     ...formattingPlugins,
   ] as const satisfies Linter.Config[]);

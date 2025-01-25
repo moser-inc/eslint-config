@@ -2,7 +2,7 @@
 import process from 'node:process';
 import jsEslintPlugin from '@eslint/js';
 import type { Linter } from 'eslint';
-import { composer } from 'eslint-flat-config-utils';
+import { type DefaultConfigNamesMap, composer } from 'eslint-flat-config-utils';
 import importPlugin from 'eslint-plugin-import-x';
 import prettierPlugin from 'eslint-plugin-prettier/recommended';
 import tsEslintPlugin from 'typescript-eslint';
@@ -137,8 +137,11 @@ export const formattingPlugins = [
  *
  * export default moser().append(...);
  */
-export function coreConfig(options?: MoserConfigOptions) {
-  return composer([
+export function coreConfig<
+  const TConfig extends Linter.Config = Linter.Config,
+  const TConfigNames extends string = keyof DefaultConfigNamesMap,
+>(options?: MoserConfigOptions) {
+  return composer<TConfig, TConfigNames>([
     ...globalPlugins,
     ...jsTsPlugins(options),
     ...importPlugins,

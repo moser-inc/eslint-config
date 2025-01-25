@@ -54,6 +54,7 @@
     "@moser-inc/eslint-config": "1.18.8",
     "@vue/eslint-config-prettier": "^10.2.0",
     "@vue/eslint-config-typescript": "^14.3.0",
+    "eslint-flat-config-utils": "^2.0.0",
     "eslint-plugin-vue": "^9.32.0",
     "vue-demi": "^0.14.10"
   },

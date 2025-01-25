@@ -1,6 +1,7 @@
 import { coreConfig, formattingPlugins } from '@moser-inc/eslint-config/flat';
 import type { MoserConfigOptions } from '@moser-inc/eslint-config/flat';
 import type { Linter } from 'eslint';
+import type { DefaultConfigNamesMap } from 'eslint-flat-config-utils';
 import reactPlugin from 'eslint-plugin-react';
 // @ts-expect-error untyped module
 import reactCompilerPlugin from 'eslint-plugin-react-compiler';
@@ -18,7 +19,10 @@ import reactHooksPlugin from 'eslint-plugin-react-hooks';
  *
  * export default moser().append(...);
  */
-export function reactConfig(options?: MoserConfigOptions) {
+export function reactConfig<
+  const TConfig extends Linter.Config = Linter.Config,
+  const TConfigNames extends string = keyof DefaultConfigNamesMap,
+>(options?: MoserConfigOptions) {
   const reactConfigs = [
     reactPlugin.configs.flat!.recommended,
     reactPlugin.configs.flat!['jsx-runtime'],
@@ -40,7 +44,7 @@ export function reactConfig(options?: MoserConfigOptions) {
     },
   ] as const satisfies Linter.Config[];
 
-  return coreConfig(options).append([
+  return coreConfig<TConfig, TConfigNames>(options).append([
     ...reactConfigs,
     ...formattingPlugins,
   ] as const satisfies Linter.Config[]);
