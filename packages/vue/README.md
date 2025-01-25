@@ -1,4 +1,4 @@
-# Moser ESLint Config Vue
+# Moser ESLint Config Vue [![npm](https://img.shields.io/npm/v/@moser-inc/eslint-config-vue.svg)](https://npmjs.com/package/@moser-inc/eslint-config-vue)
 
 This is the set of rules to for usage in Vue based projects.
 

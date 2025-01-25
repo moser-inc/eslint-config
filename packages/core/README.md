@@ -1,4 +1,4 @@
-# Moser ESLint Config Core
+# Moser ESLint Config Core [![npm](https://img.shields.io/npm/v/@moser-inc/eslint-config.svg)](https://npmjs.com/package/@moser-inc/eslint-config)
 
 This is the core set of rules to for use in each variation and in isolation when using an alternate library or framework.
 

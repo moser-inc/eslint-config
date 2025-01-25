@@ -1,4 +1,4 @@
-# Moser ESLint Config React
+# Moser ESLint Config React [![npm](https://img.shields.io/npm/v/@moser-inc/eslint-config-react.svg)](https://npmjs.com/package/@moser-inc/eslint-config-react)
 
 This is the set of rules to for usage in React based projects.
 
