@@ -16,7 +16,7 @@ export interface MoserConfigOptions {
   tsconfigPath?: string;
 }
 
-export const globalPlugins = [
+export const globalConfigs = [
   {
     ignores: [
       '**/node_modules/',
@@ -29,7 +29,7 @@ export const globalPlugins = [
   },
 ] as const satisfies Linter.Config[];
 
-export const jsTsPlugins = (options?: MoserConfigOptions) => {
+export const jsTsConfigs = (options?: MoserConfigOptions) => {
   const tsconfigPath = options?.tsconfigPath;
   const isTypeAware = !!tsconfigPath;
 
@@ -91,7 +91,7 @@ export const jsTsPlugins = (options?: MoserConfigOptions) => {
   ) as Linter.Config[];
 };
 
-export const importPlugins = [
+export const importConfigs = [
   importPlugin.flatConfigs.recommended as Linter.Config,
   importPlugin.flatConfigs.typescript,
   {
@@ -116,7 +116,7 @@ export const importPlugins = [
   },
 ] as const satisfies Linter.Config[];
 
-export const formattingPlugins = [
+export const formattingConfigs = [
   {
     ...prettierPlugin,
     rules: {
@@ -142,10 +142,10 @@ export function coreConfig<
   const TConfigNames extends string = keyof DefaultConfigNamesMap,
 >(options?: MoserConfigOptions) {
   return composer<TConfig, TConfigNames>([
-    ...globalPlugins,
-    ...jsTsPlugins(options),
-    ...importPlugins,
-    ...formattingPlugins,
+    ...globalConfigs,
+    ...jsTsConfigs(options),
+    ...importConfigs,
+    ...formattingConfigs,
   ] as const satisfies Linter.Config[]);
 }
 

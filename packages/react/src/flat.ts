@@ -1,4 +1,4 @@
-import { coreConfig, formattingPlugins } from '@moser-inc/eslint-config/flat';
+import { coreConfig, formattingConfigs } from '@moser-inc/eslint-config/flat';
 import type { MoserConfigOptions } from '@moser-inc/eslint-config/flat';
 import type { Linter } from 'eslint';
 import type { DefaultConfigNamesMap } from 'eslint-flat-config-utils';
@@ -46,7 +46,7 @@ export function reactConfig<
 
   return coreConfig<TConfig, TConfigNames>(options).append([
     ...reactConfigs,
-    ...formattingPlugins,
+    ...formattingConfigs,
   ] as const satisfies Linter.Config[]);
 }
 
