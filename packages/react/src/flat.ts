@@ -11,26 +11,28 @@ import reactCompilerPlugin from 'eslint-plugin-react-compiler';
 // @ts-expect-error untyped module
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 
-export const reactConfigs = [
-  reactPlugin.configs.flat.recommended,
-  reactPlugin.configs.flat['jsx-runtime'],
-  reactHooksPlugin.configs['recommended-latest'],
-  {
-    plugins: {
-      'react-compiler': reactCompilerPlugin,
-    },
-    rules: {
-      'react-compiler/react-compiler': 'warn',
-    },
-  },
-  {
-    settings: {
-      react: {
-        version: 'detect',
+export function reactConfigs() {
+  return [
+    reactPlugin.configs.flat.recommended,
+    reactPlugin.configs.flat['jsx-runtime'],
+    reactHooksPlugin.configs['recommended-latest'],
+    {
+      plugins: {
+        'react-compiler': reactCompilerPlugin,
+      },
+      rules: {
+        'react-compiler/react-compiler': 'warn',
       },
     },
-  },
-] as const satisfies Linter.Config[];
+    {
+      settings: {
+        react: {
+          version: 'detect',
+        },
+      },
+    },
+  ] as const satisfies Linter.Config[];
+}
 
 /**
  * Exports a function that returns a
@@ -48,8 +50,8 @@ export function reactConfig<
   const TConfigNames extends string = keyof DefaultConfigNamesMap,
 >(options?: MoserConfigOptions) {
   return coreConfig<TConfig, TConfigNames>(options).append(
-    reactConfigs,
-    formattingConfigs,
+    reactConfigs(),
+    formattingConfigs(),
   );
 }
 

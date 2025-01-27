@@ -32,20 +32,22 @@ export interface MoserConfigOptions {
   tsconfigPath?: string;
 }
 
-export const globalConfigs = [
-  {
-    ignores: [
-      '**/node_modules/',
-      '**/build/',
-      '**/dist/',
-      '**/.output/',
-      '**/.next/',
-      '**/.nuxt/',
-    ],
-  },
-] as const satisfies Linter.Config[];
+export function globalConfigs() {
+  return [
+    {
+      ignores: [
+        '**/node_modules/',
+        '**/build/',
+        '**/dist/',
+        '**/.output/',
+        '**/.next/',
+        '**/.nuxt/',
+      ],
+    },
+  ] as const satisfies Linter.Config[];
+}
 
-export const jsTsConfigs = (options?: MoserConfigOptions) => {
+export function jsTsConfigs(options?: MoserConfigOptions) {
   const tsconfigPath = options?.tsconfigPath;
   const isTypeAware = !!tsconfigPath;
 
@@ -105,42 +107,46 @@ export const jsTsConfigs = (options?: MoserConfigOptions) => {
       },
     },
   ) as Linter.Config[];
-};
+}
 
-export const importConfigs = [
-  importPlugin.flatConfigs.recommended as Linter.Config,
-  importPlugin.flatConfigs.typescript,
-  {
-    files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx,vue}'],
-    rules: {
-      'import-x/no-unresolved': ['error', { ignore: ['\\?*$'] }],
-      'import-x/order': [
-        'warn',
-        {
-          groups: [
-            'builtin',
-            'external',
-            'internal',
-            'parent',
-            'sibling',
-            'index',
-          ],
-          alphabetize: { order: 'asc', caseInsensitive: false },
-        },
-      ],
+export function importConfigs() {
+  return [
+    importPlugin.flatConfigs.recommended as Linter.Config,
+    importPlugin.flatConfigs.typescript,
+    {
+      files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx,vue}'],
+      rules: {
+        'import-x/no-unresolved': ['error', { ignore: ['\\?*$'] }],
+        'import-x/order': [
+          'warn',
+          {
+            groups: [
+              'builtin',
+              'external',
+              'internal',
+              'parent',
+              'sibling',
+              'index',
+            ],
+            alphabetize: { order: 'asc', caseInsensitive: false },
+          },
+        ],
+      },
     },
-  },
-] as const satisfies Linter.Config[];
+  ] as const satisfies Linter.Config[];
+}
 
-export const formattingConfigs = [
-  {
-    ...prettierPlugin,
-    rules: {
-      ...prettierPlugin.rules,
-      'prettier/prettier': 'warn',
+export function formattingConfigs() {
+  return [
+    {
+      ...prettierPlugin,
+      rules: {
+        ...prettierPlugin.rules,
+        'prettier/prettier': 'warn',
+      },
     },
-  },
-] as const satisfies Linter.Config[];
+  ] as const satisfies Linter.Config[];
+}
 
 /**
  * Exports a function that returns a
@@ -158,10 +164,10 @@ export function coreConfig<
   const TConfigNames extends string = keyof DefaultConfigNamesMap,
 >(options?: MoserConfigOptions) {
   return composer<TConfig, TConfigNames>(
-    globalConfigs,
+    globalConfigs(),
     jsTsConfigs(options),
-    importConfigs,
-    formattingConfigs,
+    importConfigs(),
+    formattingConfigs(),
   );
 }
 

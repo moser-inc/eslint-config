@@ -12,7 +12,7 @@ import type { Linter } from 'eslint';
 import vuePlugin from 'eslint-plugin-vue';
 import { isVue2, version } from 'vue-demi';
 
-export const vueConfigs = (options?: MoserConfigOptions) => {
+export function vueConfigs(options?: MoserConfigOptions) {
   const tsconfigPath = options?.tsconfigPath;
   const isTypeAware = !!tsconfigPath;
 
@@ -126,7 +126,7 @@ export const vueConfigs = (options?: MoserConfigOptions) => {
       ? vueTsConfigs.recommendedTypeChecked
       : vueTsConfigs.recommended,
   ) as Linter.Config[];
-};
+}
 
 /**
  * Exports a function that returns a
@@ -145,7 +145,7 @@ export function vueConfig<
 >(options?: MoserConfigOptions) {
   return coreConfig<TConfig, TConfigNames>(options).append(
     vueConfigs(options),
-    formattingConfigs,
+    formattingConfigs(),
   );
 }
 
