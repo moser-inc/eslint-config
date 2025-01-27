@@ -141,7 +141,6 @@ export function formattingConfigs() {
     {
       ...prettierPlugin,
       rules: {
-        ...prettierPlugin.rules,
         'prettier/prettier': 'warn',
       },
     },
