@@ -2,10 +2,26 @@
 import process from 'node:process';
 import jsEslintPlugin from '@eslint/js';
 import type { Linter } from 'eslint';
-import { type DefaultConfigNamesMap, composer } from 'eslint-flat-config-utils';
+import {
+  type DefaultConfigNamesMap,
+  type ResolvableFlatConfig,
+  composer,
+} from 'eslint-flat-config-utils';
 import importPlugin from 'eslint-plugin-import-x';
 import prettierPlugin from 'eslint-plugin-prettier/recommended';
 import tsEslintPlugin from 'typescript-eslint';
+
+export {
+  defineFlatConfig,
+  type DefaultConfigNamesMap,
+} from 'eslint-flat-config-utils';
+
+export function defineFlatConfigs<
+  const TConfig extends Linter.Config = Linter.Config,
+  const TConfigNames extends string = keyof DefaultConfigNamesMap,
+>(...configs: ResolvableFlatConfig<TConfig>[]) {
+  return composer<TConfig, TConfigNames>(...configs);
+}
 
 export interface MoserConfigOptions {
   /**
@@ -141,12 +157,12 @@ export function coreConfig<
   const TConfig extends Linter.Config = Linter.Config,
   const TConfigNames extends string = keyof DefaultConfigNamesMap,
 >(options?: MoserConfigOptions) {
-  return composer<TConfig, TConfigNames>([
-    ...globalConfigs,
-    ...jsTsConfigs(options),
-    ...importConfigs,
-    ...formattingConfigs,
-  ] as const satisfies Linter.Config[]);
+  return composer<TConfig, TConfigNames>(
+    globalConfigs,
+    jsTsConfigs(options),
+    importConfigs,
+    formattingConfigs,
+  );
 }
 
 export default coreConfig;
