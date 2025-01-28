@@ -21,7 +21,10 @@ export default defineBuildConfig({
         },
       });
 
-      let dts = await flatConfigsToRulesDTS(config);
+      let dts = await flatConfigsToRulesDTS(config, {
+        includeIgnoreComments: false,
+        includeTypeImports: false,
+      });
 
       const configNames = [
         ...new Set(
