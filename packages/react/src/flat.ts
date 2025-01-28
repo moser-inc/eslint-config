@@ -17,6 +17,7 @@ export function reactConfigs() {
     reactPlugin.configs.flat['jsx-runtime'],
     reactHooksPlugin.configs['recommended-latest'],
     {
+      name: 'moser/react/react-compiler',
       plugins: {
         'react-compiler': reactCompilerPlugin,
       },
@@ -25,6 +26,7 @@ export function reactConfigs() {
       },
     },
     {
+      name: 'moser/react/settings',
       settings: {
         react: {
           version: 'detect',

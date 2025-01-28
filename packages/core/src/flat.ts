@@ -35,6 +35,7 @@ export interface MoserConfigOptions {
 export function globalConfigs() {
   return [
     {
+      name: 'moser/global/ignores',
       ignores: [
         '**/node_modules/',
         '**/build/',
@@ -56,6 +57,7 @@ export function jsTsConfigs(options?: MoserConfigOptions) {
     tsEslintPlugin.configs.eslintRecommended,
     tsEslintPlugin.configs.recommended,
     {
+      name: 'moser/js-ts/base',
       rules: {
         // JavaScript
         curly: ['error', 'multi-line', 'consistent'],
@@ -74,6 +76,7 @@ export function jsTsConfigs(options?: MoserConfigOptions) {
     ...(isTypeAware
       ? ([
           {
+            name: 'moser/js-ts/settings',
             languageOptions: {
               parserOptions: {
                 projectService: {
@@ -85,6 +88,7 @@ export function jsTsConfigs(options?: MoserConfigOptions) {
             },
           },
           {
+            name: 'moser/js-ts/type-aware',
             files: ['**/*.{ts,tsx,mts,cts}'],
             rules: {
               '@typescript-eslint/consistent-type-imports': [
@@ -96,10 +100,12 @@ export function jsTsConfigs(options?: MoserConfigOptions) {
         ] satisfies Parameters<typeof tsEslintPlugin.config>)
       : []),
     {
+      name: 'moser/js-ts/overrides',
       files: ['**/*.{js,mjs,cjs,jsx}'],
       extends: [tsEslintPlugin.configs.disableTypeChecked],
     },
     {
+      name: 'moser/js-ts/commonjs-overrides',
       files: ['**/*.{js,cjs,cts}'],
       rules: {
         'no-undef': 'off',
@@ -114,6 +120,7 @@ export function importConfigs() {
     importPlugin.flatConfigs.recommended as Linter.Config,
     importPlugin.flatConfigs.typescript,
     {
+      name: 'moser/import/overrides',
       files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx,vue}'],
       rules: {
         'import-x/no-unresolved': ['error', { ignore: ['\\?*$'] }],
@@ -140,6 +147,7 @@ export function formattingConfigs() {
   return [
     {
       ...prettierPlugin,
+      name: 'moser/formatting/prettier',
       rules: {
         'prettier/prettier': 'warn',
       },

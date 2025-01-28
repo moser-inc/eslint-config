@@ -20,6 +20,7 @@ export function vueConfigs(options?: MoserConfigOptions) {
     [
       ...vuePlugin.configs['flat/recommended'],
       {
+        name: 'moser/vue/overrides',
         files: ['**/*.vue'],
         rules: {
           // Customized
