@@ -11,11 +11,6 @@ import importPlugin from 'eslint-plugin-import-x';
 import prettierPlugin from 'eslint-plugin-prettier/recommended';
 import tsEslintPlugin from 'typescript-eslint';
 
-export {
-  defineFlatConfig,
-  type DefaultConfigNamesMap,
-} from 'eslint-flat-config-utils';
-
 export function defineFlatConfigs<
   const TConfig extends Linter.Config = Linter.Config,
   const TConfigNames extends string = keyof DefaultConfigNamesMap,
@@ -177,5 +172,9 @@ export function coreConfig<
     formattingConfigs(),
   );
 }
+
+export { defineFlatConfig } from 'eslint-flat-config-utils';
+
+export type { DefaultConfigNamesMap };
 
 export default coreConfig;
