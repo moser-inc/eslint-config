@@ -1,3 +1,40 @@
+## @moser-inc/eslint-config [2.0.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.8...@moser-inc/eslint-config@2.0.0) (2025-01-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* make all exported configs functions
+* **core:** rename exported configs
+
+### Features
+
+* add config names ([5b1810a](https://github.com/moser-inc/eslint-config/commit/5b1810a6475f0375b7e7d27b201cb683dbd39414))
+* add generated rule type defs to built dts files ([ec20165](https://github.com/moser-inc/eslint-config/commit/ec201651e9bec4bc9feef912de897b2fb8b6490f))
+* export helpful utils from core ([4dbac5b](https://github.com/moser-inc/eslint-config/commit/4dbac5b47410c92e388c8706e0a6f21d1b29b01b))
+* support typed configs ([4227ec5](https://github.com/moser-inc/eslint-config/commit/4227ec50ccd591e680d002d0c9a60258cd143436))
+
+
+### Bug Fixes
+
+* **core:** update plugins ([e3ae9e1](https://github.com/moser-inc/eslint-config/commit/e3ae9e153956e45d46b5dc65caa00e38c100e9af))
+* remove duplicate type import in generated definitions ([de1c49b](https://github.com/moser-inc/eslint-config/commit/de1c49be6d3f778050d1fbc6c3fcf4603cc99c75))
+
+
+### Documentation
+
+* add badges to readmes ([5c03821](https://github.com/moser-inc/eslint-config/commit/5c03821fab48c22d2b236b1cf5870a9f48d619ec))
+
+
+### Miscellaneous Chores
+
+* update dev deps ([b20501d](https://github.com/moser-inc/eslint-config/commit/b20501d0023546ef96197daa795e121812705fdf))
+
+
+### Code Refactoring
+
+* **core:** rename exported configs ([787ae61](https://github.com/moser-inc/eslint-config/commit/787ae61c47cb0ee5c575793765b6d24712ba914a))
+* make all exported configs functions ([b17f1a5](https://github.com/moser-inc/eslint-config/commit/b17f1a5a2d4198ab9040bd291d1daa9d1537dbd4))
+
 ## @moser-inc/eslint-config [1.18.8](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.7...@moser-inc/eslint-config@1.18.8) (2025-01-22)
 
 
