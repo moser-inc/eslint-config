@@ -1,3 +1,15 @@
+## @moser-inc/eslint-config [2.0.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.0.0...@moser-inc/eslint-config@2.0.1) (2025-01-29)
+
+
+### Bug Fixes
+
+* **core:** update core config exports ([cc0241c](https://github.com/moser-inc/eslint-config/commit/cc0241ca456fee8791f6be15cff14849a8c10ab6))
+
+
+### Miscellaneous Chores
+
+* add module type to package json ([4eaee0e](https://github.com/moser-inc/eslint-config/commit/4eaee0e4f456e8386ad871bfa2533e230b7a14a4))
+
 ## @moser-inc/eslint-config [2.0.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@1.18.8...@moser-inc/eslint-config@2.0.0) (2025-01-29)
 
 
