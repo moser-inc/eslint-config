@@ -8,8 +8,7 @@ import type { Linter } from 'eslint';
 import reactPlugin from 'eslint-plugin-react';
 // @ts-expect-error untyped module
 import reactCompilerPlugin from 'eslint-plugin-react-compiler';
-// @ts-expect-error untyped module
-import reactHooksPlugin from 'eslint-plugin-react-hooks';
+import * as reactHooksPlugin from 'eslint-plugin-react-hooks';
 
 export function reactConfigs() {
   return [
