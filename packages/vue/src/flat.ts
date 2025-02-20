@@ -26,6 +26,9 @@ export function vueConfigs(options?: MoserConfigOptions) {
           // Customized
           'vue/valid-v-slot': ['error', { allowModifiers: true }],
 
+          // Disabled
+          'vue/max-attributes-per-line': 'off',
+
           // Uncategorized
           'vue/block-lang': ['error', { script: { lang: ['ts', 'tsx'] } }],
           'vue/block-order': [
