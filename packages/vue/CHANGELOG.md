@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config-vue [2.1.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@2.1.1...@moser-inc/eslint-config-vue@2.1.2) (2025-02-20)
+
+
+### Bug Fixes
+
+* **vue:** disable `vue/singleline-html-element-content-newline` causing formatting conflicts ([eacead4](https://github.com/moser-inc/eslint-config/commit/eacead406c32db49c12ac0f91aa2a37ba924bb74))
+
 ## @moser-inc/eslint-config-vue [2.1.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@2.1.0...@moser-inc/eslint-config-vue@2.1.1) (2025-02-20)
 
 
