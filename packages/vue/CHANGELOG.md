@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config-vue [2.1.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@2.1.0...@moser-inc/eslint-config-vue@2.1.1) (2025-02-20)
+
+
+### Bug Fixes
+
+* **vue:** disable `vue/max-attributes-per-line` causing formatting conflicts ([0d27293](https://github.com/moser-inc/eslint-config/commit/0d27293ce758b7252e219bb60a4851a8f51d59e7))
+
 ## @moser-inc/eslint-config-vue [2.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@2.0.0...@moser-inc/eslint-config-vue@2.1.0) (2025-02-19)
 
 
