@@ -28,6 +28,7 @@ export function vueConfigs(options?: MoserConfigOptions) {
 
           // Disabled
           'vue/max-attributes-per-line': 'off',
+          'vue/singleline-html-element-content-newline': 'off',
 
           // Uncategorized
           'vue/block-lang': ['error', { script: { lang: ['ts', 'tsx'] } }],
