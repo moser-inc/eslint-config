@@ -1,3 +1,15 @@
+## @moser-inc/eslint-config [2.2.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.1.0...@moser-inc/eslint-config@2.2.0) (2025-03-03)
+
+
+### Features
+
+* **core:** update core plugins and support typescript 5.8 ([837d223](https://github.com/moser-inc/eslint-config/commit/837d22370fa68531fb07b713b4e68d596749be08))
+
+
+### Miscellaneous Chores
+
+* update dev deps ([229f239](https://github.com/moser-inc/eslint-config/commit/229f239b9d9d8aa209125c22f8b5f1e9a92cd7e1))
+
 ## @moser-inc/eslint-config [2.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.0.1...@moser-inc/eslint-config@2.1.0) (2025-02-19)
 
 
