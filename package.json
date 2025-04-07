@@ -30,15 +30,15 @@
     "@semantic-release/github": "^11.0.1",
     "@semantic-release/npm": "^12.0.1",
     "@semantic-release/release-notes-generator": "^14.0.3",
-    "@types/node": "~22.10.10",
-    "@typescript-eslint/parser": "^8.26.0",
+    "@types/node": "~22.14.0",
+    "@typescript-eslint/parser": "^8.29.1",
     "conventional-changelog-conventionalcommits": "6.1.0",
-    "eslint": "^9.21.0",
+    "eslint": "^9.24.0",
     "npm-run-all2": "^7.0.2",
     "prettier": "^3.5.3",
     "semantic-release": "^24.2.3",
     "standard-version": "^9.5.0",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   },
   "overrides": {
     "conventional-changelog-conventionalcommits": "6.1.0"

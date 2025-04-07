@@ -57,7 +57,7 @@
     "eslint-plugin-react-hooks": "^5.2.0-canary-d55cc79b-20250228"
   },
   "devDependencies": {
-    "eslint-typegen": "^2.0.0",
+    "eslint-typegen": "^2.1.0",
     "unbuild": "^3.5.0"
   },
   "repository": {
