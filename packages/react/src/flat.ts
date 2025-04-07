@@ -6,7 +6,6 @@ import {
 } from '@moser-inc/eslint-config/flat';
 import type { Linter } from 'eslint';
 import reactPlugin from 'eslint-plugin-react';
-// @ts-expect-error untyped module
 import reactCompilerPlugin from 'eslint-plugin-react-compiler';
 import * as reactHooksPlugin from 'eslint-plugin-react-hooks';
 

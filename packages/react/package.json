@@ -52,9 +52,9 @@
   },
   "dependencies": {
     "@moser-inc/eslint-config": "2.2.0",
-    "eslint-plugin-react": "^7.37.4",
-    "eslint-plugin-react-compiler": "^19.0.0-beta-40c6c23-20250301",
-    "eslint-plugin-react-hooks": "^5.2.0-canary-d55cc79b-20250228"
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-compiler": "^19.0.0-beta-e993439-20250405",
+    "eslint-plugin-react-hooks": "^5.2.0"
   },
   "devDependencies": {
     "eslint-typegen": "^2.1.0",
