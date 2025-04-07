@@ -113,7 +113,7 @@ export function jsTsConfigs(options?: MoserConfigOptions) {
 export function importConfigs() {
   return [
     importPlugin.flatConfigs.recommended as Linter.Config,
-    importPlugin.flatConfigs.typescript,
+    importPlugin.flatConfigs.typescript as Linter.Config,
     {
       name: 'moser/import/overrides',
       files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx,vue}'],
