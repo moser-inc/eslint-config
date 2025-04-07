@@ -69,6 +69,7 @@ export function vueConfigs(options?: MoserConfigOptions) {
           'vue/no-boolean-default': 'error',
           'vue/no-duplicate-attr-inheritance': 'error',
           'vue/no-empty-component-block': 'error',
+          'vue/no-import-compiler-macros': 'error',
           'vue/no-multiple-objects-in-class': 'error',
           'vue/no-ref-object-reactivity-loss': 'error',
           'vue/no-required-prop-with-default': ['error', { autofix: true }],
@@ -100,8 +101,7 @@ export function vueConfigs(options?: MoserConfigOptions) {
             { sameNameShorthand: 'always' },
           ],
           'vue/v-for-delimiter-style': 'error',
-          'vue/v-on-function-call': 'error',
-          'vue/valid-define-options': 'error',
+          'vue/v-on-handler-style': 'error',
 
           // Deprecations
           'vue/no-deprecated-data-object-declaration': 'error',
