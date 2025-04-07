@@ -20,7 +20,7 @@ const legacyVueConfig = {
   },
   extends: [
     '@moser-inc',
-    isVue2 ? 'plugin:vue/recommended' : 'plugin:vue/vue3-recommended',
+    isVue2 ? 'plugin:vue/vue2-recommended' : 'plugin:vue/recommended',
     'plugin:prettier/recommended',
   ],
   overrides: [
@@ -92,7 +92,7 @@ const legacyVueConfig = {
     'vue/require-name-property': 'warn',
     'vue/require-typed-ref': 'warn',
     'vue/v-for-delimiter-style': 'warn',
-    'vue/v-on-function-call': 'warn',
+    'vue/v-on-handler-style': 'warn',
     'vue/valid-define-options': 'warn',
 
     // Deprecations
