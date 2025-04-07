@@ -156,6 +156,4 @@ export function vueConfig<
 
 export * from '@moser-inc/eslint-config/flat';
 
-export type { MoserConfigOptions, DefaultConfigNamesMap };
-
 export default vueConfig;
