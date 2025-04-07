@@ -6,7 +6,7 @@ import {
 } from '@moser-inc/eslint-config/flat';
 import type { Linter } from 'eslint';
 import reactPlugin from 'eslint-plugin-react';
-import reactCompilerPlugin from 'eslint-plugin-react-compiler';
+import { configs as reactCompilerConfigs } from 'eslint-plugin-react-compiler';
 import * as reactHooksPlugin from 'eslint-plugin-react-hooks';
 
 export function reactConfigs() {
@@ -15,13 +15,8 @@ export function reactConfigs() {
     reactPlugin.configs.flat['jsx-runtime'],
     reactHooksPlugin.configs['recommended-latest'],
     {
+      ...reactCompilerConfigs['recommended'],
       name: 'moser/react/react-compiler',
-      plugins: {
-        'react-compiler': reactCompilerPlugin,
-      },
-      rules: {
-        'react-compiler/react-compiler': 'warn',
-      },
     },
     {
       name: 'moser/react/settings',
