@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-vue [2.1.5](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@2.1.4...@moser-inc/eslint-config-vue@2.1.5) (2025-04-08)
+
+
+### Bug Fixes
+
+* **vue:** remove recommended type check rules from vue until enabled in core ([ca72b9a](https://github.com/moser-inc/eslint-config/commit/ca72b9afa176dac0100c9522d127e7e4f0ca267f))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 2.2.2
+
 ## @moser-inc/eslint-config-vue [2.1.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@2.1.3...@moser-inc/eslint-config-vue@2.1.4) (2025-04-07)
 
 
