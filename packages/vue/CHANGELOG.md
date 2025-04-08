@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config-vue [2.1.6](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@2.1.5...@moser-inc/eslint-config-vue@2.1.6) (2025-04-08)
+
+
+### Bug Fixes
+
+* **vue:** include core js ts config when setting up vue ts ([96136fd](https://github.com/moser-inc/eslint-config/commit/96136fde18a87e4bb60e92e7084ddce66cb3ca87))
+
 ## @moser-inc/eslint-config-vue [2.1.5](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@2.1.4...@moser-inc/eslint-config-vue@2.1.5) (2025-04-08)
 
 
