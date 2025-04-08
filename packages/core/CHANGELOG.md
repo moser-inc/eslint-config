@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [2.2.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.2.1...@moser-inc/eslint-config@2.2.2) (2025-04-08)
+
+
+### Bug Fixes
+
+* **core:** add vue files to list of valid type aware file types ([1986e39](https://github.com/moser-inc/eslint-config/commit/1986e3941f7912f55e9066929c59c0b56ef790f4))
+
 ## @moser-inc/eslint-config [2.2.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.2.0...@moser-inc/eslint-config@2.2.1) (2025-04-07)
 
 
