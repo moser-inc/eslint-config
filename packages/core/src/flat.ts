@@ -84,7 +84,7 @@ export function jsTsConfigs(options?: MoserConfigOptions) {
           },
           {
             name: 'moser/js-ts/type-aware',
-            files: ['**/*.{ts,tsx,mts,cts}'],
+            files: ['**/*.{ts,tsx,mts,cts,vue}'],
             rules: {
               '@typescript-eslint/consistent-type-imports': [
                 'error',
