@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-react [3.1.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@3.1.3...@moser-inc/eslint-config-react@3.1.4) (2025-04-16)
+
+
+### Bug Fixes
+
+* **react:** update react plugins ([8daabe1](https://github.com/moser-inc/eslint-config/commit/8daabe159bdc102093aa59326db015e7a8a709c0))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 2.2.3
+
 ## @moser-inc/eslint-config-react [3.1.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@3.1.2...@moser-inc/eslint-config-react@3.1.3) (2025-04-08)
 
 
