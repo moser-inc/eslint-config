@@ -11,7 +11,7 @@ import {
 } from '@vue/eslint-config-typescript';
 import type { Linter } from 'eslint';
 import vuePlugin from 'eslint-plugin-vue';
-import { isVue2, version } from 'vue-demi';
+import { version } from 'vue';
 
 export function vueConfigs(options?: MoserConfigOptions) {
   return defineConfigWithVueTs(
@@ -89,41 +89,19 @@ export function vueConfigs(options?: MoserConfigOptions) {
         'vue/prefer-prop-type-boolean-first': 'error',
         'vue/prefer-separate-static-class': 'error',
         'vue/prefer-true-attribute-shorthand': 'error',
-        'vue/prefer-use-template-ref': isVue2 ? 'off' : 'error',
+        'vue/prefer-use-template-ref': 'error',
         'vue/require-direct-export': 'error',
         'vue/require-macro-variable-name': 'error',
         'vue/require-name-property': 'error',
         'vue/require-typed-ref': 'error',
         'vue/slot-name-casing': 'error',
         'vue/v-bind-style': [
-          isVue2 ? 'off' : 'error',
+          'error',
           'shorthand',
           { sameNameShorthand: 'always' },
         ],
         'vue/v-for-delimiter-style': 'error',
         'vue/v-on-handler-style': 'error',
-
-        // Deprecations
-        'vue/no-deprecated-data-object-declaration': 'error',
-        'vue/no-deprecated-destroyed-lifecycle': 'error',
-        'vue/no-deprecated-dollar-listeners-api': isVue2 ? 'off' : 'error',
-        'vue/no-deprecated-dollar-scopedslots-api': isVue2 ? 'off' : 'error',
-        'vue/no-deprecated-delete-set': isVue2 ? 'off' : 'error',
-        'vue/no-deprecated-events-api': 'error',
-        'vue/no-deprecated-filter': 'error',
-        'vue/no-deprecated-functional-template': 'error',
-        'vue/no-deprecated-html-element-is': 'error',
-        'vue/no-deprecated-inline-template': 'error',
-        'vue/no-deprecated-props-default-this': 'error',
-        'vue/no-deprecated-router-link-tag-prop': 'error',
-        'vue/no-deprecated-scope-attribute': 'error',
-        'vue/no-deprecated-slot-attribute': 'error',
-        'vue/no-deprecated-slot-scope-attribute': 'error',
-        'vue/no-deprecated-v-bind-sync': isVue2 ? 'off' : 'error',
-        'vue/no-deprecated-v-is': 'error',
-        'vue/no-deprecated-v-on-native-modifier': 'error',
-        'vue/no-deprecated-v-on-number-modifiers': 'error',
-        'vue/no-deprecated-vue-config-keycodes': 'error',
       },
     },
   ) as Linter.Config[];

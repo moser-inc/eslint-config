@@ -1,5 +1,5 @@
 import type { Linter } from 'eslint';
-import { isVue2, version } from 'vue-demi';
+import { version } from 'vue';
 
 const legacyVueConfig = {
   parserOptions: {
@@ -20,7 +20,7 @@ const legacyVueConfig = {
   },
   extends: [
     '@moser-inc',
-    isVue2 ? 'plugin:vue/vue2-recommended' : 'plugin:vue/recommended',
+    'plugin:vue/vue2-recommended',
     'plugin:prettier/recommended',
   ],
   overrides: [
@@ -86,7 +86,7 @@ const legacyVueConfig = {
     'vue/prefer-prop-type-boolean-first': 'warn',
     'vue/prefer-separate-static-class': 'warn',
     'vue/prefer-true-attribute-shorthand': 'warn',
-    'vue/prefer-use-template-ref': isVue2 ? 'off' : 'warn',
+    'vue/prefer-use-template-ref': 'off',
     'vue/require-direct-export': 'warn',
     'vue/require-macro-variable-name': 'warn',
     'vue/require-name-property': 'warn',
@@ -98,9 +98,9 @@ const legacyVueConfig = {
     // Deprecations
     'vue/no-deprecated-data-object-declaration': 'error',
     'vue/no-deprecated-destroyed-lifecycle': 'error',
-    'vue/no-deprecated-dollar-listeners-api': isVue2 ? 'off' : 'error',
-    'vue/no-deprecated-dollar-scopedslots-api': isVue2 ? 'off' : 'error',
-    'vue/no-deprecated-delete-set': isVue2 ? 'off' : 'error',
+    'vue/no-deprecated-dollar-listeners-api': 'off',
+    'vue/no-deprecated-dollar-scopedslots-api': 'off',
+    'vue/no-deprecated-delete-set': 'off',
     'vue/no-deprecated-events-api': 'error',
     'vue/no-deprecated-filter': 'error',
     'vue/no-deprecated-functional-template': 'error',
@@ -111,7 +111,7 @@ const legacyVueConfig = {
     'vue/no-deprecated-scope-attribute': 'error',
     'vue/no-deprecated-slot-attribute': 'error',
     'vue/no-deprecated-slot-scope-attribute': 'error',
-    'vue/no-deprecated-v-bind-sync': isVue2 ? 'off' : 'error',
+    'vue/no-deprecated-v-bind-sync': 'off',
     'vue/no-deprecated-v-is': 'error',
     'vue/no-deprecated-v-on-native-modifier': 'error',
     'vue/no-deprecated-v-on-number-modifiers': 'error',
