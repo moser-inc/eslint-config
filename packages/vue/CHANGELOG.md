@@ -1,3 +1,20 @@
+## @moser-inc/eslint-config-vue [3.0.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@2.1.6...@moser-inc/eslint-config-vue@3.0.0) (2025-04-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **vue:** remove `vue-demi` as dependency and assume vue 2 for legacy config
+
+### Features
+
+* **vue:** remove `vue-demi` as dependency and assume vue 2 for legacy config ([e0585a8](https://github.com/moser-inc/eslint-config/commit/e0585a8f19304be2017569dd1ab602824605bc1e))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 2.2.3
+
 ## @moser-inc/eslint-config-vue [2.1.6](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@2.1.5...@moser-inc/eslint-config-vue@2.1.6) (2025-04-08)
 
 
