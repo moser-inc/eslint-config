@@ -1,3 +1,20 @@
+## @moser-inc/eslint-config-react [4.0.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@3.1.4...@moser-inc/eslint-config-react@4.0.0) (2025-04-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* **react:** drop react compiler eslint plugin
+
+### Code Refactoring
+
+* **react:** drop react compiler eslint plugin ([a26819d](https://github.com/moser-inc/eslint-config/commit/a26819d61f60b4d32b3308134cd983b05c3c6b7d))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 2.2.4
+
 ## @moser-inc/eslint-config-react [3.1.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@3.1.3...@moser-inc/eslint-config-react@3.1.4) (2025-04-16)
 
 
