@@ -101,7 +101,7 @@ export function vueConfigs(options?: MoserConfigOptions) {
           { sameNameShorthand: 'always' },
         ],
         'vue/v-for-delimiter-style': 'error',
-        'vue/v-on-handler-style': 'error',
+        'vue/v-on-handler-style': ['error', ['method', 'inline']],
       },
     },
   ) as Linter.Config[];

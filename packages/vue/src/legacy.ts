@@ -42,7 +42,7 @@ const legacyVueConfig = {
 
     // Uncategorized
     'vue/block-lang': ['warn', { script: { lang: ['ts', 'tsx'] } }],
-    'vue/block-order': ['error', { order: ['script', 'template', 'style'] }],
+    'vue/block-order': ['warn', { order: ['script', 'template', 'style'] }],
     'vue/block-tag-newline': 'warn',
     'vue/component-api-style': ['warn', ['script-setup']],
     'vue/component-name-in-template-casing': 'warn',
@@ -92,7 +92,7 @@ const legacyVueConfig = {
     'vue/require-name-property': 'warn',
     'vue/require-typed-ref': 'warn',
     'vue/v-for-delimiter-style': 'warn',
-    'vue/v-on-handler-style': 'warn',
+    'vue/v-on-handler-style': ['warn', ['method', 'inline']],
     'vue/valid-define-options': 'warn',
 
     // Deprecations
