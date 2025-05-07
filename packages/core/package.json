@@ -1,6 +1,6 @@
 {
   "name": "@moser-inc/eslint-config",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "type": "module",
   "main": "./dist/legacy.cjs",
   "module": "./dist/legacy.mjs",
