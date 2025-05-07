@@ -57,6 +57,7 @@ export function vueConfigs(options?: MoserConfigOptions) {
           },
         ],
         'vue/define-props-declaration': ['error', 'type-based'],
+        // "vue/define-props-destructuring": "error",
         'vue/html-comment-content-newline': 'error',
         'vue/html-comment-content-spacing': 'error',
         'vue/html-comment-indent': 'error',
@@ -101,7 +102,7 @@ export function vueConfigs(options?: MoserConfigOptions) {
           { sameNameShorthand: 'always' },
         ],
         'vue/v-for-delimiter-style': 'error',
-        'vue/v-on-handler-style': ['error', ['method', 'inline']],
+        // 'vue/v-on-handler-style': ['error', ['method', 'inline']],
       },
     },
   ) as Linter.Config[];
