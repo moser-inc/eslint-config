@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config [2.3.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.2.5...@moser-inc/eslint-config@2.3.0) (2025-06-06)
+
+
+### Features
+
+* **core:** add eslint plugin depend ([cd9ff94](https://github.com/moser-inc/eslint-config/commit/cd9ff94f0416334ea5efa188a35a121274d51061))
+* **core:** add unicorn eslint plugin and enable prefer node protocol rule ([8f347a0](https://github.com/moser-inc/eslint-config/commit/8f347a087bf68b5c859a6fe50f5a5f1dbf058aeb))
+
+
+### Bug Fixes
+
+* **core:** update core plugins ([d6e6f1e](https://github.com/moser-inc/eslint-config/commit/d6e6f1e53f5bb1613858c3788f1733adecf94bbf))
+
+
+### Miscellaneous Chores
+
+* update dev deps ([f5ebde4](https://github.com/moser-inc/eslint-config/commit/f5ebde4b9ccbc20dc446ff8e147dffa0d15ab98e))
+
 ## @moser-inc/eslint-config [2.2.5](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.2.4...@moser-inc/eslint-config@2.2.5) (2025-05-07)
 
 
