@@ -10,6 +10,7 @@ import {
 import { configs as dependConfigs } from 'eslint-plugin-depend';
 import importPlugin from 'eslint-plugin-import-x';
 import prettierPlugin from 'eslint-plugin-prettier/recommended';
+import unicornPlugin from 'eslint-plugin-unicorn';
 import tsEslintPlugin from 'typescript-eslint';
 
 export function defineFlatConfigs<
@@ -119,7 +120,7 @@ export function importConfigs() {
       name: 'moser/import/overrides',
       files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx,vue}'],
       rules: {
-        'import-x/no-unresolved': ['error', { ignore: ['\\?*$'] }],
+        'import-x/no-unresolved': ['error', { ignore: [String.raw`\?*$`] }],
         'import-x/order': [
           'warn',
           {
@@ -139,6 +140,20 @@ export function importConfigs() {
     {
       ...dependConfigs['flat/recommended'],
       name: 'moser/import/depend',
+    },
+  ] as const satisfies Linter.Config[];
+}
+
+export function unicornConfigs() {
+  return [
+    {
+      name: 'moser/unicorn',
+      plugins: {
+        unicorn: unicornPlugin,
+      },
+      rules: {
+        'unicorn/prefer-node-protocol': 'error',
+      },
     },
   ] as const satisfies Linter.Config[];
 }
@@ -174,12 +189,14 @@ export function coreConfig<
     globalConfigs(),
     jsTsConfigs(options),
     importConfigs(),
+    unicornConfigs(),
     formattingConfigs(),
   );
 }
 
-export { defineFlatConfig } from 'eslint-flat-config-utils';
-
-export type { DefaultConfigNamesMap };
+export {
+  defineFlatConfig,
+  type DefaultConfigNamesMap,
+} from 'eslint-flat-config-utils';
 
 export default coreConfig;
