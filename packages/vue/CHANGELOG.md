@@ -1,3 +1,22 @@
+## @moser-inc/eslint-config-vue [3.0.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@3.0.2...@moser-inc/eslint-config-vue@3.0.3) (2025-06-06)
+
+
+### Bug Fixes
+
+* **vue:** update vue plugins ([bdef79c](https://github.com/moser-inc/eslint-config/commit/bdef79cbc87a00f5104ed2543a1720c3f1499bc1))
+
+
+### Miscellaneous Chores
+
+* update dev deps ([f5ebde4](https://github.com/moser-inc/eslint-config/commit/f5ebde4b9ccbc20dc446ff8e147dffa0d15ab98e))
+* **vue:** disable handler style rule in legacy config ([8c19532](https://github.com/moser-inc/eslint-config/commit/8c1953255354289c9e8267139041d3d4bb4e60ba))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 2.3.0
+
 ## @moser-inc/eslint-config-vue [3.0.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@3.0.1...@moser-inc/eslint-config-vue@3.0.2) (2025-05-07)
 
 
