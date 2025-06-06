@@ -5,6 +5,7 @@ import {
   formattingConfigs,
 } from '@moser-inc/eslint-config/flat';
 import type { Linter } from 'eslint';
+// eslint-disable-next-line depend/ban-dependencies
 import reactPlugin from 'eslint-plugin-react';
 import * as reactHooksPlugin from 'eslint-plugin-react-hooks';
 

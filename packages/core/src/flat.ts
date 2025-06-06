@@ -7,6 +7,7 @@ import {
   type ResolvableFlatConfig,
   composer,
 } from 'eslint-flat-config-utils';
+import { configs as dependConfigs } from 'eslint-plugin-depend';
 import importPlugin from 'eslint-plugin-import-x';
 import prettierPlugin from 'eslint-plugin-prettier/recommended';
 import tsEslintPlugin from 'typescript-eslint';
@@ -134,6 +135,10 @@ export function importConfigs() {
           },
         ],
       },
+    },
+    {
+      ...dependConfigs['flat/recommended'],
+      name: 'moser/import/depend',
     },
   ] as const satisfies Linter.Config[];
 }
