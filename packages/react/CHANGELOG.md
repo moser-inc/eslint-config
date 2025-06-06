@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config-react [4.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@4.0.1...@moser-inc/eslint-config-react@4.1.0) (2025-06-06)
+
+
+### Features
+
+* **core:** add eslint plugin depend ([cd9ff94](https://github.com/moser-inc/eslint-config/commit/cd9ff94f0416334ea5efa188a35a121274d51061))
+
+
+### Miscellaneous Chores
+
+* update dev deps ([f5ebde4](https://github.com/moser-inc/eslint-config/commit/f5ebde4b9ccbc20dc446ff8e147dffa0d15ab98e))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 2.3.0
+
 ## @moser-inc/eslint-config-react [4.0.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@4.0.0...@moser-inc/eslint-config-react@4.0.1) (2025-05-07)
 
 
