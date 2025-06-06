@@ -64,7 +64,7 @@
     "typescript-eslint": "^8.32.0"
   },
   "devDependencies": {
-    "eslint-typegen": "^2.1.0",
+    "eslint-typegen": "^2.2.0",
     "unbuild": "^3.5.0"
   },
   "repository": {

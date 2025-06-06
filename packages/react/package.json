@@ -56,7 +56,7 @@
     "eslint-plugin-react-hooks": "^6.0.0"
   },
   "devDependencies": {
-    "eslint-typegen": "^2.1.0",
+    "eslint-typegen": "^2.2.0",
     "unbuild": "^3.5.0"
   },
   "repository": {
