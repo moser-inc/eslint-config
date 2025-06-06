@@ -92,7 +92,7 @@ const legacyVueConfig = {
     'vue/require-name-property': 'warn',
     'vue/require-typed-ref': 'warn',
     'vue/v-for-delimiter-style': 'warn',
-    'vue/v-on-handler-style': ['warn', ['method', 'inline']],
+    // 'vue/v-on-handler-style': ['warn', ['method', 'inline']],
     'vue/valid-define-options': 'warn',
 
     // Deprecations
