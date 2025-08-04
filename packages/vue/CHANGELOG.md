@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config-vue [3.0.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@3.0.3...@moser-inc/eslint-config-vue@3.0.4) (2025-08-04)
+
+
+### Bug Fixes
+
+* **vue:** update vue plugins ([508cae9](https://github.com/moser-inc/eslint-config/commit/508cae98377cc8e15c6db5990427d903359c4a68))
+
+
+### Miscellaneous Chores
+
+* update dev deps ([469aa3d](https://github.com/moser-inc/eslint-config/commit/469aa3d7785b25da7750f900468486bb60e1e26d))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 2.3.1
+
 ## @moser-inc/eslint-config-vue [3.0.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@3.0.2...@moser-inc/eslint-config-vue@3.0.3) (2025-06-06)
 
 
