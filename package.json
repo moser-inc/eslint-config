@@ -28,17 +28,17 @@
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^11.0.3",
-    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/npm": "^12.0.2",
     "@semantic-release/release-notes-generator": "^14.0.3",
-    "@types/node": "~22.15.30",
-    "@typescript-eslint/parser": "^8.33.1",
+    "@types/node": "~22.15.35",
+    "@typescript-eslint/parser": "^8.39.0",
     "conventional-changelog-conventionalcommits": "6.1.0",
-    "eslint": "^9.28.0",
+    "eslint": "^9.32.0",
     "npm-run-all2": "^8.0.4",
-    "prettier": "^3.5.3",
-    "semantic-release": "^24.2.5",
+    "prettier": "^3.6.2",
+    "semantic-release": "^24.2.7",
     "standard-version": "^9.5.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
   "overrides": {
     "conventional-changelog-conventionalcommits": "6.1.0"
