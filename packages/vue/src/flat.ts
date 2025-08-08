@@ -72,6 +72,8 @@ export function vueConfigs(options?: MoserConfigOptions) {
         'vue/no-empty-component-block': 'error',
         'vue/no-import-compiler-macros': 'error',
         'vue/no-multiple-objects-in-class': 'error',
+        'vue/no-negated-condition': 'error',
+        'vue/no-negated-v-if-condition': 'error',
         'vue/no-ref-object-reactivity-loss': 'error',
         'vue/no-required-prop-with-default': ['error', { autofix: true }],
         'vue/no-reserved-component-names': 'error',
