@@ -1,24 +1,23 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
+  "conventionalCommits.scopes": ["core", "react", "vue", "deps"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "json.format.enable": true,
-  "eslint.format.enable": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "never",
+      "source.sortImports": "never"
+    }
   },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
+  "prettier.enable": true,
+  "prettier.prettierPath": "node_modules/prettier",
   "typescript.preferences.importModuleSpecifier": "relative",
-  "conventionalCommits.scopes": [
-    "core",
-    "react",
-    "vue",
-    "deps"
-  ]
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
