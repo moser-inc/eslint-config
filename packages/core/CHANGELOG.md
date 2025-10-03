@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config [2.3.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.3.1...@moser-inc/eslint-config@2.3.2) (2025-10-03)
+
+
+### Bug Fixes
+
+* **core:** update core plugins ([808580d](https://github.com/moser-inc/eslint-config/commit/808580d2b5c7166e47b9adbc3187196887042593))
+
+
+### Miscellaneous Chores
+
+* add publish config ([0214a1e](https://github.com/moser-inc/eslint-config/commit/0214a1e1d04c7878c47656c6cf3248d5fd4bf08b))
+* update dev deps ([0c395bd](https://github.com/moser-inc/eslint-config/commit/0c395bdc93565646fd5a805d4f33bef4609ff591))
+
 ## @moser-inc/eslint-config [2.3.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.3.0...@moser-inc/eslint-config@2.3.1) (2025-08-04)
 
 
