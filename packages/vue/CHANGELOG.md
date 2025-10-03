@@ -1,3 +1,27 @@
+## @moser-inc/eslint-config-vue [3.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@3.0.4...@moser-inc/eslint-config-vue@3.1.0) (2025-10-03)
+
+
+### Features
+
+* **vue:** add no negated condition rules ([1565f77](https://github.com/moser-inc/eslint-config/commit/1565f776a5acad8bdbece6b8a9320c3b876b9b0a))
+
+
+### Bug Fixes
+
+* **vue:** update vue plugins ([473cf94](https://github.com/moser-inc/eslint-config/commit/473cf946a2f1a7eb624ed540ba81b032dc87412e))
+
+
+### Miscellaneous Chores
+
+* add publish config ([0214a1e](https://github.com/moser-inc/eslint-config/commit/0214a1e1d04c7878c47656c6cf3248d5fd4bf08b))
+* update dev deps ([0c395bd](https://github.com/moser-inc/eslint-config/commit/0c395bdc93565646fd5a805d4f33bef4609ff591))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 2.3.2
+
 ## @moser-inc/eslint-config-vue [3.0.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@3.0.3...@moser-inc/eslint-config-vue@3.0.4) (2025-08-04)
 
 
