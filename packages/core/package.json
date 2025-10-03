@@ -76,7 +76,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moser-inc/eslint-config.git"
+    "url": "git+https://github.com/moser-inc/eslint-config.git",
+    "directory": "packages/core"
   },
   "license": "ISC",
   "bugs": {
