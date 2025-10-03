@@ -64,7 +64,7 @@
   },
   "devDependencies": {
     "eslint-typegen": "^2.3.0",
-    "unbuild": "^3.6.0"
+    "unbuild": "^3.6.1"
   },
   "repository": {
     "type": "git",
