@@ -1,3 +1,23 @@
+## @moser-inc/eslint-config-react [4.1.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@4.1.1...@moser-inc/eslint-config-react@4.1.2) (2025-10-03)
+
+
+### Bug Fixes
+
+* **react:** safely access react hook configs until available upstream ([0d54011](https://github.com/moser-inc/eslint-config/commit/0d540113390971d7cfd04af84d582e798440269d))
+* **react:** update react plugins ([988f5bf](https://github.com/moser-inc/eslint-config/commit/988f5bfe9ded46860fc02ae275bd68a09adacb51))
+
+
+### Miscellaneous Chores
+
+* add publish config ([0214a1e](https://github.com/moser-inc/eslint-config/commit/0214a1e1d04c7878c47656c6cf3248d5fd4bf08b))
+* update dev deps ([0c395bd](https://github.com/moser-inc/eslint-config/commit/0c395bdc93565646fd5a805d4f33bef4609ff591))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 2.3.2
+
 ## @moser-inc/eslint-config-react [4.1.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@4.1.0...@moser-inc/eslint-config-react@4.1.1) (2025-08-04)
 
 
