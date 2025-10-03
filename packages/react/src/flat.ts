@@ -13,7 +13,9 @@ export function reactConfigs() {
   return [
     reactPlugin.configs.flat.recommended,
     reactPlugin.configs.flat['jsx-runtime'],
-    reactHooksPlugin.configs['recommended-latest'],
+    // @ts-expect-error missing from latest release https://github.com/facebook/react/issues/34705
+    // eslint-disable-next-line import-x/namespace
+    reactHooksPlugin.configs?.['recommended'],
     {
       name: 'moser/react/settings',
       settings: {
