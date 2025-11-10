@@ -1,3 +1,31 @@
+## @moser-inc/eslint-config-react [4.2.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@4.1.2...@moser-inc/eslint-config-react@4.2.0) (2025-11-10)
+
+
+### Features
+
+* **react:** update react hooks plugin and enable latest recommended config ([acf478f](https://github.com/moser-inc/eslint-config/commit/acf478f5d7e94454219f41fb9568884a71521478))
+
+
+### Bug Fixes
+
+* explicitly define return types ([8d2b24b](https://github.com/moser-inc/eslint-config/commit/8d2b24b5bc2cd1866c2f490968e1827c462d0ea7))
+
+
+### Miscellaneous Chores
+
+* add directory to repository fields in package files ([10bd0dc](https://github.com/moser-inc/eslint-config/commit/10bd0dcccc05266e0d6d7120468c7c8a820a0240))
+
+
+### Code Refactoring
+
+* use define config from eslint core ([827aec2](https://github.com/moser-inc/eslint-config/commit/827aec21afdbd89c399be604828b910a30261dc5))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 2.3.3
+
 ## @moser-inc/eslint-config-react [4.1.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@4.1.1...@moser-inc/eslint-config-react@4.1.2) (2025-10-03)
 
 
