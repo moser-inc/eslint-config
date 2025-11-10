@@ -49,7 +49,7 @@ export function vueConfigs(options?: MoserConfigOptions): Linter.Config[] {
             order: [
               'definePageMeta',
               'defineOptions',
-              'defineModal',
+              'defineModel',
               'defineProps',
               'defineEmits',
               'defineSlots',

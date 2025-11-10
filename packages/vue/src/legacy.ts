@@ -54,7 +54,7 @@ const legacyVueConfig = {
       {
         order: [
           'defineOptions',
-          'defineModal',
+          'defineModel',
           'defineProps',
           'defineEmits',
           'defineSlots',
