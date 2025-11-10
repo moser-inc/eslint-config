@@ -6,12 +6,13 @@ import {
   formattingConfigs,
 } from '@moser-inc/eslint-config/flat';
 import type { Linter } from 'eslint';
+import { defineConfig } from 'eslint/config';
 // eslint-disable-next-line depend/ban-dependencies
 import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 
 export function reactConfigs(): Linter.Config[] {
-  return [
+  return defineConfig([
     reactPlugin.configs.flat.recommended,
     reactPlugin.configs.flat['jsx-runtime'],
     reactHooksPlugin.configs.flat['recommended-latest'],
@@ -23,7 +24,7 @@ export function reactConfigs(): Linter.Config[] {
         },
       },
     },
-  ] as const satisfies Linter.Config[];
+  ]);
 }
 
 /**

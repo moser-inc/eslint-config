@@ -2,6 +2,7 @@
 import process from 'node:process';
 import jsEslintPlugin from '@eslint/js';
 import type { Linter } from 'eslint';
+import { defineConfig } from 'eslint/config';
 import {
   type DefaultConfigNamesMap,
   type FlatConfigComposer,
@@ -31,7 +32,7 @@ export interface MoserConfigOptions {
 }
 
 export function globalConfigs() {
-  return [
+  return defineConfig([
     {
       name: 'moser/global/ignores',
       ignores: [
@@ -43,14 +44,14 @@ export function globalConfigs() {
         '**/.nuxt/',
       ],
     },
-  ] as const satisfies Linter.Config[];
+  ]);
 }
 
 export function jsTsConfigs(options?: MoserConfigOptions): Linter.Config[] {
   const tsconfigPath = options?.tsconfigPath;
   const isTypeAware = !!tsconfigPath;
 
-  return tsEslintPlugin.config(
+  return defineConfig([
     jsEslintPlugin.configs.recommended,
     tsEslintPlugin.configs.eslintRecommended,
     tsEslintPlugin.configs.recommended,
@@ -110,11 +111,11 @@ export function jsTsConfigs(options?: MoserConfigOptions): Linter.Config[] {
         '@typescript-eslint/no-var-requires': 'off',
       },
     },
-  ) as Linter.Config[];
+  ]);
 }
 
 export function importConfigs(): Linter.Config[] {
-  return [
+  return defineConfig([
     importPlugin.flatConfigs.recommended as Linter.Config,
     importPlugin.flatConfigs.typescript as Linter.Config,
     {
@@ -142,11 +143,11 @@ export function importConfigs(): Linter.Config[] {
       ...dependConfigs['flat/recommended'],
       name: 'moser/import/depend',
     },
-  ] as const satisfies Linter.Config[];
+  ]);
 }
 
 export function unicornConfigs(): Linter.Config[] {
-  return [
+  return defineConfig([
     {
       name: 'moser/unicorn',
       plugins: {
@@ -156,11 +157,11 @@ export function unicornConfigs(): Linter.Config[] {
         'unicorn/prefer-node-protocol': 'error',
       },
     },
-  ] as const satisfies Linter.Config[];
+  ]);
 }
 
 export function formattingConfigs(): Linter.Config[] {
-  return [
+  return defineConfig([
     {
       ...prettierPlugin,
       name: 'moser/formatting/prettier',
@@ -168,7 +169,7 @@ export function formattingConfigs(): Linter.Config[] {
         'prettier/prettier': 'warn',
       },
     },
-  ] as const satisfies Linter.Config[];
+  ]);
 }
 
 /**
