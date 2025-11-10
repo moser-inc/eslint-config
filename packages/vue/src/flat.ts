@@ -6,6 +6,7 @@ import {
   formattingConfigs,
   jsTsConfigs,
 } from '@moser-inc/eslint-config/flat';
+import prettierConfig from '@vue/eslint-config-prettier';
 import {
   defineConfigWithVueTs,
   vueTsConfigs,
@@ -108,6 +109,7 @@ export function vueConfigs(options?: MoserConfigOptions): Linter.Config[] {
         // 'vue/v-on-handler-style': ['error', ['method', 'inline']],
       },
     },
+    prettierConfig,
   ) as Linter.Config[];
 }
 
