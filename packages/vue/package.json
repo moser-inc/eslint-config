@@ -60,7 +60,7 @@
     "@moser-inc/eslint-config": "2.3.2",
     "@vue/eslint-config-prettier": "^10.2.0",
     "@vue/eslint-config-typescript": "^14.6.0",
-    "eslint-plugin-vue": "^10.5.0"
+    "eslint-plugin-vue": "^10.5.1"
   },
   "devDependencies": {
     "eslint-typegen": "^2.3.0",
