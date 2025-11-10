@@ -8,15 +8,13 @@ import {
 import type { Linter } from 'eslint';
 // eslint-disable-next-line depend/ban-dependencies
 import reactPlugin from 'eslint-plugin-react';
-import * as reactHooksPlugin from 'eslint-plugin-react-hooks';
+import reactHooksPlugin from 'eslint-plugin-react-hooks';
 
 export function reactConfigs(): Linter.Config[] {
   return [
     reactPlugin.configs.flat.recommended,
     reactPlugin.configs.flat['jsx-runtime'],
-    // @ts-expect-error missing from latest release https://github.com/facebook/react/issues/34705
-    // eslint-disable-next-line import-x/namespace
-    reactHooksPlugin.configs?.['recommended'],
+    reactHooksPlugin.configs.flat['recommended-latest'],
     {
       name: 'moser/react/settings',
       settings: {

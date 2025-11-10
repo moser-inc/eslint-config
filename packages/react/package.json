@@ -58,7 +58,7 @@
   "dependencies": {
     "@moser-inc/eslint-config": "2.3.2",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^6.1.0"
+    "eslint-plugin-react-hooks": "^7.0.1"
   },
   "devDependencies": {
     "eslint-typegen": "^2.3.0",

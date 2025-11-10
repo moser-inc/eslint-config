@@ -5,7 +5,7 @@ const legacyReactConfig = {
     '@moser-inc',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
-    'plugin:react-hooks/recommended-legacy',
+    'plugin:react-hooks/recommended',
   ],
   settings: {
     react: {
