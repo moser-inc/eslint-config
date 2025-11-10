@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config [2.3.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.3.2...@moser-inc/eslint-config@2.3.3) (2025-11-10)
+
+
+### Bug Fixes
+
+* **core:** update core plugins ([7322789](https://github.com/moser-inc/eslint-config/commit/7322789815fe6ca1d2f1b2bc0da3329fbb8b981e))
+* explicitly define return types ([8d2b24b](https://github.com/moser-inc/eslint-config/commit/8d2b24b5bc2cd1866c2f490968e1827c462d0ea7))
+
+
+### Miscellaneous Chores
+
+* add directory to repository fields in package files ([10bd0dc](https://github.com/moser-inc/eslint-config/commit/10bd0dcccc05266e0d6d7120468c7c8a820a0240))
+
+
+### Code Refactoring
+
+* use define config from eslint core ([827aec2](https://github.com/moser-inc/eslint-config/commit/827aec21afdbd89c399be604828b910a30261dc5))
+
 ## @moser-inc/eslint-config [2.3.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.3.1...@moser-inc/eslint-config@2.3.2) (2025-10-03)
 
 
