@@ -1,3 +1,24 @@
+## @moser-inc/eslint-config-vue [3.1.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@3.1.0...@moser-inc/eslint-config-vue@3.1.1) (2025-11-10)
+
+
+### Bug Fixes
+
+* explicitly define return types ([8d2b24b](https://github.com/moser-inc/eslint-config/commit/8d2b24b5bc2cd1866c2f490968e1827c462d0ea7))
+* **vue:** enable prettier config to disable conflicting rules ([93219d2](https://github.com/moser-inc/eslint-config/commit/93219d2128815715e41440bd2cedfd53636e605e))
+* **vue:** update name of define model in macros order rule ([0058fa5](https://github.com/moser-inc/eslint-config/commit/0058fa5e50d4d79939da68355f09383cb6fb1395))
+* **vue:** update vue plugins ([e4e4354](https://github.com/moser-inc/eslint-config/commit/e4e4354d5e706dfc67761fd977815fe544b5d886))
+
+
+### Miscellaneous Chores
+
+* add directory to repository fields in package files ([10bd0dc](https://github.com/moser-inc/eslint-config/commit/10bd0dcccc05266e0d6d7120468c7c8a820a0240))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 2.3.3
+
 ## @moser-inc/eslint-config-vue [3.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@3.0.4...@moser-inc/eslint-config-vue@3.1.0) (2025-10-03)
 
 
