@@ -1,5 +1,6 @@
 import {
   type DefaultConfigNamesMap,
+  type FlatConfigComposer,
   type MoserConfigOptions,
   coreConfig,
   formattingConfigs,
@@ -13,7 +14,7 @@ import type { Linter } from 'eslint';
 import vuePlugin from 'eslint-plugin-vue';
 import { version } from 'vue';
 
-export function vueConfigs(options?: MoserConfigOptions) {
+export function vueConfigs(options?: MoserConfigOptions): Linter.Config[] {
   return defineConfigWithVueTs(
     vuePlugin.configs['flat/recommended'],
     jsTsConfigs(options),
@@ -128,7 +129,7 @@ export function vueConfig<
   return coreConfig<TConfig, TConfigNames>(options).append(
     vueConfigs(options),
     formattingConfigs(),
-  );
+  ) as FlatConfigComposer<TConfig, TConfigNames>;
 }
 
 export * from '@moser-inc/eslint-config/flat';

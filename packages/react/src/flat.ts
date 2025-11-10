@@ -1,5 +1,6 @@
 import {
   type DefaultConfigNamesMap,
+  type FlatConfigComposer,
   type MoserConfigOptions,
   coreConfig,
   formattingConfigs,
@@ -9,7 +10,7 @@ import type { Linter } from 'eslint';
 import reactPlugin from 'eslint-plugin-react';
 import * as reactHooksPlugin from 'eslint-plugin-react-hooks';
 
-export function reactConfigs() {
+export function reactConfigs(): Linter.Config[] {
   return [
     reactPlugin.configs.flat.recommended,
     reactPlugin.configs.flat['jsx-runtime'],
@@ -45,7 +46,7 @@ export function reactConfig<
   return coreConfig<TConfig, TConfigNames>(options).append(
     reactConfigs(),
     formattingConfigs(),
-  );
+  ) as FlatConfigComposer<TConfig, TConfigNames>;
 }
 
 export * from '@moser-inc/eslint-config/flat';

@@ -4,6 +4,7 @@ import jsEslintPlugin from '@eslint/js';
 import type { Linter } from 'eslint';
 import {
   type DefaultConfigNamesMap,
+  type FlatConfigComposer,
   type ResolvableFlatConfig,
   composer,
 } from 'eslint-flat-config-utils';
@@ -17,7 +18,7 @@ export function defineFlatConfigs<
   const TConfig extends Linter.Config = Linter.Config,
   const TConfigNames extends string = keyof DefaultConfigNamesMap,
 >(...configs: ResolvableFlatConfig<TConfig>[]) {
-  return composer<TConfig, TConfigNames>(...configs);
+  return composer(...configs) as FlatConfigComposer<TConfig, TConfigNames>;
 }
 
 export interface MoserConfigOptions {
@@ -45,7 +46,7 @@ export function globalConfigs() {
   ] as const satisfies Linter.Config[];
 }
 
-export function jsTsConfigs(options?: MoserConfigOptions) {
+export function jsTsConfigs(options?: MoserConfigOptions): Linter.Config[] {
   const tsconfigPath = options?.tsconfigPath;
   const isTypeAware = !!tsconfigPath;
 
@@ -112,7 +113,7 @@ export function jsTsConfigs(options?: MoserConfigOptions) {
   ) as Linter.Config[];
 }
 
-export function importConfigs() {
+export function importConfigs(): Linter.Config[] {
   return [
     importPlugin.flatConfigs.recommended as Linter.Config,
     importPlugin.flatConfigs.typescript as Linter.Config,
@@ -144,7 +145,7 @@ export function importConfigs() {
   ] as const satisfies Linter.Config[];
 }
 
-export function unicornConfigs() {
+export function unicornConfigs(): Linter.Config[] {
   return [
     {
       name: 'moser/unicorn',
@@ -158,7 +159,7 @@ export function unicornConfigs() {
   ] as const satisfies Linter.Config[];
 }
 
-export function formattingConfigs() {
+export function formattingConfigs(): Linter.Config[] {
   return [
     {
       ...prettierPlugin,
@@ -191,12 +192,13 @@ export function coreConfig<
     importConfigs(),
     unicornConfigs(),
     formattingConfigs(),
-  );
+  ) as FlatConfigComposer<TConfig, TConfigNames>;
 }
 
 export {
   defineFlatConfig,
   type DefaultConfigNamesMap,
+  type FlatConfigComposer,
 } from 'eslint-flat-config-utils';
 
 export default coreConfig;
