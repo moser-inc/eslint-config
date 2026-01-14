@@ -1,6 +1,6 @@
 {
   "name": "@moser-inc/eslint-config-vue",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "type": "module",
   "main": "./dist/legacy.cjs",
   "module": "./dist/legacy.mjs",
@@ -57,7 +57,7 @@
     "vue": ">= 2.7"
   },
   "dependencies": {
-    "@moser-inc/eslint-config": "2.3.3",
+    "@moser-inc/eslint-config": "2.3.4",
     "@vue/eslint-config-prettier": "^10.2.0",
     "@vue/eslint-config-typescript": "^14.6.0",
     "eslint-plugin-vue": "^10.6.2"
