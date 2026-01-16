@@ -2,15 +2,12 @@ import { appendFile } from 'node:fs/promises';
 import { builtinRules } from 'eslint/use-at-your-own-risk';
 import { flatConfigsToRulesDTS } from 'eslint-typegen/core';
 import { defineBuildConfig } from 'unbuild';
-import moser from './src/flat';
+import moser from './src';
 
 export default defineBuildConfig({
-  entries: ['src/legacy.ts', 'src/flat.ts'],
+  entries: ['src/index.ts'],
   externals: ['eslint-flat-config-utils'],
   declaration: true,
-  rollup: {
-    emitCJS: true,
-  },
   hooks: {
     'build:done': async (ctx) => {
       const config = await moser().append({

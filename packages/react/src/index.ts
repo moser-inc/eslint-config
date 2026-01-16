@@ -4,7 +4,7 @@ import {
   type MoserConfigOptions,
   coreConfig,
   formattingConfigs,
-} from '@moser-inc/eslint-config/flat';
+} from '@moser-inc/eslint-config';
 import type { Linter } from 'eslint';
 import { defineConfig } from 'eslint/config';
 // eslint-disable-next-line depend/ban-dependencies
@@ -34,7 +34,7 @@ export function reactConfigs(): Linter.Config[] {
  *
  * @example
  * ```ts
- * import moser from '@moser-inc/eslint-config-react/flat';
+ * import moser from '@moser-inc/eslint-config-react';
  *
  * export default moser().append(...);
  */
@@ -48,6 +48,6 @@ export function reactConfig<
   ) as FlatConfigComposer<TConfig, TConfigNames>;
 }
 
-export * from '@moser-inc/eslint-config/flat';
+export * from '@moser-inc/eslint-config';
 
 export default reactConfig;
