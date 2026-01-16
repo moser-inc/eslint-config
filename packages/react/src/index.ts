@@ -7,7 +7,6 @@ import {
 } from '@moser-inc/eslint-config';
 import type { Linter } from 'eslint';
 import { defineConfig } from 'eslint/config';
-// eslint-disable-next-line depend/ban-dependencies
 import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 
