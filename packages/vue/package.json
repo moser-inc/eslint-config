@@ -29,7 +29,7 @@
     "vue": ">= 2.7"
   },
   "dependencies": {
-    "@moser-inc/eslint-config": "2.3.4",
+    "@moser-inc/eslint-config": "3.0.0",
     "@vue/eslint-config-prettier": "^10.2.0",
     "@vue/eslint-config-typescript": "^14.6.0",
     "eslint-plugin-vue": "^10.7.0"
