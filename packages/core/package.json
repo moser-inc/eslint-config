@@ -7,17 +7,6 @@
     ".": "./dist/index.mjs",
     "./flat": "./dist/index.mjs"
   },
-  "typesVersions": {
-    "*": {
-      "flat": [
-        "./dist/index.d.mts"
-      ],
-      "*": [
-        "./dist/*",
-        "./*"
-      ]
-    }
-  },
   "files": [
     "dist"
   ],
