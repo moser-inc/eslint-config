@@ -1,3 +1,4 @@
+import eslintReact from '@eslint-react/eslint-plugin';
 import {
   type DefaultConfigNamesMap,
   type FlatConfigComposer,
@@ -7,18 +8,16 @@ import {
 } from '@moser-inc/eslint-config';
 import type { Linter } from 'eslint';
 import { defineConfig } from 'eslint/config';
-import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 
 export function reactConfigs(): Linter.Config[] {
   return defineConfig([
-    reactPlugin.configs.flat.recommended,
-    reactPlugin.configs.flat['jsx-runtime'],
+    eslintReact.configs['recommended-typescript'],
     reactHooksPlugin.configs.flat['recommended-latest'],
     {
       name: 'moser/react/settings',
       settings: {
-        react: {
+        'react-x': {
           version: 'detect',
         },
       },
