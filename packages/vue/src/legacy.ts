@@ -73,6 +73,7 @@ const legacyVueConfig = {
     'vue/no-reserved-component-names': 'warn',
     'vue/no-root-v-if': 'warn',
     'vue/no-template-target-blank': 'warn',
+    'vue/no-undef-directives': 'error',
     'vue/no-unsupported-features': ['warn', { version }],
     'vue/no-unused-emit-declarations': 'warn',
     'vue/no-unused-properties': 'warn',

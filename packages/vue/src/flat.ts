@@ -81,6 +81,7 @@ export function vueConfigs(options?: MoserConfigOptions): Linter.Config[] {
         'vue/no-reserved-component-names': 'error',
         'vue/no-root-v-if': 'error',
         'vue/no-template-target-blank': 'error',
+        'vue/no-undef-directives': 'error',
         'vue/no-unsupported-features': ['error', { version }],
         'vue/no-unused-emit-declarations': 'error',
         'vue/no-unused-properties': 'error',
