@@ -1,3 +1,26 @@
+## @moser-inc/eslint-config-vue [4.0.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@3.1.2...@moser-inc/eslint-config-vue@4.0.0) (2026-01-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **vue:** drop commonjs
+
+### Features
+
+* **vue:** update vue plugin and enable new directives rule ([b4c75b3](https://github.com/moser-inc/eslint-config/commit/b4c75b31dad846d1bdf86f56e9b935a5d51c7574))
+
+
+### Bug Fixes
+
+* add generated rule type definitions to dist ([8ae2b3c](https://github.com/moser-inc/eslint-config/commit/8ae2b3c8881bc27875eb9776450ac5b882b9501c))
+* update core version for vue package ([73378ba](https://github.com/moser-inc/eslint-config/commit/73378ba4738f130dc5d17a46ae51aac8c23b291b))
+
+
+### Code Refactoring
+
+* remove types versions config ([255fe7e](https://github.com/moser-inc/eslint-config/commit/255fe7e467b01d880caf08ce3c956f242dd3f587))
+* **vue:** drop commonjs ([fea9aa9](https://github.com/moser-inc/eslint-config/commit/fea9aa9448af445f6f60939655ce45bea975073d))
+
 ## @moser-inc/eslint-config-vue [3.1.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@3.1.1...@moser-inc/eslint-config-vue@3.1.2) (2026-01-14)
 
 
