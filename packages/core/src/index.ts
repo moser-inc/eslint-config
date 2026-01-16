@@ -179,7 +179,7 @@ export function formattingConfigs(): Linter.Config[] {
  *
  * @example
  * ```ts
- * import moser from '@moser-inc/eslint-config/flat';
+ * import moser from '@moser-inc/eslint-config';
  *
  * export default moser().append(...);
  */

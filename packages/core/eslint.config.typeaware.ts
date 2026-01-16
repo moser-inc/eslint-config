@@ -1,3 +1,3 @@
-import moser from './dist/flat.mjs';
+import moser from './dist';
 
 export default moser({ tsconfigPath: 'tsconfig.json' });

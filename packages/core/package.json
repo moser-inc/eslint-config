@@ -2,30 +2,15 @@
   "name": "@moser-inc/eslint-config",
   "version": "2.3.4",
   "type": "module",
-  "main": "./dist/legacy.cjs",
-  "module": "./dist/legacy.mjs",
-  "types": "./dist/legacy.d.cts",
+  "types": "./dist/index.d.mts",
   "exports": {
-    ".": {
-      "import": "./dist/legacy.mjs",
-      "require": "./dist/legacy.cjs"
-    },
-    "./flat": {
-      "import": "./dist/flat.mjs",
-      "require": "./dist/flat.cjs"
-    },
-    "./legacy": {
-      "import": "./dist/legacy.mjs",
-      "require": "./dist/legacy.cjs"
-    }
+    ".": "./dist/index.mjs",
+    "./flat": "./dist/index.mjs"
   },
   "typesVersions": {
     "*": {
       "flat": [
-        "./dist/flat.d.ts"
-      ],
-      "legacy": [
-        "./dist/legacy.d.ts"
+        "./dist/index.d.mts"
       ],
       "*": [
         "./dist/*",
@@ -45,11 +30,9 @@
     "build": "unbuild",
     "stub": "unbuild --stub",
     "prepack": "npm run build",
-    "lint": "npm run lint:flat && npm run lint:flat:typeaware && npm run lint:legacy",
-    "lint:flat": "eslint -c eslint.config.ts",
-    "lint:flat:typeaware": "eslint -c eslint.config.typeaware.ts",
-    "lint:legacy": "ESLINT_USE_FLAT_CONFIG=false eslint . -c .eslintrc.cjs",
-    "publint": "npx -y publint@latest && npx -y @arethetypeswrong/cli@latest --pack"
+    "lint": "eslint -c eslint.config.ts && npm run lint:typeaware",
+    "lint:typeaware": "eslint -c eslint.config.typeaware.ts",
+    "publint": "npx -y publint@latest && npx -y @arethetypeswrong/cli@latest --pack --profile esm-only"
   },
   "peerDependencies": {
     "eslint": ">= 6",
