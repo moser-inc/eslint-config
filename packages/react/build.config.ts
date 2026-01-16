@@ -40,7 +40,7 @@ export default defineBuildConfig({
       `;
 
       const flatDtsEntries = ctx.buildEntries.filter((entry) =>
-        entry.path.includes('flat.d'),
+        entry.path.includes('index.d'),
       );
 
       for (const entry of flatDtsEntries) {
