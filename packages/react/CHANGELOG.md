@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-react [5.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.0.0...@moser-inc/eslint-config-react@5.1.0) (2026-01-16)
+
+
+### Features
+
+* **react:** enable type checked rules ([f3d363a](https://github.com/moser-inc/eslint-config/commit/f3d363a320592fb3399bd19e27e7cbd7e1faf164))
+* **react:** migrate to `@eslint-react/eslint-plugin` ([512dcdd](https://github.com/moser-inc/eslint-config/commit/512dcddf4f5c597c2f2333171952e407071e23d5))
+
+
+### Bug Fixes
+
+* **react:** remove superfluous eslint ignore comment ([5bd6293](https://github.com/moser-inc/eslint-config/commit/5bd62932f674b8eb114bc96716547e41e6fc4b39))
+
 ## @moser-inc/eslint-config-react [5.0.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@4.2.1...@moser-inc/eslint-config-react@5.0.0) (2026-01-16)
 
 
