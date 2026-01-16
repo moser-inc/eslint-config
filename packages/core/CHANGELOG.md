@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config [3.0.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.3.4...@moser-inc/eslint-config@3.0.0) (2026-01-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **core:** drop commonjs
+
+### Bug Fixes
+
+* add generated rule type definitions to dist ([8ae2b3c](https://github.com/moser-inc/eslint-config/commit/8ae2b3c8881bc27875eb9776450ac5b882b9501c))
+
+
+### Code Refactoring
+
+* **core:** drop commonjs ([57f0071](https://github.com/moser-inc/eslint-config/commit/57f0071cf27dfc1a737d2c4a5b30bed28f5d2167))
+* **core:** drop unused import dep ([31403f7](https://github.com/moser-inc/eslint-config/commit/31403f7840a8482cbf5d822a10d27e29cdc39dd9))
+* remove types versions config ([255fe7e](https://github.com/moser-inc/eslint-config/commit/255fe7e467b01d880caf08ce3c956f242dd3f587))
+
 ## @moser-inc/eslint-config [2.3.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.3.3...@moser-inc/eslint-config@2.3.4) (2026-01-14)
 
 
