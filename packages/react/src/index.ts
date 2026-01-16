@@ -10,9 +10,14 @@ import type { Linter } from 'eslint';
 import { defineConfig } from 'eslint/config';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 
-export function reactConfigs(): Linter.Config[] {
+export function reactConfigs(options?: MoserConfigOptions): Linter.Config[] {
+  const tsconfigPath = options?.tsconfigPath;
+  const isTypeAware = !!tsconfigPath;
+
   return defineConfig([
-    eslintReact.configs['recommended-typescript'],
+    ...(isTypeAware
+      ? [eslintReact.configs['recommended-type-checked']]
+      : [eslintReact.configs['recommended-typescript']]),
     reactHooksPlugin.configs.flat['recommended-latest'],
     {
       name: 'moser/react/settings',
@@ -41,7 +46,7 @@ export function reactConfig<
   const TConfigNames extends string = keyof DefaultConfigNamesMap,
 >(options?: MoserConfigOptions) {
   return coreConfig<TConfig, TConfigNames>(options).append(
-    reactConfigs(),
+    reactConfigs(options),
     formattingConfigs(),
   ) as FlatConfigComposer<TConfig, TConfigNames>;
 }
