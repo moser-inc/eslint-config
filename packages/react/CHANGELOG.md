@@ -1,3 +1,26 @@
+## @moser-inc/eslint-config-react [5.0.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@4.2.1...@moser-inc/eslint-config-react@5.0.0) (2026-01-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **react:** drop commonjs
+
+### Bug Fixes
+
+* add generated rule type definitions to dist ([8ae2b3c](https://github.com/moser-inc/eslint-config/commit/8ae2b3c8881bc27875eb9776450ac5b882b9501c))
+
+
+### Code Refactoring
+
+* **react:** drop commonjs ([ec1982d](https://github.com/moser-inc/eslint-config/commit/ec1982ddeff5f48cf91af2bde2e3a4dcaa76404a))
+* remove types versions config ([255fe7e](https://github.com/moser-inc/eslint-config/commit/255fe7e467b01d880caf08ce3c956f242dd3f587))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 3.0.0
+
 ## @moser-inc/eslint-config-react [4.2.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@4.2.0...@moser-inc/eslint-config-react@4.2.1) (2026-01-14)
 
 

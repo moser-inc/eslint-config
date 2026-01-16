@@ -1,6 +1,6 @@
 {
   "name": "@moser-inc/eslint-config-react",
-  "version": "4.2.1",
+  "version": "5.0.0",
   "type": "module",
   "types": "./dist/index.d.mts",
   "exports": {
@@ -28,7 +28,7 @@
     "prettier": ">= 1"
   },
   "dependencies": {
-    "@moser-inc/eslint-config": "2.3.4",
+    "@moser-inc/eslint-config": "3.0.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1"
   },
