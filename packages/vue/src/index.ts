@@ -5,7 +5,7 @@ import {
   coreConfig,
   formattingConfigs,
   jsTsConfigs,
-} from '@moser-inc/eslint-config/flat';
+} from '@moser-inc/eslint-config';
 import prettierConfig from '@vue/eslint-config-prettier';
 import {
   defineConfigWithVueTs,
@@ -121,7 +121,7 @@ export function vueConfigs(options?: MoserConfigOptions): Linter.Config[] {
  *
  * @example
  * ```ts
- * import moser from '@moser-inc/eslint-config-vue/flat';
+ * import moser from '@moser-inc/eslint-config-vue';
  *
  * export default moser().append(...);
  */
@@ -135,6 +135,6 @@ export function vueConfig<
   ) as FlatConfigComposer<TConfig, TConfigNames>;
 }
 
-export * from '@moser-inc/eslint-config/flat';
+export * from '@moser-inc/eslint-config';
 
 export default vueConfig;
