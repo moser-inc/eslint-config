@@ -1,3 +1,17 @@
+## @moser-inc/eslint-config-react [5.1.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.1.0...@moser-inc/eslint-config-react@5.1.1) (2026-02-09)
+
+
+### Bug Fixes
+
+* **react:** explicitly disable type checked config for js files ([77256d6](https://github.com/moser-inc/eslint-config/commit/77256d6f7b02fcf85f59e19444d4793a555e8422))
+* **react:** update react plugins ([31f917e](https://github.com/moser-inc/eslint-config/commit/31f917eb7111029b8b6e673f54b82de734ff69c9))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 3.0.1
+
 ## @moser-inc/eslint-config-react [5.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.0.0...@moser-inc/eslint-config-react@5.1.0) (2026-01-16)
 
 
