@@ -20,6 +20,11 @@ export function reactConfigs(options?: MoserConfigOptions): Linter.Config[] {
       : [eslintReact.configs['recommended-typescript']]),
     reactHooksPlugin.configs.flat['recommended-latest'],
     {
+      name: 'moser/react/overrides',
+      files: ['**/*.{js,mjs,cjs,jsx}'],
+      extends: [eslintReact.configs['disable-type-checked']],
+    },
+    {
       name: 'moser/react/settings',
       settings: {
         'react-x': {
