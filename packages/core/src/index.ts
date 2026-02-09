@@ -79,7 +79,7 @@ export function jsTsConfigs(options?: MoserConfigOptions): Linter.Config[] {
             languageOptions: {
               parserOptions: {
                 projectService: {
-                  allowDefaultProject: ['./*.js'],
+                  allowDefaultProject: ['./*.{js,mjs,cjs}'],
                   defaultProject: tsconfigPath,
                 },
                 tsconfigRootDir: process.cwd(),
