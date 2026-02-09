@@ -1,3 +1,11 @@
+## @moser-inc/eslint-config [3.0.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@3.0.0...@moser-inc/eslint-config@3.0.1) (2026-02-09)
+
+
+### Bug Fixes
+
+* **core:** add mjs and cjs to allow default project ([17ce1e9](https://github.com/moser-inc/eslint-config/commit/17ce1e99f95fd8768b0a3fdafccd151ae487a065))
+* **core:** update core plugins ([121e069](https://github.com/moser-inc/eslint-config/commit/121e0691fca8abd3b2e7ce5a5a380efd0cfa3836))
+
 ## @moser-inc/eslint-config [3.0.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@2.3.4...@moser-inc/eslint-config@3.0.0) (2026-01-16)
 
 
