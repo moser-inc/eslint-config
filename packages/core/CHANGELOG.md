@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config [3.0.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@3.0.2...@moser-inc/eslint-config@3.0.3) (2026-03-03)
+
+
+### Bug Fixes
+
+* **core:** tidy files definitions ([fa3f6f2](https://github.com/moser-inc/eslint-config/commit/fa3f6f2a81a9897e2519f847ad430bfaa39c7dec))
+
 ## @moser-inc/eslint-config [3.0.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@3.0.1...@moser-inc/eslint-config@3.0.2) (2026-03-03)
 
 
