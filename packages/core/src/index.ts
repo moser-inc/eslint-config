@@ -88,7 +88,7 @@ export function jsTsConfigs(options?: MoserConfigOptions): Linter.Config[] {
           },
           {
             name: 'moser/js-ts/type-aware',
-            files: ['**/*.{ts,tsx,mts,cts,vue}'],
+            files: ['**/*.{ts,mts,cts,tsx,vue}'],
             rules: {
               '@typescript-eslint/consistent-type-imports': [
                 'error',
@@ -120,7 +120,7 @@ export function importConfigs(): Linter.Config[] {
     importPlugin.flatConfigs.typescript as Linter.Config,
     {
       name: 'moser/import/overrides',
-      files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx,vue}'],
+      files: ['**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx,vue}'],
       rules: {
         'import-x/no-unresolved': ['error', { ignore: [String.raw`\?*$`] }],
         'import-x/order': [
