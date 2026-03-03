@@ -16,7 +16,7 @@ export function reactConfigs(options?: MoserConfigOptions): Linter.Config[] {
 
   return defineConfig([
     {
-      files: ['**/*.{jsx,tsx}'],
+      files: ['**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx}'],
       extends: [
         ...(isTypeAware
           ? [eslintReact.configs['recommended-type-checked']]
@@ -34,7 +34,7 @@ export function reactConfigs(options?: MoserConfigOptions): Linter.Config[] {
     },
     {
       name: 'moser/react/overrides',
-      files: ['**/*.jsx'],
+      files: ['**/*.{js,mjs,cjs,jsx}'],
       extends: [eslintReact.configs['disable-type-checked']],
     },
   ]);
