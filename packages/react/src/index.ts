@@ -15,22 +15,27 @@ export function reactConfigs(options?: MoserConfigOptions): Linter.Config[] {
   const isTypeAware = !!tsconfigPath;
 
   return defineConfig([
-    ...(isTypeAware
-      ? [eslintReact.configs['recommended-type-checked']]
-      : [eslintReact.configs['recommended-typescript']]),
-    reactHooksPlugin.configs.flat['recommended-latest'],
     {
-      name: 'moser/react/overrides',
-      files: ['**/*.{js,mjs,cjs,jsx}'],
-      extends: [eslintReact.configs['disable-type-checked']],
+      files: ['**/*.{jsx,tsx}'],
+      extends: [
+        ...(isTypeAware
+          ? [eslintReact.configs['recommended-type-checked']]
+          : [eslintReact.configs['recommended-typescript']]),
+        reactHooksPlugin.configs.flat['recommended-latest'],
+        {
+          name: 'moser/react/settings',
+          settings: {
+            'react-x': {
+              version: 'detect',
+            },
+          },
+        },
+      ],
     },
     {
-      name: 'moser/react/settings',
-      settings: {
-        'react-x': {
-          version: 'detect',
-        },
-      },
+      name: 'moser/react/overrides',
+      files: ['**/*.jsx'],
+      extends: [eslintReact.configs['disable-type-checked']],
     },
   ]);
 }
