@@ -1,3 +1,22 @@
+## @moser-inc/eslint-config-react [5.1.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.1.1...@moser-inc/eslint-config-react@5.1.2) (2026-03-03)
+
+
+### Bug Fixes
+
+* **react:** only enable react rules in jsx/tsx files ([ca56410](https://github.com/moser-inc/eslint-config/commit/ca5641070c36803fdaf8d93c767ddaaf8ff63808))
+* **react:** update react plugins ([5df08a0](https://github.com/moser-inc/eslint-config/commit/5df08a03471573e5b25f2e85bfaa9c21d45ebbe7))
+
+
+### Miscellaneous Chores
+
+* update dev deps ([41a88c4](https://github.com/moser-inc/eslint-config/commit/41a88c424c563315ebe2aaf393ec0fd1f778638a))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 3.0.2
+
 ## @moser-inc/eslint-config-react [5.1.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.1.0...@moser-inc/eslint-config-react@5.1.1) (2026-02-09)
 
 
