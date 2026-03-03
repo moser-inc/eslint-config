@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-react [5.1.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.1.2...@moser-inc/eslint-config-react@5.1.3) (2026-03-03)
+
+
+### Bug Fixes
+
+* **react:** run react rules on js and ts files for hooks ([8dde0e4](https://github.com/moser-inc/eslint-config/commit/8dde0e4020ec282f8348f06d4c4d46b696250752))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 3.0.3
+
 ## @moser-inc/eslint-config-react [5.1.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.1.1...@moser-inc/eslint-config-react@5.1.2) (2026-03-03)
 
 
