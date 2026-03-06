@@ -3,7 +3,6 @@
   "description": "Collection of ESLint configs for use in Moser projects",
   "scripts": {
     "build": "npm run build --workspaces",
-    "stub": "npm run stub --workspaces",
     "lint": "npm run lint --workspaces",
     "publint": "npm run publint --workspaces",
     "test": "run-s build lint publint",

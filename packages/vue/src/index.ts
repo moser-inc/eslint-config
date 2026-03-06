@@ -1,6 +1,5 @@
 import {
   type DefaultConfigNamesMap,
-  type FlatConfigComposer,
   type MoserConfigOptions,
   coreConfig,
   formattingConfigs,
@@ -14,11 +13,21 @@ import type { Linter } from 'eslint';
 import vuePlugin from 'eslint-plugin-vue';
 import { version } from 'vue';
 
-export function vueConfigs(): Linter.Config[] {
+export function vueConfigs(options?: MoserConfigOptions): Linter.Config[] {
+  const tsconfigPath = options?.tsconfigPath;
+  const isTypeAware = !!tsconfigPath;
+
   return defineConfigWithVueTs(
     vuePlugin.configs['flat/recommended'],
     vueTsConfigs.eslintRecommended,
-    vueTsConfigs.recommended,
+    isTypeAware
+      ? vueTsConfigs.recommended
+      : vueTsConfigs.recommendedTypeChecked,
+    {
+      name: 'moser/vue/disable-type-checked',
+      files: ['**/*.{js,mjs,cjs,jsx}'],
+      extends: [vueTsConfigs.disableTypeChecked],
+    },
     {
       name: 'moser/vue/overrides',
       files: ['**/*.vue'],
@@ -130,7 +139,7 @@ export function vueConfig<
   return coreConfig<TConfig, TConfigNames>(options).append(
     vueConfigs(),
     formattingConfigs(),
-  ) as FlatConfigComposer<TConfig, TConfigNames>;
+  );
 }
 
 export * from '@moser-inc/eslint-config';
