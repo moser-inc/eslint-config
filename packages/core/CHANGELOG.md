@@ -1,3 +1,17 @@
+## @moser-inc/eslint-config [3.0.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@3.0.3...@moser-inc/eslint-config@3.0.4) (2026-03-06)
+
+
+### Bug Fixes
+
+* **core:** update type check disable config name ([5187170](https://github.com/moser-inc/eslint-config/commit/518717039405367bada67095b47337cff8ec3033))
+
+
+### Miscellaneous Chores
+
+* fix build ([9836225](https://github.com/moser-inc/eslint-config/commit/9836225ec14ac7a2c113f7472e1c6611c9741a34))
+* migrate to tsdown ([5108bc8](https://github.com/moser-inc/eslint-config/commit/5108bc8ac6d306511fb4a45b1ca8b38f344bb54d))
+* refresh project structure ([8dba1d9](https://github.com/moser-inc/eslint-config/commit/8dba1d9d3fa32c602e11519f62fada66aaf65eda))
+
 ## @moser-inc/eslint-config [3.0.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@3.0.2...@moser-inc/eslint-config@3.0.3) (2026-03-03)
 
 
