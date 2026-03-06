@@ -1,7 +1,6 @@
 import eslintReact from '@eslint-react/eslint-plugin';
 import {
   type DefaultConfigNamesMap,
-  type FlatConfigComposer,
   type MoserConfigOptions,
   coreConfig,
   formattingConfigs,
@@ -33,7 +32,7 @@ export function reactConfigs(options?: MoserConfigOptions): Linter.Config[] {
       ],
     },
     {
-      name: 'moser/react/overrides',
+      name: 'moser/react/disable-type-checked',
       files: ['**/*.{js,mjs,cjs,jsx}'],
       extends: [eslintReact.configs['disable-type-checked']],
     },
@@ -58,7 +57,7 @@ export function reactConfig<
   return coreConfig<TConfig, TConfigNames>(options).append(
     reactConfigs(options),
     formattingConfigs(),
-  ) as FlatConfigComposer<TConfig, TConfigNames>;
+  );
 }
 
 export * from '@moser-inc/eslint-config';
