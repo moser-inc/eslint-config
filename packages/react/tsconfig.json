@@ -1,12 +1,15 @@
 {
-  "include": ["src", "*.config.*"],
+  "include": ["src", "*.config.*", "scripts/**/*"],
   "compilerOptions": {
+    "noEmit": true,
     "composite": true,
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "strict": true,
     "skipDefaultLibCheck": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "erasableSyntaxOnly": true,
+    "allowImportingTsExtensions": true
   }
 }
