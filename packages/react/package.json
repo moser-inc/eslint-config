@@ -18,9 +18,13 @@
   "scripts": {
     "build": "tsdown",
     "prepack": "npm run build",
-    "lint": "eslint -c eslint.config.ts && npm run lint:typeaware",
-    "lint:typeaware": "eslint -c eslint.config.typeaware.ts",
-    "publint": "npx -y publint@latest && npx -y @arethetypeswrong/cli@latest --pack --profile esm-only"
+    "lint": "eslint -c eslint.config.ts && npm run lint:basic",
+    "lint:basic": "eslint -c eslint.config.basic.ts",
+    "lint:fix": "eslint --fix",
+    "test:attw": "npx -y @arethetypeswrong/cli@latest --pack --profile esm-only",
+    "test:publint": "npx -y publint@latest",
+    "test:publish": "npm run test:attw && npm run test:publint",
+    "type-check": "tsc --noEmit"
   },
   "peerDependencies": {
     "eslint": ">= 6",

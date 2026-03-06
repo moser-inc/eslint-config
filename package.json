@@ -4,9 +4,13 @@
   "scripts": {
     "build": "npm run build --workspaces",
     "lint": "npm run lint --workspaces",
-    "publint": "npm run publint --workspaces",
-    "test": "run-s build lint publint",
-    "semantic-release": "multi-semantic-release"
+    "lint:fix": "npm run lint:fix --workspaces",
+    "semantic-release": "multi-semantic-release",
+    "test": "npm run build && npm run lint && npm run type-check && npm run test:publish",
+    "test:attw": "npm run test:attw --workspaces",
+    "test:publint": "npm run test:publint --workspaces",
+    "test:publish": "npm run test:publish --workspaces",
+    "type-check": "npm run type-check --workspaces"
   },
   "repository": {
     "type": "git",
