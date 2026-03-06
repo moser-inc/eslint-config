@@ -1,3 +1,23 @@
+## @moser-inc/eslint-config-react [5.1.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.1.3...@moser-inc/eslint-config-react@5.1.4) (2026-03-06)
+
+
+### Bug Fixes
+
+* **react:** update type check disable config name ([cac8b8f](https://github.com/moser-inc/eslint-config/commit/cac8b8fcf39913e89d56445b02fef7f6b498ae26))
+
+
+### Miscellaneous Chores
+
+* fix build ([9836225](https://github.com/moser-inc/eslint-config/commit/9836225ec14ac7a2c113f7472e1c6611c9741a34))
+* migrate to tsdown ([5108bc8](https://github.com/moser-inc/eslint-config/commit/5108bc8ac6d306511fb4a45b1ca8b38f344bb54d))
+* refresh project structure ([8dba1d9](https://github.com/moser-inc/eslint-config/commit/8dba1d9d3fa32c602e11519f62fada66aaf65eda))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 3.0.4
+
 ## @moser-inc/eslint-config-react [5.1.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.1.2...@moser-inc/eslint-config-react@5.1.3) (2026-03-03)
 
 
