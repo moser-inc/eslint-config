@@ -99,7 +99,7 @@ export function jsTsConfigs(options?: MoserConfigOptions): Linter.Config[] {
         ] satisfies Parameters<typeof tsEslintPlugin.config>)
       : []),
     {
-      name: 'moser/js-ts/overrides',
+      name: 'moser/js-ts/disable-type-checked',
       files: ['**/*.{js,mjs,cjs,jsx}'],
       extends: [tsEslintPlugin.configs.disableTypeChecked],
     },
