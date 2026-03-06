@@ -1,3 +1,21 @@
+## @moser-inc/eslint-config-vue [4.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.0.4...@moser-inc/eslint-config-vue@4.1.0) (2026-03-06)
+
+
+### Features
+
+* **vue:** enable type aware linting ([051bc74](https://github.com/moser-inc/eslint-config/commit/051bc74af3b6e4fd27b5f5b9f11120ff994e81f2))
+
+
+### Miscellaneous Chores
+
+* refresh project structure ([8dba1d9](https://github.com/moser-inc/eslint-config/commit/8dba1d9d3fa32c602e11519f62fada66aaf65eda))
+
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 3.0.4
+
 ## @moser-inc/eslint-config-vue [4.0.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.0.3...@moser-inc/eslint-config-vue@4.0.4) (2026-03-06)
 
 
