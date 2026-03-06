@@ -1,3 +1,16 @@
+## @moser-inc/eslint-config-vue [4.0.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.0.3...@moser-inc/eslint-config-vue@4.0.4) (2026-03-06)
+
+
+### Bug Fixes
+
+* **vue:** do not add duplicate ts config ([3604e67](https://github.com/moser-inc/eslint-config/commit/3604e6740c45fa86784aa8941194cd10abbcb98c))
+
+
+### Miscellaneous Chores
+
+* fix build ([9836225](https://github.com/moser-inc/eslint-config/commit/9836225ec14ac7a2c113f7472e1c6611c9741a34))
+* migrate to tsdown ([5108bc8](https://github.com/moser-inc/eslint-config/commit/5108bc8ac6d306511fb4a45b1ca8b38f344bb54d))
+
 ## @moser-inc/eslint-config-vue [4.0.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.0.2...@moser-inc/eslint-config-vue@4.0.3) (2026-03-03)
 
 

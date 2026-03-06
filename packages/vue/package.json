@@ -1,6 +1,6 @@
 {
   "name": "@moser-inc/eslint-config-vue",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "type": "module",
   "exports": {
     ".": "./dist/index.mjs",
