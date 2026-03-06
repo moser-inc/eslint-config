@@ -1,13 +1,16 @@
 import { appendFile } from 'node:fs/promises';
 import { builtinRules } from 'eslint/use-at-your-own-risk';
 import { flatConfigsToRulesDTS } from 'eslint-typegen/core';
-import { defineBuildConfig } from 'unbuild';
-import moser from './src';
+import { defineConfig } from 'tsdown';
+import moser from '@moser-inc/eslint-config-react';
 
-export default defineBuildConfig({
-  entries: ['src/index.ts'],
-  externals: ['eslint-flat-config-utils'],
-  declaration: true,
+export default defineConfig({
+  entry: ['src/index.ts'],
+  exports: { customExports: { './flat': './dist/index.mjs' } },
+  dts: true,
+  deps: {
+    neverBundle: ['eslint-flat-config-utils'],
+  },
   hooks: {
     'build:done': async (ctx) => {
       const config = await moser().append({
@@ -39,15 +42,17 @@ export default defineBuildConfig({
         }
       `;
 
-      const flatDtsEntries = ctx.buildEntries.filter((entry) =>
-        entry.path.includes('index.d'),
-      );
+      for (const declarationFileName of ['index.d.mts']) {
+        const declarationFilePath = `${ctx.options.outDir}/${declarationFileName}`;
 
-      for (const entry of flatDtsEntries) {
-        await appendFile(`${ctx.options.outDir}/${entry.path}`, dts);
+        try {
+          await appendFile(declarationFilePath, dts);
+        } catch {
+          continue;
+        }
       }
 
-      console.log('Core config type definitions generated');
+      console.log('React config type definitions generated');
     },
   },
 });
