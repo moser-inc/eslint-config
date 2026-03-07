@@ -4,8 +4,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version-file: .node-version
           cache: npm
@@ -16,17 +16,17 @@ jobs:
     needs: test
     permissions: write-all
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          persist-credentials: false
-      - uses: actions/setup-node@v4
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v6
         with:
           node-version-file: .node-version
           cache: npm
+      - run: npm i -g npm@latest
       - run: npm ci
       - run: npm run build
       - run: npm run semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
