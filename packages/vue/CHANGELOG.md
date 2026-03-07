@@ -1,3 +1,10 @@
+## @moser-inc/eslint-config-vue [4.1.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.1.0...@moser-inc/eslint-config-vue@4.1.1) (2026-03-07)
+
+
+### Bug Fixes
+
+* **vue:** turn off aggressive type checked config ([b91564f](https://github.com/moser-inc/eslint-config/commit/b91564fd6e65fee7599830cfef32dd586b80fb2d))
+
 ## @moser-inc/eslint-config-vue [4.1.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.0.4...@moser-inc/eslint-config-vue@4.1.0) (2026-03-06)
 
 
