@@ -1,3 +1,25 @@
+## @moser-inc/eslint-config-vue [4.1.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.1.1...@moser-inc/eslint-config-vue@4.1.2) (2026-03-10)
+
+### Bug Fixes
+
+* **vue:** bump peer dep version range ([8011353](https://github.com/moser-inc/eslint-config/commit/801135311beffb021daccd01f7a488b324a68d2e))
+* **vue:** flip logic for enabling type checked config ([0d689ee](https://github.com/moser-inc/eslint-config/commit/0d689ee0b600ef1b43aa955a95945622baa9cf62))
+
+### Miscellaneous Chores
+
+* format package json files ([de47ccb](https://github.com/moser-inc/eslint-config/commit/de47ccb1ca63700e430428552f437372a1a36081))
+* update dev deps ([5911647](https://github.com/moser-inc/eslint-config/commit/591164716a4f79402918b0aafbbf7d8a21f2e610))
+* update homepage ([cd09df1](https://github.com/moser-inc/eslint-config/commit/cd09df1f094a6bcfb1f6861fb0313eac9252a5d5))
+
+### Code Refactoring
+
+* distribute dev deps to packages ([5277167](https://github.com/moser-inc/eslint-config/commit/5277167bf6e2c2848b35160b2ae48929f716c5a8))
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 3.0.5
+
 ## @moser-inc/eslint-config-vue [4.1.1](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.1.0...@moser-inc/eslint-config-vue@4.1.1) (2026-03-07)
 
 
