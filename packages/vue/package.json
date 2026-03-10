@@ -51,8 +51,8 @@
     "typescript": "~5.9.3"
   },
   "peerDependencies": {
-    "eslint": ">=6",
-    "prettier": ">=1",
-    "vue": ">=2.7"
+    "eslint": ">=9",
+    "prettier": ">=3",
+    "vue": ">=3"
   }
 }
