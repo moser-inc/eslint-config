@@ -1,3 +1,24 @@
+## @moser-inc/eslint-config-react [5.1.5](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.1.4...@moser-inc/eslint-config-react@5.1.5) (2026-03-10)
+
+### Bug Fixes
+
+* **react:** bump peer dep version range ([5e6113f](https://github.com/moser-inc/eslint-config/commit/5e6113fa0663b95c544a50ab7f0c34ad3affdb11))
+
+### Miscellaneous Chores
+
+* format package json files ([de47ccb](https://github.com/moser-inc/eslint-config/commit/de47ccb1ca63700e430428552f437372a1a36081))
+* update dev deps ([5911647](https://github.com/moser-inc/eslint-config/commit/591164716a4f79402918b0aafbbf7d8a21f2e610))
+* update homepage ([cd09df1](https://github.com/moser-inc/eslint-config/commit/cd09df1f094a6bcfb1f6861fb0313eac9252a5d5))
+
+### Code Refactoring
+
+* distribute dev deps to packages ([5277167](https://github.com/moser-inc/eslint-config/commit/5277167bf6e2c2848b35160b2ae48929f716c5a8))
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 3.0.5
+
 ## @moser-inc/eslint-config-react [5.1.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.1.3...@moser-inc/eslint-config-react@5.1.4) (2026-03-06)
 
 
