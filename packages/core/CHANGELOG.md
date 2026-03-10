@@ -1,3 +1,20 @@
+## @moser-inc/eslint-config [3.0.5](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@3.0.4...@moser-inc/eslint-config@3.0.5) (2026-03-10)
+
+### Bug Fixes
+
+* **core:** bump peer dep version range ([022e27e](https://github.com/moser-inc/eslint-config/commit/022e27e6893f7738e52e2cdcd77d4647dfddb2ff))
+* **core:** update core plugins ([78c207e](https://github.com/moser-inc/eslint-config/commit/78c207ecb5ff43b9d38399b96ad5a9418d6db292))
+
+### Miscellaneous Chores
+
+* format package json files ([de47ccb](https://github.com/moser-inc/eslint-config/commit/de47ccb1ca63700e430428552f437372a1a36081))
+* update dev deps ([5911647](https://github.com/moser-inc/eslint-config/commit/591164716a4f79402918b0aafbbf7d8a21f2e610))
+* update homepage ([cd09df1](https://github.com/moser-inc/eslint-config/commit/cd09df1f094a6bcfb1f6861fb0313eac9252a5d5))
+
+### Code Refactoring
+
+* distribute dev deps to packages ([5277167](https://github.com/moser-inc/eslint-config/commit/5277167bf6e2c2848b35160b2ae48929f716c5a8))
+
 ## @moser-inc/eslint-config [3.0.4](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config@3.0.3...@moser-inc/eslint-config@3.0.4) (2026-03-06)
 
 
