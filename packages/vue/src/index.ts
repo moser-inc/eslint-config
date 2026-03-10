@@ -21,8 +21,7 @@ export function vueConfigs(options?: MoserConfigOptions): Linter.Config[] {
     vuePlugin.configs['flat/recommended'],
     vueTsConfigs.eslintRecommended,
     isTypeAware
-      ? vueTsConfigs.recommended
-      : {
+      ? {
           files: ['**/*.{ts,mts,cts,tsx,vue}'],
           extends: [vueTsConfigs.recommendedTypeChecked],
           rules: {
@@ -30,7 +29,8 @@ export function vueConfigs(options?: MoserConfigOptions): Linter.Config[] {
             '@typescript-eslint/no-misused-promises': 'off',
             '@typescript-eslint/unbound-method': 'off',
           },
-        },
+        }
+      : vueTsConfigs.recommended,
     {
       name: 'moser/vue/disable-type-checked',
       files: ['**/*.{js,mjs,cjs,jsx}'],
