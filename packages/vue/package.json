@@ -1,15 +1,25 @@
 {
   "name": "@moser-inc/eslint-config-vue",
   "version": "4.1.1",
+  "homepage": "https://github.com/moser-inc/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/moser-inc/eslint-config/issues"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moser-inc/eslint-config.git",
+    "directory": "packages/vue"
+  },
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "exports": {
     ".": "./dist/index.mjs",
     "./package.json": "./package.json",
     "./flat": "./dist/index.mjs"
   },
-  "files": [
-    "dist"
-  ],
   "publishConfig": {
     "access": "public",
     "provenance": true,
@@ -26,11 +36,6 @@
     "test:publish": "npm run test:attw && npm run test:publint",
     "type-check": "tsc --noEmit"
   },
-  "peerDependencies": {
-    "eslint": ">= 6",
-    "prettier": ">= 1",
-    "vue": ">= 2.7"
-  },
   "dependencies": {
     "@moser-inc/eslint-config": "3.0.4",
     "@vue/eslint-config-prettier": "^10.2.0",
@@ -45,14 +50,9 @@
     "tsdown": "^0.21.0",
     "typescript": "~5.9.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/moser-inc/eslint-config.git",
-    "directory": "packages/vue"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/moser-inc/eslint-config/issues"
-  },
-  "homepage": "https://github.com/moser-inc/eslint-config#readme"
+  "peerDependencies": {
+    "eslint": ">=6",
+    "prettier": ">=1",
+    "vue": ">=2.7"
+  }
 }

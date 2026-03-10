@@ -1,15 +1,25 @@
 {
   "name": "@moser-inc/eslint-config",
   "version": "3.0.4",
+  "homepage": "https://github.com/moser-inc/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/moser-inc/eslint-config/issues"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moser-inc/eslint-config.git",
+    "directory": "packages/core"
+  },
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "exports": {
     ".": "./dist/index.mjs",
     "./package.json": "./package.json",
     "./flat": "./dist/index.mjs"
   },
-  "files": [
-    "dist"
-  ],
   "publishConfig": {
     "access": "public",
     "provenance": true,
@@ -25,10 +35,6 @@
     "test:publint": "npx -y publint@latest",
     "test:publish": "npm run test:attw && npm run test:publint",
     "type-check": "tsc --noEmit"
-  },
-  "peerDependencies": {
-    "eslint": ">= 6",
-    "prettier": ">= 1"
   },
   "dependencies": {
     "@eslint/js": "^9.39.3",
@@ -52,14 +58,8 @@
     "tsdown": "^0.21.0",
     "typescript": "~5.9.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/moser-inc/eslint-config.git",
-    "directory": "packages/core"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/moser-inc/eslint-config/issues"
-  },
-  "homepage": "https://github.com/moser-inc/eslint-config#readme"
+  "peerDependencies": {
+    "eslint": ">=6",
+    "prettier": ">=1"
+  }
 }
