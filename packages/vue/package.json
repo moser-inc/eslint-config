@@ -1,7 +1,7 @@
 {
   "name": "@moser-inc/eslint-config-vue",
   "version": "4.1.1",
-  "homepage": "https://github.com/moser-inc/eslint-config#readme",
+  "homepage": "https://github.com/moser-inc/eslint-config/blob/main/packages/vue/README.md",
   "bugs": {
     "url": "https://github.com/moser-inc/eslint-config/issues"
   },

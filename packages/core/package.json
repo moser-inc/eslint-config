@@ -1,7 +1,7 @@
 {
   "name": "@moser-inc/eslint-config",
   "version": "3.0.4",
-  "homepage": "https://github.com/moser-inc/eslint-config#readme",
+  "homepage": "https://github.com/moser-inc/eslint-config/blob/main/packages/core/README.md",
   "bugs": {
     "url": "https://github.com/moser-inc/eslint-config/issues"
   },
