@@ -51,6 +51,6 @@
   },
   "peerDependencies": {
     "eslint": ">=9",
-    "prettier": ">=9"
+    "prettier": ">=3"
   }
 }
