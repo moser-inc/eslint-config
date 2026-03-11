@@ -1,3 +1,9 @@
+## @moser-inc/eslint-config-vue [4.1.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.1.2...@moser-inc/eslint-config-vue@4.1.3) (2026-03-11)
+
+### Bug Fixes
+
+* **vue:** forward options to vue config ([6715f7e](https://github.com/moser-inc/eslint-config/commit/6715f7ef08dbd78091cae2e8d6b9c6f4f143c9a6))
+
 ## @moser-inc/eslint-config-vue [4.1.2](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.1.1...@moser-inc/eslint-config-vue@4.1.2) (2026-03-10)
 
 ### Bug Fixes
