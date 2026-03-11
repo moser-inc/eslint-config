@@ -145,7 +145,7 @@ export function vueConfig<
   const TConfigNames extends string = keyof DefaultConfigNamesMap,
 >(options?: MoserConfigOptions) {
   return coreConfig<TConfig, TConfigNames>(options).append(
-    vueConfigs(),
+    vueConfigs(options),
     formattingConfigs(),
   );
 }
