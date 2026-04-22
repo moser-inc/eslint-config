@@ -1,3 +1,23 @@
+## @moser-inc/eslint-config-vue [4.2.0](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.1.3...@moser-inc/eslint-config-vue@4.2.0) (2026-04-22)
+
+### Features
+
+* **vue:** add new rules ([b28f51c](https://github.com/moser-inc/eslint-config/commit/b28f51c0c668cec85bd9d66e0e2055f16aebcf11))
+
+### Bug Fixes
+
+* **vue:** update vue plugins ([129a60f](https://github.com/moser-inc/eslint-config/commit/129a60f28fb7f5a2d666f1931607eb9851ad2367))
+
+### Miscellaneous Chores
+
+* update deps ([1eb5ae2](https://github.com/moser-inc/eslint-config/commit/1eb5ae28f87c5b0535653055dc63507641b6db13))
+* update tsdown ([f6539e6](https://github.com/moser-inc/eslint-config/commit/f6539e638fb0f01686d886d750f4f068d50304dd))
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 3.0.6
+
 ## @moser-inc/eslint-config-vue [4.1.3](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-vue@4.1.2...@moser-inc/eslint-config-vue@4.1.3) (2026-03-11)
 
 ### Bug Fixes

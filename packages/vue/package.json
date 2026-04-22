@@ -1,6 +1,6 @@
 {
   "name": "@moser-inc/eslint-config-vue",
-  "version": "4.1.3",
+  "version": "4.2.0",
   "homepage": "https://github.com/moser-inc/eslint-config/blob/main/packages/vue/README.md",
   "bugs": {
     "url": "https://github.com/moser-inc/eslint-config/issues"
@@ -37,7 +37,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@moser-inc/eslint-config": "3.0.5",
+    "@moser-inc/eslint-config": "3.0.6",
     "@vue/eslint-config-prettier": "^10.2.0",
     "@vue/eslint-config-typescript": "^14.7.0",
     "eslint-plugin-vue": "^10.9.0"
