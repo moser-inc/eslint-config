@@ -1,6 +1,6 @@
 {
   "name": "@moser-inc/eslint-config-react",
-  "version": "5.1.5",
+  "version": "5.1.6",
   "homepage": "https://github.com/moser-inc/eslint-config/blob/main/packages/react/README.md",
   "bugs": {
     "url": "https://github.com/moser-inc/eslint-config/issues"
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@eslint-react/eslint-plugin": "^2.13.0",
-    "@moser-inc/eslint-config": "3.0.5",
+    "@moser-inc/eslint-config": "3.0.6",
     "eslint-plugin-react-hooks": "^7.1.1"
   },
   "devDependencies": {

@@ -1,3 +1,19 @@
+## @moser-inc/eslint-config-react [5.1.6](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.1.5...@moser-inc/eslint-config-react@5.1.6) (2026-04-22)
+
+### Bug Fixes
+
+* **react:** update react plugins ([cd44568](https://github.com/moser-inc/eslint-config/commit/cd445682204c2ade8fa5dc859c8a679d4db4cf3a))
+
+### Miscellaneous Chores
+
+* update deps ([1eb5ae2](https://github.com/moser-inc/eslint-config/commit/1eb5ae28f87c5b0535653055dc63507641b6db13))
+* update tsdown ([f6539e6](https://github.com/moser-inc/eslint-config/commit/f6539e638fb0f01686d886d750f4f068d50304dd))
+
+
+### Dependencies
+
+* **@moser-inc/eslint-config:** upgraded to 3.0.6
+
 ## @moser-inc/eslint-config-react [5.1.5](https://github.com/moser-inc/eslint-config/compare/@moser-inc/eslint-config-react@5.1.4...@moser-inc/eslint-config-react@5.1.5) (2026-03-10)
 
 ### Bug Fixes
